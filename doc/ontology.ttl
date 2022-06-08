@@ -1,0 +1,251 @@
+@prefix : <httpce:#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <httpce:#> .
+
+<httpce:> rdf:type owl:Ontology ;
+           <http://purl.org/dc/elements/1.1/creator> "Najam Ul Hassan Arshad" ;
+           <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" ;
+           <http://purl.org/dc/elements/1.1/title> "CE-Ontology" ;
+           owl:versionInfo "0.0.1" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  httpce:hasDescriptions
+<httpce:hasDescriptions> rdf:type owl:ObjectProperty ;
+                         rdfs:label "has descriptions" .
+
+
+###  httpce:hasEvent
+<httpce:hasEvent> rdf:type owl:ObjectProperty ;
+                  rdfs:range <httpce:event> ;
+                  rdfs:label "has event" .
+
+
+###  httpce:hasFilm
+<httpce:hasFilm> rdf:type owl:ObjectProperty ;
+                 rdfs:label "has film" .
+
+
+###  httpce:hasImages
+<httpce:hasImages> rdf:type owl:ObjectProperty ;
+                   rdfs:label "has images" .
+
+
+###  httpce:hasLinks
+<httpce:hasLinks> rdf:type owl:ObjectProperty ;
+                  rdfs:label "has links" .
+
+
+###  httpce:hasList
+<httpce:hasList> rdf:type owl:ObjectProperty ;
+                 rdfs:range <httpce:list> ;
+                 rdfs:label "has list" .
+
+
+###  httpce:hasLocation
+<httpce:hasLocation> rdf:type owl:ObjectProperty ;
+                     rdfs:domain <httpce:Place> ;
+                     rdfs:range <httpce:loc> ;
+                     rdfs:label "has location" .
+
+
+###  httpce:hasPerformanceDescriptions
+<httpce:hasPerformanceDescriptions> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <httpce:Performance> ;
+                                    rdfs:label "has performance descriptions" .
+
+
+###  httpce:hasPerformanceProperties
+<httpce:hasPerformanceProperties> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <httpce:Performance> ;
+                                  rdfs:label "has performance properties" .
+
+
+###  httpce:hasPerformanceStatus
+<httpce:hasPerformanceStatus> rdf:type owl:ObjectProperty ;
+                              rdfs:label "has performance status" .
+
+
+###  httpce:hasPerformances
+<httpce:hasPerformances> rdf:type owl:ObjectProperty ;
+                         rdfs:domain <httpce:Schedule> ;
+                         rdfs:range <httpce:Performance> ;
+                         rdfs:label "has performances" .
+
+
+###  httpce:hasPhoneNumbers
+<httpce:hasPhoneNumbers> rdf:type owl:ObjectProperty ;
+                         rdfs:domain <httpce:Place> ;
+                         rdfs:range <httpce:Phone_Number> ,
+                                    <httpce:phone_number> ;
+                         rdfs:label "has phone numbers" .
+
+
+###  httpce:hasPlace
+<httpce:hasPlace> rdf:type owl:ObjectProperty ;
+                  rdfs:domain <httpce:Schedule> ;
+                  rdfs:range <httpce:Place> ;
+                  rdfs:label "has place" .
+
+
+###  httpce:hasProperties
+<httpce:hasProperties> rdf:type owl:ObjectProperty ;
+                       rdfs:range <httpce:Property> ;
+                       rdfs:label "has properties" .
+
+
+###  httpce:hasSchedulePhoneNumbers
+<httpce:hasSchedulePhoneNumbers> rdf:type owl:ObjectProperty ;
+                                 rdfs:label "has schedule phone numbers" .
+
+
+###  httpce:hasSchedules
+<httpce:hasSchedules> rdf:type owl:ObjectProperty ;
+                      rdfs:domain <httpce:Event> ;
+                      rdfs:range <httpce:Schedule> ;
+                      rdfs:label "has schedules" .
+
+
+###  httpce:hasTags
+<httpce:hasTags> rdf:type owl:ObjectProperty ;
+                 rdfs:domain <httpce:Schedule> ;
+                 rdfs:range <httpce:tag> ;
+                 rdfs:label "has tags" .
+
+
+###  httpce:hasTheatre
+<httpce:hasTheatre> rdf:type owl:ObjectProperty ;
+                    rdfs:domain <httpce:event> ;
+                    rdfs:range <httpce:theatre> ;
+                    rdfs:label "has theatre" .
+
+
+###  httpce:hasTicketDescriptions
+<httpce:hasTicketDescriptions> rdf:type owl:ObjectProperty ;
+                               rdfs:label "has ticket descriptions" .
+
+
+###  httpce:hasTickets
+<httpce:hasTickets> rdf:type owl:ObjectProperty ;
+                    rdfs:domain <httpce:Performance> ;
+                    rdfs:range <httpce:Ticket> ;
+                    rdfs:label "has tickets" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  httpce:Description
+<httpce:Description> rdf:type owl:Class ;
+                     rdfs:label "Description" .
+
+
+###  httpce:Event
+<httpce:Event> rdf:type owl:Class ;
+               rdfs:label "Event" .
+
+
+###  httpce:Image
+<httpce:Image> rdf:type owl:Class ;
+               rdfs:label "Image" .
+
+
+###  httpce:Link
+<httpce:Link> rdf:type owl:Class ;
+              rdfs:label "Link" .
+
+
+###  httpce:Performance
+<httpce:Performance> rdf:type owl:Class ;
+                     rdfs:label "Performance" .
+
+
+###  httpce:Phone_Number
+<httpce:Phone_Number> rdf:type owl:Class ;
+                      rdfs:label "Phone_ Number" .
+
+
+###  httpce:Place
+<httpce:Place> rdf:type owl:Class ;
+               rdfs:label "Place" .
+
+
+###  httpce:Property
+<httpce:Property> rdf:type owl:Class ;
+                  rdfs:label "Property" .
+
+
+###  httpce:Schedule
+<httpce:Schedule> rdf:type owl:Class ;
+                  rdfs:label "Schedule" .
+
+
+###  httpce:Ticket
+<httpce:Ticket> rdf:type owl:Class ;
+                rdfs:label "Ticket" .
+
+
+###  httpce:event
+<httpce:event> rdf:type owl:Class ;
+               rdfs:label "event" .
+
+
+###  httpce:film
+<httpce:film> rdf:type owl:Class ;
+              rdfs:label "film" .
+
+
+###  httpce:list
+<httpce:list> rdf:type owl:Class ;
+              rdfs:label "list" .
+
+
+###  httpce:loc
+<httpce:loc> rdf:type owl:Class ;
+             rdfs:label "loc" .
+
+
+###  httpce:phone_number
+<httpce:phone_number> rdf:type owl:Class ;
+                      rdfs:label "phone_number" .
+
+
+###  httpce:tag
+<httpce:tag> rdf:type owl:Class ;
+             rdfs:label "tag" .
+
+
+###  httpce:tags
+<httpce:tags> rdf:type owl:Class ;
+              rdfs:label "tags" .
+
+
+###  httpce:theatre
+<httpce:theatre> rdf:type owl:Class ;
+                 rdfs:label "theatre" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
