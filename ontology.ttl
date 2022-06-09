@@ -1,4 +1,4 @@
- @prefix ce: <httpce:> .
+ @prefix ce: <https://w3id.org/ce/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,139 +9,139 @@ ce: a owl:Ontology ;
     dc:title "CE-Ontology" ;
     owl:versionInfo "0.0.1" .
 
-<httpce:Description> a owl:Class ;
+ce:Description a owl:Class ;
     rdfs:label "Description" .
 
-<httpce:Image> a owl:Class ;
+ce:Image a owl:Class ;
     rdfs:label "Image" .
 
-<httpce:Link> a owl:Class ;
+ce:Link a owl:Class ;
     rdfs:label "Link" .
 
-<httpce:film> a owl:Class ;
+ce:film a owl:Class ;
     rdfs:label "film" .
 
-<httpce:hasDescriptions> a owl:ObjectProperty ;
+ce:hasDescriptions a owl:ObjectProperty ;
     rdfs:label "has descriptions" .
 
-<httpce:hasEvent> a owl:ObjectProperty ;
+ce:hasEvent a owl:ObjectProperty ;
     rdfs:label "has event" ;
-    rdfs:range <httpce:event> .
+    rdfs:range ce:event .
 
-<httpce:hasFilm> a owl:ObjectProperty ;
+ce:hasFilm a owl:ObjectProperty ;
     rdfs:label "has film" .
 
-<httpce:hasImages> a owl:ObjectProperty ;
+ce:hasImages a owl:ObjectProperty ;
     rdfs:label "has images" .
 
-<httpce:hasLinks> a owl:ObjectProperty ;
+ce:hasLinks a owl:ObjectProperty ;
     rdfs:label "has links" .
 
-<httpce:hasList> a owl:ObjectProperty ;
+ce:hasList a owl:ObjectProperty ;
     rdfs:label "has list" ;
-    rdfs:range <httpce:list> .
+    rdfs:range ce:list .
 
-<httpce:hasLocation> a owl:ObjectProperty ;
+ce:hasLocation a owl:ObjectProperty ;
     rdfs:label "has location" ;
-    rdfs:domain <httpce:Place> ;
-    rdfs:range <httpce:loc> .
+    rdfs:domain ce:Place ;
+    rdfs:range ce:loc .
 
-<httpce:hasPerformanceDescriptions> a owl:ObjectProperty ;
+ce:hasPerformanceDescriptions a owl:ObjectProperty ;
     rdfs:label "has performance descriptions" ;
-    rdfs:domain <httpce:Performance> .
+    rdfs:domain ce:Performance .
 
-<httpce:hasPerformanceProperties> a owl:ObjectProperty ;
+ce:hasPerformanceProperties a owl:ObjectProperty ;
     rdfs:label "has performance properties" ;
-    rdfs:domain <httpce:Performance> .
+    rdfs:domain ce:Performance .
 
-<httpce:hasPerformanceStatus> a owl:ObjectProperty ;
+ce:hasPerformanceStatus a owl:ObjectProperty ;
     rdfs:label "has performance status" .
 
-<httpce:hasPerformances> a owl:ObjectProperty ;
+ce:hasPerformances a owl:ObjectProperty ;
     rdfs:label "has performances" ;
-    rdfs:domain <httpce:Schedule> ;
-    rdfs:range <httpce:Performance> .
+    rdfs:domain ce:Schedule ;
+    rdfs:range ce:Performance .
 
-<httpce:hasPhoneNumbers> a owl:ObjectProperty ;
+ce:hasPhoneNumbers a owl:ObjectProperty ;
     rdfs:label "has phone numbers" ;
-    rdfs:domain <httpce:Place> ;
-    rdfs:range <httpce:Phone_Number>,
-        <httpce:phone_number> .
+    rdfs:domain ce:Place ;
+    rdfs:range ce:Phone_Number,
+        ce:phone_number .
 
-<httpce:hasPlace> a owl:ObjectProperty ;
+ce:hasPlace a owl:ObjectProperty ;
     rdfs:label "has place" ;
-    rdfs:domain <httpce:Schedule> ;
-    rdfs:range <httpce:Place> .
+    rdfs:domain ce:Schedule ;
+    rdfs:range ce:Place .
 
-<httpce:hasProperties> a owl:ObjectProperty ;
+ce:hasProperties a owl:ObjectProperty ;
     rdfs:label "has properties" ;
-    rdfs:range <httpce:Property> .
+    rdfs:range ce:Property .
 
-<httpce:hasSchedulePhoneNumbers> a owl:ObjectProperty ;
+ce:hasSchedulePhoneNumbers a owl:ObjectProperty ;
     rdfs:label "has schedule phone numbers" .
 
-<httpce:hasSchedules> a owl:ObjectProperty ;
+ce:hasSchedules a owl:ObjectProperty ;
     rdfs:label "has schedules" ;
-    rdfs:domain <httpce:Event> ;
-    rdfs:range <httpce:Schedule> .
+    rdfs:domain ce:Event ;
+    rdfs:range ce:Schedule .
 
-<httpce:hasTags> a owl:ObjectProperty ;
+ce:hasTags a owl:ObjectProperty ;
     rdfs:label "has tags" ;
-    rdfs:domain <httpce:Schedule> ;
-    rdfs:range <httpce:tag> .
+    rdfs:domain ce:Schedule ;
+    rdfs:range ce:tag .
 
-<httpce:hasTheatre> a owl:ObjectProperty ;
+ce:hasTheatre a owl:ObjectProperty ;
     rdfs:label "has theatre" ;
-    rdfs:domain <httpce:event> ;
-    rdfs:range <httpce:theatre> .
+    rdfs:domain ce:event ;
+    rdfs:range ce:theatre .
 
-<httpce:hasTicketDescriptions> a owl:ObjectProperty ;
+ce:hasTicketDescriptions a owl:ObjectProperty ;
     rdfs:label "has ticket descriptions" .
 
-<httpce:hasTickets> a owl:ObjectProperty ;
+ce:hasTickets a owl:ObjectProperty ;
     rdfs:label "has tickets" ;
-    rdfs:domain <httpce:Performance> ;
-    rdfs:range <httpce:Ticket> .
+    rdfs:domain ce:Performance ;
+    rdfs:range ce:Ticket .
 
-<httpce:tags> a owl:Class ;
+ce:tags a owl:Class ;
     rdfs:label "tags" .
 
-<httpce:Event> a owl:Class ;
+ce:Event a owl:Class ;
     rdfs:label "Event" .
 
-<httpce:Phone_Number> a owl:Class ;
+ce:Phone_Number a owl:Class ;
     rdfs:label "Phone_ Number" .
 
-<httpce:Property> a owl:Class ;
+ce:Property a owl:Class ;
     rdfs:label "Property" .
 
-<httpce:Ticket> a owl:Class ;
+ce:Ticket a owl:Class ;
     rdfs:label "Ticket" .
 
-<httpce:list> a owl:Class ;
+ce:list a owl:Class ;
     rdfs:label "list" .
 
-<httpce:loc> a owl:Class ;
+ce:loc a owl:Class ;
     rdfs:label "loc" .
 
-<httpce:phone_number> a owl:Class ;
+ce:phone_number a owl:Class ;
     rdfs:label "phone_number" .
 
-<httpce:tag> a owl:Class ;
+ce:tag a owl:Class ;
     rdfs:label "tag" .
 
-<httpce:theatre> a owl:Class ;
+ce:theatre a owl:Class ;
     rdfs:label "theatre" .
 
-<httpce:event> a owl:Class ;
+ce:event a owl:Class ;
     rdfs:label "event" .
 
-<httpce:Place> a owl:Class ;
+ce:Place a owl:Class ;
     rdfs:label "Place" .
 
-<httpce:Performance> a owl:Class ;
+ce:Performance a owl:Class ;
     rdfs:label "Performance" .
 
-<httpce:Schedule> a owl:Class ;
+ce:Schedule a owl:Class ;
     rdfs:label "Schedule" .
 
