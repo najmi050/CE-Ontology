@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <https://w3id.org/ce#> .
 
-<https://w3id.org/ce/> rdf:type owl:Ontology ;
+<https://w3id.org/ce#> rdf:type owl:Ontology ;
                         <http://purl.org/dc/elements/1.1/creator> "Najam Ul Hassan Arshad" ;
                         <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" ;
                         <http://purl.org/dc/elements/1.1/title> "CE-Ontology" ;
