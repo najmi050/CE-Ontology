@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/ce/"
+     xml:base="https://w3id.org/ce/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/ce/">
+        <dc:creator>Najam Ul Hassan Arshad</dc:creator>
+        <dc:description>Ontology code created by Chowlk</dc:description>
+        <dc:title>CE-Ontology</dc:title>
+        <owl:versionInfo>0.0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/ce/hasDescriptions -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasDescriptions">
+        <rdfs:label>has descriptions</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasEvent -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasEvent">
+        <rdfs:range rdf:resource="https://w3id.org/ce/event"/>
+        <rdfs:label>has event</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasFilm -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasFilm">
+        <rdfs:label>has film</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasImages -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasImages">
+        <rdfs:label>has images</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasLinks -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasLinks">
+        <rdfs:label>has links</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasList -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasList">
+        <rdfs:range rdf:resource="https://w3id.org/ce/list"/>
+        <rdfs:label>has list</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasLocation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasLocation">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Place"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/loc"/>
+        <rdfs:label>has location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasPerformanceDescriptions -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPerformanceDescriptions">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
+        <rdfs:label>has performance descriptions</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasPerformanceProperties -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPerformanceProperties">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
+        <rdfs:label>has performance properties</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasPerformanceStatus -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPerformanceStatus">
+        <rdfs:label>has performance status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasPerformances -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPerformances">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Schedule"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/Performance"/>
+        <rdfs:label>has performances</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasPhoneNumbers -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPhoneNumbers">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Place"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/Phone_Number"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/phone_number"/>
+        <rdfs:label>has phone numbers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasPlace -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPlace">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Schedule"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/Place"/>
+        <rdfs:label>has place</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasProperties -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasProperties">
+        <rdfs:range rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:label>has properties</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasSchedulePhoneNumbers -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasSchedulePhoneNumbers">
+        <rdfs:label>has schedule phone numbers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasSchedules -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasSchedules">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/Schedule"/>
+        <rdfs:label>has schedules</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasTags -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasTags">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Schedule"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/tag"/>
+        <rdfs:label>has tags</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasTheatre -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasTheatre">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/event"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/theatre"/>
+        <rdfs:label>has theatre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasTicketDescriptions -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasTicketDescriptions">
+        <rdfs:label>has ticket descriptions</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ce/hasTickets -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasTickets">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/Ticket"/>
+        <rdfs:label>has tickets</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/ce/Description -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Description">
+        <rdfs:label>Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Event -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Event">
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Image -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Image">
+        <rdfs:label>Image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Link -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Link">
+        <rdfs:label>Link</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Performance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Performance">
+        <rdfs:label>Performance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Phone_Number -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Phone_Number">
+        <rdfs:label>Phone_ Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Place -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Place">
+        <rdfs:label>Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Property -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Property">
+        <rdfs:label>Property</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Schedule -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Schedule">
+        <rdfs:label>Schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/Ticket -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Ticket">
+        <rdfs:label>Ticket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/event -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/event">
+        <rdfs:label>event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/film -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/film">
+        <rdfs:label>film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/list -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/list">
+        <rdfs:label>list</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/loc -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/loc">
+        <rdfs:label>loc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/phone_number -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/phone_number">
+        <rdfs:label>phone_number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/tag -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/tag">
+        <rdfs:label>tag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/tags -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/tags">
+        <rdfs:label>tags</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/theatre -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/theatre">
+        <rdfs:label>theatre</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
