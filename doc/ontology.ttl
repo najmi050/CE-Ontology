@@ -10,8 +10,8 @@
                         <http://purl.org/dc/elements/1.1/creator> "Najam Ul Hassan Arshad" ;
                         <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" ;
                         <http://purl.org/dc/elements/1.1/title> "CE-Ontology" ;
-                        <http://purl.org/vocab/vann/preferredNamespacePrefix> "eb"@en ;
-                        <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/eb> ;
+                        <http://purl.org/vocab/vann/preferredNamespacePrefix> "ce"@en ;
+                        <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/ce> ;
                         owl:versionInfo "0.0.1" .
 
 
