@@ -293,7 +293,7 @@
 
 
     <!-- https://w3id.org/ce/Link -->
-
+ 
 
     <owl:Class rdf:about="https://w3id.org/ce/Link">
         <rdfs:label>Link</rdfs:label>
