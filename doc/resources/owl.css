@@ -10,7 +10,7 @@
 #abstract br {
    /* doesn't work right SOMETIMES 
    margin-bottom: 1em;   */
-}
+} 
 .name {
     font-family: monospace;
 }
