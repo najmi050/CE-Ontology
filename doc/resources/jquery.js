@@ -8,7 +8,7 @@
  *
  * Includes Sizzle.js
  * http://sizzlejs.com/
- * Copyright 2011, The Dojo Foundation
+ * Copyright 2011,  The Dojo Foundation
  * Released under the MIT, BSD, and GPL Licenses.
  *
  * Date: Thu Jun 30 14:16:56 2011 -0400
