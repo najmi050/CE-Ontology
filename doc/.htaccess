@@ -44,4 +44,4 @@ RewriteRule ^$ 406.html [R=406,L]
 # Default response
 # ---------------------------
 # Rewrite rule to serve the RDF/XML content from the vocabulary URI by default
-RewriteRule ^$ ontology.rdf [R=303,L]
+RewriteRule ^$ ontology.rdf [R=303,L] 
