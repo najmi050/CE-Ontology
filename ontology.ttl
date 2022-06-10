@@ -1,19 +1,16 @@
-@prefix : <https://w3id.org/ce#> .
+@prefix : <https://w3id.org/ce/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/ce#> .
+@base <https://w3id.org/ce/> .
 
 <https://w3id.org/ce/> rdf:type owl:Ontology ;
                         <http://purl.org/dc/elements/1.1/creator> "Najam Ul Hassan Arshad" ;
                         <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" ;
                         <http://purl.org/dc/elements/1.1/title> "CE-Ontology" ;
-                        <http://purl.org/vocab/vann/preferredNamespacePrefix> "ce"@en ;
-                        <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/ce> ;
                         owl:versionInfo "0.0.1" .
-
 
 #################################################################
 #    Annotation properties
@@ -35,126 +32,115 @@
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/ce/hasDescriptions
-:hasDescriptions rdf:type owl:ObjectProperty ;
-                 rdfs:label "has descriptions"@en .
+###  https://w3id.org/ce/hasDescription
+:hasDescription rdf:type owl:ObjectProperty ;
+                rdfs:label "has description" .
 
 
 ###  https://w3id.org/ce/hasEvent
 :hasEvent rdf:type owl:ObjectProperty ;
-          rdfs:range :event ;
-          rdfs:label "has event"@en .
+          rdfs:range :PropertyEvent ;
+          rdfs:label "has event" .
 
 
 ###  https://w3id.org/ce/hasFilm
 :hasFilm rdf:type owl:ObjectProperty ;
-         rdfs:label "has film"@en .
+         rdfs:label "has film" .
 
 
-###  https://w3id.org/ce/hasImages
-:hasImages rdf:type owl:ObjectProperty ;
-           rdfs:label "has images"@en .
+###  https://w3id.org/ce/hasImage
+:hasImage rdf:type owl:ObjectProperty ;
+          rdfs:label "has image" .
 
 
-###  https://w3id.org/ce/hasLinks
-:hasLinks rdf:type owl:ObjectProperty ;
-          rdfs:label "has links"@en .
+###  https://w3id.org/ce/hasLink
+:hasLink rdf:type owl:ObjectProperty ;
+         rdfs:label "has link" .
 
 
 ###  https://w3id.org/ce/hasList
 :hasList rdf:type owl:ObjectProperty ;
-         rdfs:range :list ;
-         rdfs:label "has list"@en .
+         rdfs:range :List ;
+         rdfs:label "has list" .
 
 
 ###  https://w3id.org/ce/hasLocation
 :hasLocation rdf:type owl:ObjectProperty ;
              rdfs:domain :Place ;
-             rdfs:range :loc ;
-             rdfs:label "has location"@en .
+             rdfs:range :Loc ;
+             rdfs:label "has location" .
 
 
-###  https://w3id.org/ce/hasPerformanceDescriptions
-:hasPerformanceDescriptions rdf:type owl:ObjectProperty ;
-                            rdfs:domain :Performance ;
-                            rdfs:label "has performance descriptions"@en .
+###  https://w3id.org/ce/hasPerformance
+:hasPerformance rdf:type owl:ObjectProperty ;
+                rdfs:domain :Schedule ;
+                rdfs:range :Performance ;
+                rdfs:label "has performance" .
 
 
-###  https://w3id.org/ce/hasPerformanceProperties
-:hasPerformanceProperties rdf:type owl:ObjectProperty ;
-                          rdfs:domain :Performance ;
-                          rdfs:label "has performance properties"@en .
+###  https://w3id.org/ce/hasPerformanceDescription
+:hasPerformanceDescription rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Performance ;
+                           rdfs:label "has performance description" .
 
 
-###  https://w3id.org/ce/hasPerformanceStatus
-:hasPerformanceStatus rdf:type owl:ObjectProperty ;
-                      rdfs:label "has performance status"@en .
-
-
-###  https://w3id.org/ce/hasPerformances
-:hasPerformances rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Schedule ;
-                 rdfs:range :Performance ;
-                 rdfs:label "has performances"@en .
-
-
-###  https://w3id.org/ce/hasPhoneNumbers
-:hasPhoneNumbers rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Place ;
-                 rdfs:range :Phone_Number ,
-                            :phone_number ;
-                 rdfs:label "has phone numbers"@en .
+###  https://w3id.org/ce/hasPhoneNumber
+:hasPhoneNumber rdf:type owl:ObjectProperty ;
+                rdfs:domain :Place ;
+                rdfs:range :PhoneNumber ;
+                rdfs:label "has phone number" .
 
 
 ###  https://w3id.org/ce/hasPlace
 :hasPlace rdf:type owl:ObjectProperty ;
           rdfs:domain :Schedule ;
           rdfs:range :Place ;
-          rdfs:label "has place"@en .
+          rdfs:label "has place" .
 
 
-###  https://w3id.org/ce/hasProperties
-:hasProperties rdf:type owl:ObjectProperty ;
-               rdfs:range :Property ;
-               rdfs:label "has properties"@en .
+###  https://w3id.org/ce/hasProperty
+:hasProperty rdf:type owl:ObjectProperty ;
+             rdfs:domain :Performance ;
+             rdfs:range :Property ;
+             rdfs:label "has property" .
 
 
-###  https://w3id.org/ce/hasSchedulePhoneNumbers
-:hasSchedulePhoneNumbers rdf:type owl:ObjectProperty ;
-                         rdfs:label "has schedule phone numbers"@en .
+###  https://w3id.org/ce/hasSchedule
+:hasSchedule rdf:type owl:ObjectProperty ;
+             rdfs:domain :Event ;
+             rdfs:range :Schedule ;
+             rdfs:label "has schedule" .
 
 
-###  https://w3id.org/ce/hasSchedules
-:hasSchedules rdf:type owl:ObjectProperty ;
-              rdfs:domain :Event ;
-              rdfs:range :Schedule ;
-              rdfs:label "has schedules"@en .
+###  https://w3id.org/ce/hasSchedulePhoneNumber
+:hasSchedulePhoneNumber rdf:type owl:ObjectProperty ;
+                        rdfs:label "has schedule phone number" .
 
 
-###  https://w3id.org/ce/hasTags
-:hasTags rdf:type owl:ObjectProperty ;
-         rdfs:domain :Schedule ;
-         rdfs:range :tag ;
-         rdfs:label "has tags"@en .
+###  https://w3id.org/ce/hasTag
+:hasTag rdf:type owl:ObjectProperty ;
+        rdfs:domain :Schedule ;
+        rdfs:range :Tag ;
+        rdfs:label "has tag" .
 
 
 ###  https://w3id.org/ce/hasTheatre
 :hasTheatre rdf:type owl:ObjectProperty ;
-            rdfs:domain :event ;
-            rdfs:range :theatre ;
-            rdfs:label "has theatre"@en .
+            rdfs:domain :PropertyEvent ;
+            rdfs:range :Theatre ;
+            rdfs:label "has theatre" .
 
 
-###  https://w3id.org/ce/hasTicketDescriptions
-:hasTicketDescriptions rdf:type owl:ObjectProperty ;
-                       rdfs:label "has ticket descriptions"@en .
+###  https://w3id.org/ce/hasTicket
+:hasTicket rdf:type owl:ObjectProperty ;
+           rdfs:domain :Performance ;
+           rdfs:range :Ticket ;
+           rdfs:label "has ticket" .
 
 
-###  https://w3id.org/ce/hasTickets
-:hasTickets rdf:type owl:ObjectProperty ;
-            rdfs:domain :Performance ;
-            rdfs:range :Ticket ;
-            rdfs:label "has tickets"@en .
+###  https://w3id.org/ce/hasTicketDescription
+:hasTicketDescription rdf:type owl:ObjectProperty ;
+                      rdfs:label "has ticket description" .
 
 
 #################################################################
@@ -163,92 +149,82 @@
 
 ###  https://w3id.org/ce/Description
 :Description rdf:type owl:Class ;
-             rdfs:label "Description"@en .
+             rdfs:label "Description" .
 
 
 ###  https://w3id.org/ce/Event
 :Event rdf:type owl:Class ;
-       rdfs:label "Event"@en .
+       rdfs:label "Event" .
+
+
+###  https://w3id.org/ce/Film
+:Film rdf:type owl:Class ;
+      rdfs:label "Film" .
 
 
 ###  https://w3id.org/ce/Image
 :Image rdf:type owl:Class ;
-       rdfs:label "Image"@en .
+       rdfs:label "Image" .
 
 
 ###  https://w3id.org/ce/Link
 :Link rdf:type owl:Class ;
-      rdfs:label "Link"@en .
+      rdfs:label "Link" .
+
+
+###  https://w3id.org/ce/List
+:List rdf:type owl:Class ;
+      rdfs:label "List" .
+
+
+###  https://w3id.org/ce/Loc
+:Loc rdf:type owl:Class ;
+     rdfs:label "Loc" .
 
 
 ###  https://w3id.org/ce/Performance
 :Performance rdf:type owl:Class ;
-             rdfs:label "Performance"@en .
+             rdfs:label "Performance" .
 
 
-###  https://w3id.org/ce/Phone_Number
-:Phone_Number rdf:type owl:Class ;
-              rdfs:label "Phone_ Number"@en .
+###  https://w3id.org/ce/PhoneNumber
+:PhoneNumber rdf:type owl:Class ;
+             rdfs:label "Phone Number" .
 
 
 ###  https://w3id.org/ce/Place
 :Place rdf:type owl:Class ;
-       rdfs:label "Place"@en .
+       rdfs:label "Place" .
 
 
 ###  https://w3id.org/ce/Property
 :Property rdf:type owl:Class ;
-          rdfs:label "Property"@en .
+          rdfs:label "Property" .
+
+
+###  https://w3id.org/ce/PropertyEvent
+:PropertyEvent rdf:type owl:Class ;
+               rdfs:label "Property Event" .
 
 
 ###  https://w3id.org/ce/Schedule
 :Schedule rdf:type owl:Class ;
-          rdfs:label "Schedule"@en .
+          rdfs:label "Schedule" .
+
+
+###  https://w3id.org/ce/Tag
+:Tag rdf:type owl:Class ;
+     rdfs:label "Tag" .
+
+
+###  https://w3id.org/ce/Theatre
+:Theatre rdf:type owl:Class ;
+         rdfs:label "Theatre" .
 
 
 ###  https://w3id.org/ce/Ticket
 :Ticket rdf:type owl:Class ;
-        rdfs:label "Ticket"@en .
-
-
-###  https://w3id.org/ce/event
-:event rdf:type owl:Class ;
-       rdfs:label "event"@en .
-
-
-###  https://w3id.org/ce/film
-:film rdf:type owl:Class ;
-      rdfs:label "film"@en .
-
-
-###  https://w3id.org/ce/list
-:list rdf:type owl:Class ;
-      rdfs:label "list"@en .
-
-
-###  https://w3id.org/ce/loc
-:loc rdf:type owl:Class ;
-     rdfs:label "loc"@en .
-
-
-###  https://w3id.org/ce/phone_number
-:phone_number rdf:type owl:Class ;
-              rdfs:label "phone_number"@en .
-
-
-###  https://w3id.org/ce/tag
-:tag rdf:type owl:Class ;
-     rdfs:label "tag"@en .
-
-
-###  https://w3id.org/ce/tags
-:tags rdf:type owl:Class ;
-      rdfs:label "tags"@en .
-
-
-###  https://w3id.org/ce/theatre
-:theatre rdf:type owl:Class ;
-         rdfs:label "theatre"@en .
+        rdfs:label "Ticket" .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
