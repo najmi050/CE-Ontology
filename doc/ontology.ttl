@@ -185,7 +185,7 @@
 ###  https://w3id.org/ce/Performance
 :Performance rdf:type owl:Class ;
              rdfs:label "Performance" .
-
+ 
 
 ###  https://w3id.org/ce/PhoneNumber
 :PhoneNumber rdf:type owl:Class ;
