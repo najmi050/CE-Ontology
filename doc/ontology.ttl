@@ -101,7 +101,8 @@
 ###  https://w3id.org/ce/hasProperty
 :hasProperty rdf:type owl:ObjectProperty ;
              rdfs:domain :Performance ;
-             rdfs:range :Property ;
+             rdfs:range :PerformanceProperty ,
+                        :Property ;
              rdfs:label "has property" .
 
 
@@ -110,11 +111,6 @@
              rdfs:domain :Event ;
              rdfs:range :Schedule ;
              rdfs:label "has schedule" .
-
-
-###  https://w3id.org/ce/hasSchedulePhoneNumber
-:hasSchedulePhoneNumber rdf:type owl:ObjectProperty ;
-                        rdfs:label "has schedule phone number" .
 
 
 ###  https://w3id.org/ce/hasTag
@@ -136,11 +132,6 @@
            rdfs:domain :Performance ;
            rdfs:range :Ticket ;
            rdfs:label "has ticket" .
-
-
-###  https://w3id.org/ce/hasTicketDescription
-:hasTicketDescription rdf:type owl:ObjectProperty ;
-                      rdfs:label "has ticket description" .
 
 
 #################################################################
@@ -185,7 +176,12 @@
 ###  https://w3id.org/ce/Performance
 :Performance rdf:type owl:Class ;
              rdfs:label "Performance" .
- 
+
+
+###  https://w3id.org/ce/PerformanceProperty
+:PerformanceProperty rdf:type owl:Class ;
+                     rdfs:label "Performance Property" .
+
 
 ###  https://w3id.org/ce/PhoneNumber
 :PhoneNumber rdf:type owl:Class ;

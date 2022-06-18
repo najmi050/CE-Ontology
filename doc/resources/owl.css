@@ -1,4 +1,4 @@
-.RFC2119 {   
+.RFC2119 {
   text-transform: lowercase;
   font-style: italic;
 }
@@ -10,7 +10,7 @@
 #abstract br {
    /* doesn't work right SOMETIMES 
    margin-bottom: 1em;   */
-} 
+}
 .name {
     font-family: monospace;
 }

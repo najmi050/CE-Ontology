@@ -176,6 +176,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasProperty">
         <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Property"/>
         <rdfs:label>has property</rdfs:label>
     </owl:ObjectProperty>
@@ -189,15 +190,6 @@
         <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Schedule"/>
         <rdfs:label>has schedule</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/hasSchedulePhoneNumber -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasSchedulePhoneNumber">
-        <rdfs:label>has schedule phone number</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -231,15 +223,6 @@
         <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Ticket"/>
         <rdfs:label>has ticket</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/hasTicketDescription -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasTicketDescription">
-        <rdfs:label>has ticket description</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -293,7 +276,7 @@
 
 
     <!-- https://w3id.org/ce/Link -->
- 
+
 
     <owl:Class rdf:about="https://w3id.org/ce/Link">
         <rdfs:label>Link</rdfs:label>
@@ -324,6 +307,15 @@
 
     <owl:Class rdf:about="https://w3id.org/ce/Performance">
         <rdfs:label>Performance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ce/PerformanceProperty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/PerformanceProperty">
+        <rdfs:label>Performance Property</rdfs:label>
     </owl:Class>
     
 

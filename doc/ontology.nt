@@ -88,6 +88,7 @@
 # https://w3id.org/ce/hasProperty
 <https://w3id.org/ce/hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Property> .
 <https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#label> "has property" .
 # 
@@ -96,10 +97,6 @@
 <https://w3id.org/ce/hasSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
 <https://w3id.org/ce/hasSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Schedule> .
 <https://w3id.org/ce/hasSchedule> <http://www.w3.org/2000/01/rdf-schema#label> "has schedule" .
-# 
-# https://w3id.org/ce/hasSchedulePhoneNumber
-<https://w3id.org/ce/hasSchedulePhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/hasSchedulePhoneNumber> <http://www.w3.org/2000/01/rdf-schema#label> "has schedule phone number" .
 # 
 # https://w3id.org/ce/hasTag
 <https://w3id.org/ce/hasTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -118,10 +115,6 @@
 <https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
 <https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Ticket> .
 <https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#label> "has ticket" .
-# 
-# https://w3id.org/ce/hasTicketDescription
-<https://w3id.org/ce/hasTicketDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/hasTicketDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has ticket description" .
 # 
 # 
 # 
@@ -163,6 +156,10 @@
 # https://w3id.org/ce/Performance
 <https://w3id.org/ce/Performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/ce/Performance> <http://www.w3.org/2000/01/rdf-schema#label> "Performance" .
+# 
+# https://w3id.org/ce/PerformanceProperty
+<https://w3id.org/ce/PerformanceProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/PerformanceProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Performance Property" .
 # 
 # https://w3id.org/ce/PhoneNumber
 <https://w3id.org/ce/PhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

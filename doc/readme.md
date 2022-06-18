@@ -31,4 +31,4 @@ b) Execute Chrome with the following commands :
 
 (UNX) /usr/bin/google-chrome --allow-file-access-from-files
 
-Do you have a problem? open an issue at https://github.com/dgarijo/Widoco 
+Do you have a problem? open an issue at https://github.com/dgarijo/Widoco

@@ -1,4 +1,4 @@
- body {
+body {
     text-align: justify;    
 }
 
@@ -60,7 +60,7 @@ h3 {
     margin-top: 3px;
     padding-bottom: 5px;
 	border-bottom: 1px solid navy;
-} 
+}
 
 h2 {
     margin-top:40px;    
