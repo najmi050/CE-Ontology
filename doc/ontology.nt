@@ -1,7 +1,7 @@
 <https://w3id.org/ce/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/creator> "Najam Ul Hassan Arshad" .
 <https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
-<https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/title> "CE-Ontology" .
+<https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/title> "CE-Ontology" . 
 <https://w3id.org/ce/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
 # 
 # 
