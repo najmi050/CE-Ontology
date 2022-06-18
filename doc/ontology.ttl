@@ -34,6 +34,11 @@
 
 ###  https://w3id.org/ce/hasDescription
 :hasDescription rdf:type owl:ObjectProperty ;
+                rdfs:domain : Event, 
+                            :Ticket,
+                            :Place ;          
+                rdfs:range :Description;
+
                 rdfs:label "has description" .
 
 
@@ -62,6 +67,10 @@
 
 ###  https://w3id.org/ce/hasLink
 :hasLink rdf:type owl:ObjectProperty ;
+         rdfs:domain : Event,
+                     : Place,
+                     :Performance ;
+         rdfs:range : Link ;
          rdfs:label "has link" .
 
 
@@ -89,12 +98,13 @@
 ###  https://w3id.org/ce/hasPerformanceDescription
 :hasPerformanceDescription rdf:type owl:ObjectProperty ;
                            rdfs:domain :Performance ;
+                           rdfs: range :Description ;
                            rdfs:label "has performance description" .
 
 
 ###  https://w3id.org/ce/hasPhoneNumber
 :hasPhoneNumber rdf:type owl:ObjectProperty ;
-                rdfs:domain :Place ;
+                rdfs:domain :Place,:Schedule,:Event ;
                 rdfs:range :PhoneNumber ;
                 rdfs:label "has phone number" .
 
