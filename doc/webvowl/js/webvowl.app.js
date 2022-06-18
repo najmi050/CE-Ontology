@@ -1,4 +1,4 @@
-webvowl.app =
+webvowl.app = 
 /******/ (function(modules) { // webpackBootstrap 
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
