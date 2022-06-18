@@ -39,17 +39,24 @@
 
 ###  https://w3id.org/ce/hasEvent
 :hasEvent rdf:type owl:ObjectProperty ;
+          rdfs:domain : PerformanceProperty ;
           rdfs:range :PropertyEvent ;
           rdfs:label "has event" .
 
 
 ###  https://w3id.org/ce/hasFilm
 :hasFilm rdf:type owl:ObjectProperty ;
+         rdfs:range : PropertyEvent;
+         rdfs:domain : Film;
+
          rdfs:label "has film" .
 
 
 ###  https://w3id.org/ce/hasImage
 :hasImage rdf:type owl:ObjectProperty ;
+          rdfs:domain : Place ;
+          rdfs:range : Image ;
+
           rdfs:label "has image" .
 
 
@@ -60,6 +67,7 @@
 
 ###  https://w3id.org/ce/hasList
 :hasList rdf:type owl:ObjectProperty ;
+         rdfs: domain : PerformanceProperty;
          rdfs:range :List ;
          rdfs:label "has list" .
 
@@ -115,7 +123,9 @@
 
 ###  https://w3id.org/ce/hasTag
 :hasTag rdf:type owl:ObjectProperty ;
-        rdfs:domain :Schedule ;
+        rdfs:domain : Event,
+                    :Place,
+                    :Schedule ;
         rdfs:range :Tag ;
         rdfs:label "has tag" .
 
