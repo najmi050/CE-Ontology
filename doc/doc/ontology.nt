@@ -1,0 +1,215 @@
+<https://w3id.org/ce/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/creator> "Najam Ul Hassan Arshad" .
+<https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
+<https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/title> "CE-Ontology" .
+<https://w3id.org/ce/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/ce/hasDescription
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Ticket> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Description> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has description" .
+# 
+# https://w3id.org/ce/hasEvent
+<https://w3id.org/ce/hasEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
+<https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PropertyEvent> .
+<https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#label> "has event" .
+# 
+# https://w3id.org/ce/hasFilm
+<https://w3id.org/ce/hasFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PropertyEvent> .
+<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#label> "has film" .
+# 
+# https://w3id.org/ce/hasImage
+<https://w3id.org/ce/hasImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasImage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasImage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Image> .
+<https://w3id.org/ce/hasImage> <http://www.w3.org/2000/01/rdf-schema#label> "has image" .
+# 
+# https://w3id.org/ce/hasLink
+<https://w3id.org/ce/hasLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Link> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#label> "has link" .
+# 
+# https://w3id.org/ce/hasList
+<https://w3id.org/ce/hasList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasList> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
+<https://w3id.org/ce/hasList> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/List> .
+<https://w3id.org/ce/hasList> <http://www.w3.org/2000/01/rdf-schema#label> "has list" .
+# 
+# https://w3id.org/ce/hasLocation
+<https://w3id.org/ce/hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Loc> .
+<https://w3id.org/ce/hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "has location" .
+# 
+# https://w3id.org/ce/hasPerformance
+<https://w3id.org/ce/hasPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasPerformance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
+<https://w3id.org/ce/hasPerformance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "has performance" .
+# 
+# https://w3id.org/ce/hasPerformanceDescription
+<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Description> .
+<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has performance description" .
+# 
+# https://w3id.org/ce/hasPhoneNumber
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PhoneNumber> .
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#label> "has phone number" .
+# 
+# https://w3id.org/ce/hasPlace
+<https://w3id.org/ce/hasPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
+<https://w3id.org/ce/hasPlace> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasPlace> <http://www.w3.org/2000/01/rdf-schema#label> "has place" .
+# 
+# https://w3id.org/ce/hasProperty
+<https://w3id.org/ce/hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PerformanceProperty> .
+<https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/hasProperty> <http://www.w3.org/2000/01/rdf-schema#label> "has property" .
+# 
+# https://w3id.org/ce/hasSchedule
+<https://w3id.org/ce/hasSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Schedule> .
+<https://w3id.org/ce/hasSchedule> <http://www.w3.org/2000/01/rdf-schema#label> "has schedule" .
+# 
+# https://w3id.org/ce/hasTag
+<https://w3id.org/ce/hasTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
+<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Tag> .
+<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#label> "has tag" .
+# 
+# https://w3id.org/ce/hasTheatre
+<https://w3id.org/ce/hasTheatre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasTheatre> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PropertyEvent> .
+<https://w3id.org/ce/hasTheatre> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Theatre> .
+<https://w3id.org/ce/hasTheatre> <http://www.w3.org/2000/01/rdf-schema#label> "has theatre" .
+# 
+# https://w3id.org/ce/hasTicket
+<https://w3id.org/ce/hasTicket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Ticket> .
+<https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#label> "has ticket" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/ce/Description
+<https://w3id.org/ce/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+# 
+# https://w3id.org/ce/Event
+<https://w3id.org/ce/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# https://w3id.org/ce/Film
+<https://w3id.org/ce/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Film" .
+# 
+# https://w3id.org/ce/Image
+<https://w3id.org/ce/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image" .
+# 
+# https://w3id.org/ce/Link
+<https://w3id.org/ce/Link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Link> <http://www.w3.org/2000/01/rdf-schema#label> "Link" .
+# 
+# https://w3id.org/ce/List
+<https://w3id.org/ce/List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/List> <http://www.w3.org/2000/01/rdf-schema#label> "List" .
+# 
+# https://w3id.org/ce/Loc
+<https://w3id.org/ce/Loc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Loc> <http://www.w3.org/2000/01/rdf-schema#label> "Loc" .
+# 
+# https://w3id.org/ce/Performance
+<https://w3id.org/ce/Performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Performance> <http://www.w3.org/2000/01/rdf-schema#label> "Performance" .
+# 
+# https://w3id.org/ce/PerformanceProperty
+<https://w3id.org/ce/PerformanceProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/PerformanceProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Performance Property" .
+# 
+# https://w3id.org/ce/PhoneNumber
+<https://w3id.org/ce/PhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/PhoneNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Phone Number" .
+# 
+# https://w3id.org/ce/Place
+<https://w3id.org/ce/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+# 
+# https://w3id.org/ce/Property
+<https://w3id.org/ce/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Property> <http://www.w3.org/2000/01/rdf-schema#label> "Property" .
+# 
+# https://w3id.org/ce/PropertyEvent
+<https://w3id.org/ce/PropertyEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/PropertyEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Property Event" .
+# 
+# https://w3id.org/ce/Schedule
+<https://w3id.org/ce/Schedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Schedule> <http://www.w3.org/2000/01/rdf-schema#label> "Schedule" .
+# 
+# https://w3id.org/ce/Tag
+<https://w3id.org/ce/Tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Tag> <http://www.w3.org/2000/01/rdf-schema#label> "Tag" .
+# 
+# https://w3id.org/ce/Theatre
+<https://w3id.org/ce/Theatre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Theatre> <http://www.w3.org/2000/01/rdf-schema#label> "Theatre" .
+# 
+# https://w3id.org/ce/Ticket
+<https://w3id.org/ce/Ticket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Ticket> <http://www.w3.org/2000/01/rdf-schema#label> "Ticket" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
