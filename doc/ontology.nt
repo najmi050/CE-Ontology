@@ -1,7 +1,7 @@
 <https://w3id.org/ce/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/creator> "Najam Ul Hassan Arshad" .
 <https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
-<https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/title> "CE-Ontology" . 
+<https://w3id.org/ce/> <http://purl.org/dc/elements/1.1/title> "CE-Ontology" .
 <https://w3id.org/ce/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
 # 
 # 
@@ -32,27 +32,41 @@
 # 
 # https://w3id.org/ce/hasDescription
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Ticket> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Description> .
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has description" .
 # 
 # https://w3id.org/ce/hasEvent
 <https://w3id.org/ce/hasEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PropertyEvent> .
 <https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#label> "has event" .
 # 
 # https://w3id.org/ce/hasFilm
 <https://w3id.org/ce/hasFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PropertyEvent> .
 <https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#label> "has film" .
 # 
 # https://w3id.org/ce/hasImage
 <https://w3id.org/ce/hasImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasImage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasImage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Image> .
 <https://w3id.org/ce/hasImage> <http://www.w3.org/2000/01/rdf-schema#label> "has image" .
 # 
 # https://w3id.org/ce/hasLink
 <https://w3id.org/ce/hasLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Link> .
 <https://w3id.org/ce/hasLink> <http://www.w3.org/2000/01/rdf-schema#label> "has link" .
 # 
 # https://w3id.org/ce/hasList
 <https://w3id.org/ce/hasList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasList> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/hasList> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/List> .
 <https://w3id.org/ce/hasList> <http://www.w3.org/2000/01/rdf-schema#label> "has list" .
 # 
@@ -71,11 +85,14 @@
 # https://w3id.org/ce/hasPerformanceDescription
 <https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
+<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Description> .
 <https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has performance description" .
 # 
 # https://w3id.org/ce/hasPhoneNumber
 <https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
 <https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
+<https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
 <https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PhoneNumber> .
 <https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#label> "has phone number" .
 # 
@@ -100,6 +117,8 @@
 # 
 # https://w3id.org/ce/hasTag
 <https://w3id.org/ce/hasTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
 <https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
 <https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Tag> .
 <https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#label> "has tag" .

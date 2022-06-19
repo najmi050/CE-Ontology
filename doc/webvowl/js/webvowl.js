@@ -1,5 +1,5 @@
-webvowl = 
-/******/ (function(modules) { // webpackBootstrap 
+webvowl =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 

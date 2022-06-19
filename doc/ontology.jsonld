@@ -1,6 +1,6 @@
 [ {
   "@id" : "http://purl.org/dc/elements/1.1/creator",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ] 
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -127,12 +127,25 @@
 }, {
   "@id" : "https://w3id.org/ce/hasDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Event"
+  }, {
+    "@id" : "https://w3id.org/ce/Place"
+  }, {
+    "@id" : "https://w3id.org/ce/Ticket"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ce/Description"
   } ]
 }, {
   "@id" : "https://w3id.org/ce/hasEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has event"
   } ],
@@ -142,24 +155,49 @@
 }, {
   "@id" : "https://w3id.org/ce/hasFilm",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Film"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ce/PropertyEvent"
   } ]
 }, {
   "@id" : "https://w3id.org/ce/hasImage",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Place"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ce/Image"
   } ]
 }, {
   "@id" : "https://w3id.org/ce/hasLink",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Event"
+  }, {
+    "@id" : "https://w3id.org/ce/Performance"
+  }, {
+    "@id" : "https://w3id.org/ce/Place"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has link"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ce/Link"
   } ]
 }, {
   "@id" : "https://w3id.org/ce/hasList",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has list"
   } ],
@@ -198,12 +236,19 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has performance description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ce/Description"
   } ]
 }, {
   "@id" : "https://w3id.org/ce/hasPhoneNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Event"
+  }, {
     "@id" : "https://w3id.org/ce/Place"
+  }, {
+    "@id" : "https://w3id.org/ce/Schedule"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has phone number"
@@ -253,6 +298,10 @@
   "@id" : "https://w3id.org/ce/hasTag",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Event"
+  }, {
+    "@id" : "https://w3id.org/ce/Place"
+  }, {
     "@id" : "https://w3id.org/ce/Schedule"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {

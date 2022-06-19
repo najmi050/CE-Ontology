@@ -34,32 +34,46 @@
 
 ###  https://w3id.org/ce/hasDescription
 :hasDescription rdf:type owl:ObjectProperty ;
+                rdfs:domain :Event ,
+                            :Place ,
+                            :Ticket ;
+                rdfs:range :Description ;
                 rdfs:label "has description" .
 
 
 ###  https://w3id.org/ce/hasEvent
 :hasEvent rdf:type owl:ObjectProperty ;
+          rdfs:domain :PerformanceProperty ;
           rdfs:range :PropertyEvent ;
           rdfs:label "has event" .
 
 
 ###  https://w3id.org/ce/hasFilm
 :hasFilm rdf:type owl:ObjectProperty ;
+         rdfs:domain :Film ;
+         rdfs:range :PropertyEvent ;
          rdfs:label "has film" .
 
 
 ###  https://w3id.org/ce/hasImage
 :hasImage rdf:type owl:ObjectProperty ;
+          rdfs:domain :Place ;
+          rdfs:range :Image ;
           rdfs:label "has image" .
 
 
 ###  https://w3id.org/ce/hasLink
 :hasLink rdf:type owl:ObjectProperty ;
+         rdfs:domain :Event ,
+                     :Performance ,
+                     :Place ;
+         rdfs:range :Link ;
          rdfs:label "has link" .
 
 
 ###  https://w3id.org/ce/hasList
 :hasList rdf:type owl:ObjectProperty ;
+         rdfs:domain :PerformanceProperty ;
          rdfs:range :List ;
          rdfs:label "has list" .
 
@@ -81,12 +95,15 @@
 ###  https://w3id.org/ce/hasPerformanceDescription
 :hasPerformanceDescription rdf:type owl:ObjectProperty ;
                            rdfs:domain :Performance ;
+                           rdfs:range :Description ;
                            rdfs:label "has performance description" .
 
 
 ###  https://w3id.org/ce/hasPhoneNumber
 :hasPhoneNumber rdf:type owl:ObjectProperty ;
-                rdfs:domain :Place ;
+                rdfs:domain :Event ,
+                            :Place ,
+                            :Schedule ;
                 rdfs:range :PhoneNumber ;
                 rdfs:label "has phone number" .
 
@@ -115,7 +132,9 @@
 
 ###  https://w3id.org/ce/hasTag
 :hasTag rdf:type owl:ObjectProperty ;
-        rdfs:domain :Schedule ;
+        rdfs:domain :Event ,
+                    :Place ,
+                    :Schedule ;
         rdfs:range :Tag ;
         rdfs:label "has tag" .
 
