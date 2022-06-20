@@ -28,6 +28,9 @@ This section provides details for each class and property defined by CE-Ontology
          <a href="#Performance" title="https://w3id.org/ce/Performance">Performance</a>
       </li>
       <li>
+         <a href="#PerformanceProperty" title="https://w3id.org/ce/PerformanceProperty">Performance Property</a>
+      </li>
+      <li>
          <a href="#PhoneNumber" title="https://w3id.org/ce/PhoneNumber">Phone Number</a>
       </li>
       <li>
@@ -59,6 +62,14 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/Description</p>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasDescription" title="https://w3id.org/ce/hasDescription">has description</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasPerformanceDescription" title="https://w3id.org/ce/hasPerformanceDescription">has performance description</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
    </div>
    <div class="entity" id="Event">
       <h3>Event<sup class="type-c" title="class">c</sup>
@@ -70,7 +81,11 @@ This section provides details for each class and property defined by CE-Ontology
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#hasSchedule" title="https://w3id.org/ce/hasSchedule">has schedule</a>
+            <a href="#hasDescription" title="https://w3id.org/ce/hasDescription">has description</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasLink" title="https://w3id.org/ce/hasLink">has link</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasPhoneNumber" title="https://w3id.org/ce/hasPhoneNumber">has phone number</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasSchedule" title="https://w3id.org/ce/hasSchedule">has schedule</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasTag" title="https://w3id.org/ce/hasTag">has tag</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -82,6 +97,13 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/Film</p>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasFilm" title="https://w3id.org/ce/hasFilm">has film</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
    </div>
    <div class="entity" id="Image">
       <h3>Image<sup class="type-c" title="class">c</sup>
@@ -90,6 +112,13 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/Image</p>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasImage" title="https://w3id.org/ce/hasImage">has image</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
    </div>
    <div class="entity" id="Link">
       <h3>Link<sup class="type-c" title="class">c</sup>
@@ -98,6 +127,13 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/Link</p>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasLink" title="https://w3id.org/ce/hasLink">has link</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
    </div>
    <div class="entity" id="List">
       <h3>List<sup class="type-c" title="class">c</sup>
@@ -139,7 +175,8 @@ This section provides details for each class and property defined by CE-Ontology
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#hasPerformanceDescription" title="https://w3id.org/ce/hasPerformanceDescription">has performance description</a>
+            <a href="#hasLink" title="https://w3id.org/ce/hasLink">has link</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasPerformanceDescription" title="https://w3id.org/ce/hasPerformanceDescription">has performance description</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasProperty" title="https://w3id.org/ce/hasProperty">has property</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasTicket" title="https://w3id.org/ce/hasTicket">has ticket</a>
             <sup class="type-op" title="object property">op</sup>
@@ -147,6 +184,27 @@ This section provides details for each class and property defined by CE-Ontology
          <dt>is in range of</dt>
          <dd>
             <a href="#hasPerformance" title="https://w3id.org/ce/hasPerformance">has performance</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PerformanceProperty">
+      <h3>Performance Property<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/ce/PerformanceProperty</p>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasEvent" title="https://w3id.org/ce/hasEvent">has event</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasList" title="https://w3id.org/ce/hasList">has list</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasProperty" title="https://w3id.org/ce/hasProperty">has property</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -176,8 +234,12 @@ This section provides details for each class and property defined by CE-Ontology
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#hasLocation" title="https://w3id.org/ce/hasLocation">has location</a>
+            <a href="#hasDescription" title="https://w3id.org/ce/hasDescription">has description</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasImage" title="https://w3id.org/ce/hasImage">has image</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasLink" title="https://w3id.org/ce/hasLink">has link</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasLocation" title="https://w3id.org/ce/hasLocation">has location</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasPhoneNumber" title="https://w3id.org/ce/hasPhoneNumber">has phone number</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasTag" title="https://w3id.org/ce/hasTag">has tag</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -218,6 +280,7 @@ This section provides details for each class and property defined by CE-Ontology
          <dt>is in range of</dt>
          <dd>
             <a href="#hasEvent" title="https://w3id.org/ce/hasEvent">has event</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasFilm" title="https://w3id.org/ce/hasFilm">has film</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -233,6 +296,7 @@ This section provides details for each class and property defined by CE-Ontology
          <dt>is in domain of</dt>
          <dd>
             <a href="#hasPerformance" title="https://w3id.org/ce/hasPerformance">has performance</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasPhoneNumber" title="https://w3id.org/ce/hasPhoneNumber">has phone number</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasPlace" title="https://w3id.org/ce/hasPlace">has place</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasTag" title="https://w3id.org/ce/hasTag">has tag</a>
             <sup class="type-op" title="object property">op</sup>
@@ -282,6 +346,11 @@ This section provides details for each class and property defined by CE-Ontology
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/Ticket</p>
       <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasDescription" title="https://w3id.org/ce/hasDescription">has description</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#hasTicket" title="https://w3id.org/ce/hasTicket">has ticket</a>
@@ -332,9 +401,6 @@ This section provides details for each class and property defined by CE-Ontology
          <a href="#hasSchedule" title="https://w3id.org/ce/hasSchedule">has schedule</a>
       </li>
       <li>
-         <a href="#hasSchedulePhoneNumber" title="https://w3id.org/ce/hasSchedulePhoneNumber">has schedule phone number</a>
-      </li>
-      <li>
          <a href="#hasTag" title="https://w3id.org/ce/hasTag">has tag</a>
       </li>
       <li>
@@ -342,9 +408,6 @@ This section provides details for each class and property defined by CE-Ontology
       </li>
       <li>
          <a href="#hasTicket" title="https://w3id.org/ce/hasTicket">has ticket</a>
-      </li>
-      <li>
-         <a href="#hasTicketDescription" title="https://w3id.org/ce/hasTicketDescription">has ticket description</a>
       </li>
    </ul>
    <div class="entity" id="hasDescription">
@@ -354,6 +417,28 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/hasDescription</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Event" title="https://w3id.org/ce/Event">Event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Place" title="https://w3id.org/ce/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Ticket" title="https://w3id.org/ce/Ticket">Ticket</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Description" title="https://w3id.org/ce/Description">Description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="hasEvent">
       <h3>has event<sup class="type-op" title="object property">op</sup>
@@ -364,6 +449,11 @@ This section provides details for each class and property defined by CE-Ontology
          <strong>IRI:</strong> https://w3id.org/ce/hasEvent</p>
       <div class="description">
          <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PerformanceProperty" title="https://w3id.org/ce/PerformanceProperty">Performance Property</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dt>has range</dt>
             <dd>
                <a href="#PropertyEvent" title="https://w3id.org/ce/PropertyEvent">Property Event</a>
@@ -379,6 +469,20 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/hasFilm</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Film" title="https://w3id.org/ce/Film">Film</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PropertyEvent" title="https://w3id.org/ce/PropertyEvent">Property Event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="hasImage">
       <h3>has image<sup class="type-op" title="object property">op</sup>
@@ -387,6 +491,20 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/hasImage</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Place" title="https://w3id.org/ce/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Image" title="https://w3id.org/ce/Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="hasLink">
       <h3>has link<sup class="type-op" title="object property">op</sup>
@@ -395,6 +513,28 @@ This section provides details for each class and property defined by CE-Ontology
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/ce/hasLink</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Event" title="https://w3id.org/ce/Event">Event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Performance" title="https://w3id.org/ce/Performance">Performance</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Place" title="https://w3id.org/ce/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Link" title="https://w3id.org/ce/Link">Link</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="hasList">
       <h3>has list<sup class="type-op" title="object property">op</sup>
@@ -405,6 +545,11 @@ This section provides details for each class and property defined by CE-Ontology
          <strong>IRI:</strong> https://w3id.org/ce/hasList</p>
       <div class="description">
          <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PerformanceProperty" title="https://w3id.org/ce/PerformanceProperty">Performance Property</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dt>has range</dt>
             <dd>
                <a href="#List" title="https://w3id.org/ce/List">List</a>
@@ -471,6 +616,11 @@ This section provides details for each class and property defined by CE-Ontology
                <a href="#Performance" title="https://w3id.org/ce/Performance">Performance</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Description" title="https://w3id.org/ce/Description">Description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -485,7 +635,15 @@ This section provides details for each class and property defined by CE-Ontology
          <dl>
             <dt>has domain</dt>
             <dd>
+               <a href="#Event" title="https://w3id.org/ce/Event">Event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
                <a href="#Place" title="https://w3id.org/ce/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Schedule" title="https://w3id.org/ce/Schedule">Schedule</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -534,6 +692,10 @@ This section provides details for each class and property defined by CE-Ontology
             </dd>
             <dt>has range</dt>
             <dd>
+               <a href="#PerformanceProperty" title="https://w3id.org/ce/PerformanceProperty">Performance Property</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
                <a href="#Property" title="https://w3id.org/ce/Property">Property</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -562,14 +724,6 @@ This section provides details for each class and property defined by CE-Ontology
          </dl>
       </div>
    </div>
-   <div class="entity" id="hasSchedulePhoneNumber">
-      <h3>has schedule phone number<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/ce/hasSchedulePhoneNumber</p>
-   </div>
    <div class="entity" id="hasTag">
       <h3>has tag<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -580,6 +734,14 @@ This section provides details for each class and property defined by CE-Ontology
       <div class="description">
          <dl>
             <dt>has domain</dt>
+            <dd>
+               <a href="#Event" title="https://w3id.org/ce/Event">Event</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Place" title="https://w3id.org/ce/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dd>
                <a href="#Schedule" title="https://w3id.org/ce/Schedule">Schedule</a>
                <sup class="type-c" title="class">c</sup>
@@ -635,14 +797,6 @@ This section provides details for each class and property defined by CE-Ontology
             </dd>
          </dl>
       </div>
-   </div>
-   <div class="entity" id="hasTicketDescription">
-      <h3>has ticket description<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/ce/hasTicketDescription</p>
    </div>
 </div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      id="annotationproperties">
