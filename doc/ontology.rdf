@@ -61,152 +61,12 @@
     
 
 
-    <!-- https://w3id.org/ce/booking_essential -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/booking_essential">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/director -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/director">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dstring"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/dropin_event -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/dropin_event">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/ce/event.festival -->
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.festival">
         <rdfs:domain rdf:resource="https://w3id.org/ce/PropertyEvent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dstring"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.3d -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.3d">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.autism-friendly -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.autism-friendly">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.imax -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.imax">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.over-18s -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.over-18s">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.parent-and-baby -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.parent-and-baby">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.premium-screening -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.premium-screening">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.senior -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.senior">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.film.subtitled -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.film.subtitled">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.theatre.bsl-interpreted -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.theatre.bsl-interpreted">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/event.theatre.captioned -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.theatre.captioned">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/film.subtitle -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/film.subtitle">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
     </owl:ObjectProperty>
     
 
@@ -396,182 +256,12 @@
     
 
 
-    <!-- https://w3id.org/ce/list.hitlisted -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/list.hitlisted">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/List"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/performace.cancelled -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/performace.cancelled">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/performace.sold-out -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/performace.sold-out">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.child-friendly -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.child-friendly">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.child-restrictions -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.child-restrictions">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.dogs-allowed -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.dogs-allowed">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.free-wifi -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.free-wifi">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.guide-dogs -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.guide-dogs">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.hearing-loop -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.hearing-loop">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.parking -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.parking">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.toilets -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.toilets">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.toilets.baby-changing -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.toilets.baby-changing">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.toilets_disabled -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.toilets_disabled">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/place.facilities.wheelchair-access -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/place.facilities.wheelchair-access">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/ce/affiliate:getmein -->
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/affiliate:getmein">
         <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dstring"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/awards:fringe-sustainable-practice:2015 -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2015">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/awards:fringe-sustainable-practice:2017 -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2017">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/list:website:comments-enabled -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/list:website:comments-enabled">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
     </owl:ObjectProperty>
     
 
@@ -646,7 +336,11 @@
     <!-- https://w3id.org/ce/booking_essential -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/booking_essential"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/booking_essential">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>booking_essential</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -731,14 +425,22 @@
     <!-- https://w3id.org/ce/director -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/director"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/director">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>director</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/dropin_event -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/dropin_event"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/dropin_event">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>dropin_event</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -796,56 +498,88 @@
     <!-- https://w3id.org/ce/event.film.3d -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.3d"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.3d">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.3d</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.film.autism-friendly -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.autism-friendly"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.autism-friendly">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.autism-friendly</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.film.imax -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.imax"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.imax">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.imax</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.film.over-18s -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.over-18s"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.over-18s">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.over-18s</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.film.parent-and-baby -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.parent-and-baby"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.parent-and-baby">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.parent-and-baby</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.film.premium-screening -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.premium-screening"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.premium-screening">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.premium-screening</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.film.senior -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.senior"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.senior">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.senior</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.film.subtitled -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.subtitled"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.film.subtitled">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.film.subtitled</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -896,14 +630,22 @@
     <!-- https://w3id.org/ce/event.theatre.bsl-interpreted -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.theatre.bsl-interpreted"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.theatre.bsl-interpreted">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.theatre.bsl-interpreted</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/event.theatre.captioned -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.theatre.captioned"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.theatre.captioned">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>event.theatre.captioned</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1086,7 +828,11 @@
     <!-- https://w3id.org/ce/film.subtitle -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/film.subtitle"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/film.subtitle">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>film.subtitle</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1181,7 +927,11 @@
     <!-- https://w3id.org/ce/list.hitlisted -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/list.hitlisted"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/list.hitlisted">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/List"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>list.hitlistted</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1267,14 +1017,22 @@
     <!-- https://w3id.org/ce/performace.cancelled -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/performace.cancelled"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/performace.cancelled">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>performance.cancelled</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/performace.sold-out -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/performace.sold-out"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/performace.sold-out">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>performance.cancelled</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1303,77 +1061,121 @@
     <!-- https://w3id.org/ce/place.child-friendly -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.child-friendly"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.child-friendly">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.child-friendly</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.child-restrictions -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.child-restrictions"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.child-restrictions">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.child-restrictions </rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.dogs-allowed -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.dogs-allowed"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.dogs-allowed">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.dogs-allowed</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.free-wifi -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.free-wifi"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.free-wifi">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.free-wifi</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.guide-dogs -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.guide-dogs"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.guide-dogs">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.guide-dogs</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.hearing-loop -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.hearing-loop"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.hearing-loop">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.hearing-loop</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.parking -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.parking"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.parking">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.parking</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.toilets -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.toilets"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.toilets">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.toilets</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.toilets.baby-changing -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.toilets.baby-changing"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.toilets.baby-changing">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.toilets.baby-changing</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.toilets_disabled -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.toilets_disabled"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.toilets_disabled">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.toilets_disabled</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/place.facilities.wheelchair-access -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.wheelchair-access"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/place.facilities.wheelchair-access">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>place.facilities.wheelchair-access</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1591,14 +1393,22 @@
     <!-- https://w3id.org/ce/awards:fringe-sustainable-practice:2015 -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2015"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2015">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>awards:fringe-sustainable-practice:2015</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- https://w3id.org/ce/awards:fringe-sustainable-practice:2017 -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2017"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2017">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>awards:fringe-sustainable-practice:2017</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1627,7 +1437,11 @@
     <!-- https://w3id.org/ce/list:website:comments-enabled -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/list:website:comments-enabled"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/list:website:comments-enabled">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>list:website:comments-enabled</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1684,13 +1498,6 @@
      -->
 
 
-    
-
-
-    <!-- http://www.w3.org/2001/XMLSchema#bool -->
-
-
-    <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#bool"/>
     
 
 
@@ -1863,104 +1670,11 @@
      -->
 
 
-    <rdf:Description rdf:about="https://w3id.org/ce/booking_essential">
-        <rdfs:label>booking_essential</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/director">
-        <rdfs:label>director</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/dropin_event">
-        <rdfs:label>dropin_event</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/ce/event.festival">
         <rdfs:label>event.festival</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.3d">
-        <rdfs:label>event.film.3d</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.autism-friendly">
-        <rdfs:label>event.film.autism-friendly</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.imax">
-        <rdfs:label>event.film.imax</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.over-18s">
-        <rdfs:label>event.film.over-18s</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.parent-and-baby">
-        <rdfs:label>event.film.parent-and-baby</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.premium-screening">
-        <rdfs:label>event.film.premium-screening</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.senior">
-        <rdfs:label>event.film.senior</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.film.subtitled">
-        <rdfs:label>event.film.subtitled</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.theatre.bsl-interpreted">
-        <rdfs:label>event.theatre.bsl-interpreted</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/event.theatre.captioned">
-        <rdfs:label>event.theatre.captioned</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/film.subtitle">
-        <rdfs:label>film.subtitle</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/list.hitlisted">
-        <rdfs:label>list.hitlistted</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/performace.cancelled">
-        <rdfs:label>performance.cancelled</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/performace.sold-out">
-        <rdfs:label>performance.cancelled</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.child-friendly">
-        <rdfs:label>place.child-friendly</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.child-restrictions">
-        <rdfs:label>place.child-restrictions </rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.dogs-allowed">
-        <rdfs:label>place.facilities.dogs-allowed</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.free-wifi">
-        <rdfs:label>place.facilities.free-wifi</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.guide-dogs">
-        <rdfs:label>place.facilities.guide-dogs</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.hearing-loop">
-        <rdfs:label>place.facilities.hearing-loop</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.parking">
-        <rdfs:label>place.facilities.parking</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.toilets">
-        <rdfs:label>place.facilities.toilets</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.toilets.baby-changing">
-        <rdfs:label>place.facilities.toilets.baby-changing</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.toilets_disabled">
-        <rdfs:label>place.facilities.toilets_disabled</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/place.facilities.wheelchair-access">
-        <rdfs:label>place.facilities.wheelchair-access</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/ce/affiliate:getmein">
         <rdfs:label>affiliate:getmein</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2015">
-        <rdfs:label>awards:fringe-sustainable-practice:2015</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/awards:fringe-sustainable-practice:2017">
-        <rdfs:label>awards:fringe-sustainable-practice:2017</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/list:website:comments-enabled">
-        <rdfs:label>list:website:comments-enabled</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
