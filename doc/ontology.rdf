@@ -61,16 +61,6 @@
     
 
 
-    <!-- https://w3id.org/ce/event.festival -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/event.festival">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/PropertyEvent"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dstring"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/ce/hasDescription -->
 
 
@@ -252,16 +242,6 @@
         <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Ticket"/>
         <rdfs:label>has ticket</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/affiliate:getmein -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/affiliate:getmein">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dstring"/>
     </owl:ObjectProperty>
     
 
@@ -491,7 +471,11 @@
     <!-- https://w3id.org/ce/event.festival -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.festival"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/event.festival">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PropertyEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>event.festival</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1375,7 +1359,11 @@
     <!-- https://w3id.org/ce/affiliate:getmein -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/affiliate:getmein"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/affiliate:getmein">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>affiliate:getmein</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1498,13 +1486,6 @@
      -->
 
 
-    
-
-
-    <!-- http://www.w3.org/2001/XMLSchema#dstring -->
-
-
-    <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#dstring"/>
     
 
 
@@ -1658,24 +1639,6 @@
     <owl:Class rdf:about="https://w3id.org/ce/Ticket">
         <rdfs:label>Ticket</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <rdf:Description rdf:about="https://w3id.org/ce/event.festival">
-        <rdfs:label>event.festival</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/ce/affiliate:getmein">
-        <rdfs:label>affiliate:getmein</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
