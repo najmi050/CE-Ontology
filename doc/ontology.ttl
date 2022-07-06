@@ -32,6 +32,96 @@
 #    Object Properties
 #################################################################
 
+###  https://w3id.org/ce/autism_friendly
+:autism_friendly rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Film ;
+                 rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/awards_fringe_sustainable_practice2015
+:awards_fringe_sustainable_practice2015 rdf:type owl:ObjectProperty ;
+                                        rdfs:domain :Property ;
+                                        rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/awards_fringe_sustainable_practice2017
+:awards_fringe_sustainable_practice2017 rdf:type owl:ObjectProperty ;
+                                        rdfs:domain :Property ;
+                                        rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/baby_changing
+:baby_changing rdf:type owl:ObjectProperty ;
+               rdfs:domain :Property ;
+               rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/booking_essential
+:booking_essential rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Property ;
+                   rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/bsl_interpreted
+:bsl_interpreted rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Film ;
+                 rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/cancelled
+:cancelled rdf:type owl:ObjectProperty ;
+           rdfs:domain :PerformanceProperty ;
+           rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/captioned
+:captioned rdf:type owl:ObjectProperty ;
+           rdfs:domain :Film ;
+           rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/child_friendly
+:child_friendly rdf:type owl:ObjectProperty ;
+                rdfs:domain :Property ;
+                rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/child_restrictions
+:child_restrictions rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Property ;
+                    rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/dogs_allowed
+:dogs_allowed rdf:type owl:ObjectProperty ;
+              rdfs:domain :Property ;
+              rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/dropin_event
+:dropin_event rdf:type owl:ObjectProperty ;
+              rdfs:domain :Property ;
+              rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/film_subtitle
+:film_subtitle rdf:type owl:ObjectProperty ;
+               rdfs:domain :Property ;
+               rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/free_wifi
+:free_wifi rdf:type owl:ObjectProperty ;
+           rdfs:domain :Property ;
+           rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/guide_dogs
+:guide_dogs rdf:type owl:ObjectProperty ;
+            rdfs:domain :Property ;
+            rdfs:range xsd:bool .
+
+
 ###  https://w3id.org/ce/hasDescription
 :hasDescription rdf:type owl:ObjectProperty ;
                 rdfs:domain :Event ,
@@ -69,13 +159,6 @@
                      :Place ;
          rdfs:range :Link ;
          rdfs:label "has link" .
-
-
-###  https://w3id.org/ce/hasList
-:hasList rdf:type owl:ObjectProperty ;
-         rdfs:domain :PerformanceProperty ;
-         rdfs:range :List ;
-         rdfs:label "has list" .
 
 
 ###  https://w3id.org/ce/hasLocation
@@ -153,6 +236,96 @@
            rdfs:label "has ticket" .
 
 
+###  https://w3id.org/ce/hearing_loop
+:hearing_loop rdf:type owl:ObjectProperty ;
+              rdfs:domain :Property ;
+              rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/hitlisted
+:hitlisted rdf:type owl:ObjectProperty ;
+           rdfs:domain :PerformanceProperty ;
+           rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/imax
+:imax rdf:type owl:ObjectProperty ;
+      rdfs:domain :Film ;
+      rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/over_18s
+:over_18s rdf:type owl:ObjectProperty ;
+          rdfs:domain :Film ;
+          rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/parent_and_baby
+:parent_and_baby rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Film ;
+                 rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/parking
+:parking rdf:type owl:ObjectProperty ;
+         rdfs:domain :Property ;
+         rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/premium_screening
+:premium_screening rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Film ;
+                   rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/senior
+:senior rdf:type owl:ObjectProperty ;
+        rdfs:domain :Film ;
+        rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/sold_out
+:sold_out rdf:type owl:ObjectProperty ;
+          rdfs:domain :PerformanceProperty ;
+          rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/subtitled
+:subtitled rdf:type owl:ObjectProperty ;
+           rdfs:domain :Film ;
+           rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/toilets
+:toilets rdf:type owl:ObjectProperty ;
+         rdfs:domain :Property ;
+         rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/toilets_disabled
+:toilets_disabled rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Property ;
+                  rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/website_comments_enabled
+:website_comments_enabled rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Property ;
+                          rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/wheelchair_access
+:wheelchair_access rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Property ;
+                   rdfs:range xsd:bool .
+
+
+###  https://w3id.org/ce/3d
+<https://w3id.org/ce/3d> rdf:type owl:ObjectProperty ;
+                         rdfs:domain :Film ;
+                         rdfs:range xsd:bool .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -164,11 +337,11 @@
        rdfs:label "actor" .
 
 
-###  https://w3id.org/ce/actor.sample
-:actor.sample rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/actor_sample
+:actor_sample rdf:type owl:DatatypeProperty ;
               rdfs:domain :Property ;
               rdfs:range xsd:string ;
-              rdfs:label "actor.sample" .
+              rdfs:label "actor_sample" .
 
 
 ###  https://w3id.org/ce/address
@@ -176,6 +349,20 @@
          rdfs:domain :Place ;
          rdfs:range xsd:string ;
          rdfs:label "address" .
+
+
+###  https://w3id.org/ce/affiliate_getmein
+:affiliate_getmein rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Property ;
+                   rdfs:range xsd:string ;
+                   rdfs:label "affiliate_getmein" .
+
+
+###  https://w3id.org/ce/affiliate_seatwave
+:affiliate_seatwave rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Property ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "affiliate_seatwave" .
 
 
 ###  https://w3id.org/ce/alt_text
@@ -192,18 +379,43 @@
         rdfs:label "author" .
 
 
+###  https://w3id.org/ce/autism_friendly
+:autism_friendly rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/awards_fringe_sustainable_practice2015
+:awards_fringe_sustainable_practice2015 rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/awards_fringe_sustainable_practice2017
+:awards_fringe_sustainable_practice2017 rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/baby_changing
+:baby_changing rdf:type owl:DatatypeProperty .
+
+
 ###  https://w3id.org/ce/booking_essential
-:booking_essential rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Property ;
-                   rdfs:range xsd:boolean ;
-                   rdfs:label "booking_essential" .
+:booking_essential rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/ce/box-office
-:box-office rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/box_office
+:box_office rdf:type owl:DatatypeProperty ;
             rdfs:domain :PhoneNumber ;
             rdfs:range xsd:string ;
-            rdfs:label "box-office" .
+            rdfs:label "box_office" .
+
+
+###  https://w3id.org/ce/bsl_interpreted
+:bsl_interpreted rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/cancelled
+:cancelled rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/captioned
+:captioned rdf:type owl:DatatypeProperty .
 
 
 ###  https://w3id.org/ce/cast
@@ -218,6 +430,14 @@
           rdfs:domain :Event ;
           rdfs:range xsd:string ;
           rdfs:label "category" .
+
+
+###  https://w3id.org/ce/child_friendly
+:child_friendly rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/child_restrictions
+:child_restrictions rdf:type owl:DatatypeProperty .
 
 
 ###  https://w3id.org/ce/country_code
@@ -242,6 +462,13 @@
           rdfs:label "currency" .
 
 
+###  https://w3id.org/ce/demographic
+:demographic rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Property ;
+             rdfs:range xsd:string ;
+             rdfs:label "demographic" .
+
+
 ###  https://w3id.org/ce/description
 :description rdf:type owl:DatatypeProperty ;
              rdfs:domain :Film ;
@@ -256,11 +483,12 @@
           rdfs:label "director" .
 
 
+###  https://w3id.org/ce/dogs_allowed
+:dogs_allowed rdf:type owl:DatatypeProperty .
+
+
 ###  https://w3id.org/ce/dropin_event
-:dropin_event rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Property ;
-              rdfs:range xsd:boolean ;
-              rdfs:label "dropin_event" .
+:dropin_event rdf:type owl:DatatypeProperty .
 
 
 ###  https://w3id.org/ce/duration
@@ -284,118 +512,6 @@
         rdfs:label "end_ts" .
 
 
-###  https://w3id.org/ce/event.demographic
-:event.demographic rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Property ;
-                   rdfs:range xsd:string ;
-                   rdfs:label "event.demographic" .
-
-
-###  https://w3id.org/ce/event.festival
-:event.festival rdf:type owl:DatatypeProperty ;
-                rdfs:domain :PropertyEvent ;
-                rdfs:range xsd:string ;
-                rdfs:label "event.festival" .
-
-
-###  https://w3id.org/ce/event.film.3d
-:event.film.3d rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Film ;
-               rdfs:range xsd:boolean ;
-               rdfs:label "event.film.3d" .
-
-
-###  https://w3id.org/ce/event.film.autism-friendly
-:event.film.autism-friendly rdf:type owl:DatatypeProperty ;
-                            rdfs:domain :Film ;
-                            rdfs:range xsd:boolean ;
-                            rdfs:label "event.film.autism-friendly" .
-
-
-###  https://w3id.org/ce/event.film.imax
-:event.film.imax rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Film ;
-                 rdfs:range xsd:boolean ;
-                 rdfs:label "event.film.imax" .
-
-
-###  https://w3id.org/ce/event.film.over-18s
-:event.film.over-18s rdf:type owl:DatatypeProperty ;
-                     rdfs:domain :Film ;
-                     rdfs:range xsd:boolean ;
-                     rdfs:label "event.film.over-18s" .
-
-
-###  https://w3id.org/ce/event.film.parent-and-baby
-:event.film.parent-and-baby rdf:type owl:DatatypeProperty ;
-                            rdfs:domain :Film ;
-                            rdfs:range xsd:boolean ;
-                            rdfs:label "event.film.parent-and-baby" .
-
-
-###  https://w3id.org/ce/event.film.premium-screening
-:event.film.premium-screening rdf:type owl:DatatypeProperty ;
-                              rdfs:domain :Film ;
-                              rdfs:range xsd:boolean ;
-                              rdfs:label "event.film.premium-screening" .
-
-
-###  https://w3id.org/ce/event.film.senior
-:event.film.senior rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Film ;
-                   rdfs:range xsd:boolean ;
-                   rdfs:label "event.film.senior" .
-
-
-###  https://w3id.org/ce/event.film.subtitled
-:event.film.subtitled rdf:type owl:DatatypeProperty ;
-                      rdfs:domain :Film ;
-                      rdfs:range xsd:boolean ;
-                      rdfs:label "event.film.subtitled" .
-
-
-###  https://w3id.org/ce/event.language
-:event.language rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Property ;
-                rdfs:range xsd:string ;
-                rdfs:label "event.language" .
-
-
-###  https://w3id.org/ce/event.minimum-age
-:event.minimum-age rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :PropertyEvent ;
-                   rdfs:range xsd:string ;
-                   rdfs:label "event.minimum-age" .
-
-
-###  https://w3id.org/ce/event.session
-:event.session rdf:type owl:DatatypeProperty ;
-               rdfs:domain :PropertyEvent ;
-               rdfs:range xsd:string ;
-               rdfs:label "event.session" .
-
-
-###  https://w3id.org/ce/event.support
-:event.support rdf:type owl:DatatypeProperty ;
-               rdfs:domain :PropertyEvent ;
-               rdfs:range xsd:string ;
-               rdfs:label "event.support" .
-
-
-###  https://w3id.org/ce/event.theatre.bsl-interpreted
-:event.theatre.bsl-interpreted rdf:type owl:DatatypeProperty ;
-                               rdfs:domain :Film ;
-                               rdfs:range xsd:boolean ;
-                               rdfs:label "event.theatre.bsl-interpreted" .
-
-
-###  https://w3id.org/ce/event.theatre.captioned
-:event.theatre.captioned rdf:type owl:DatatypeProperty ;
-                         rdfs:domain :Film ;
-                         rdfs:range xsd:boolean ;
-                         rdfs:label "event.theatre.captioned" .
-
-
 ###  https://w3id.org/ce/event_id
 :event_id rdf:type owl:DatatypeProperty ;
           rdfs:domain :Event ;
@@ -410,137 +526,153 @@
                          rdfs:label "expected_visit_duration" .
 
 
-###  https://w3id.org/ce/film.amg_id
-:film.amg_id rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/festival
+:festival rdf:type owl:DatatypeProperty ;
+          rdfs:domain :PropertyEvent ;
+          rdfs:range xsd:string ;
+          rdfs:label "festival" .
+
+
+###  https://w3id.org/ce/film_amg_id
+:film_amg_id rdf:type owl:DatatypeProperty ;
              rdfs:domain :Property ;
              rdfs:range xsd:string ;
-             rdfs:label "film.amg_id" .
+             rdfs:label "film_amg_id" .
 
 
-###  https://w3id.org/ce/film.certificate
-:film.certificate rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_certificate
+:film_certificate rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Property ;
                   rdfs:range xsd:string ;
-                  rdfs:label "film.certificate" .
+                  rdfs:label "film_certificate" .
 
 
-###  https://w3id.org/ce/film.certificate_bbfc
-:film.certificate_bbfc rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_certificate_bbfc
+:film_certificate_bbfc rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Property ;
                        rdfs:range xsd:string ;
-                       rdfs:label "film.certificate_bbfc" .
+                       rdfs:label "film_certificate_bbfc" .
 
 
-###  https://w3id.org/ce/film.colour
-:film.colour rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_colour
+:film_colour rdf:type owl:DatatypeProperty ;
              rdfs:domain :Property ;
              rdfs:range xsd:string ;
-             rdfs:label "film.colour" .
+             rdfs:label "film_colour" .
 
 
-###  https://w3id.org/ce/film.country-of-origin
-:film.country-of-origin rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_country_of_origin
+:film_country_of_origin rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Property ;
                         rdfs:range xsd:string ;
-                        rdfs:label "film.country-of-origin" .
+                        rdfs:label "film_country_of_origin" .
 
 
-###  https://w3id.org/ce/film.imdb
-:film.imdb rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_imdb
+:film_imdb rdf:type owl:DatatypeProperty ;
            rdfs:domain :Property ;
            rdfs:range xsd:string ;
-           rdfs:label "film.imdb" .
+           rdfs:label "film_imdb" .
 
 
-###  https://w3id.org/ce/film.imdb_id
-:film.imdb_id rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_imdb_id
+:film_imdb_id rdf:type owl:DatatypeProperty ;
               rdfs:domain :Property ;
               rdfs:range xsd:string ;
-              rdfs:label "film.imdb_id" .
+              rdfs:label "film_imdb_id" .
 
 
-###  https://w3id.org/ce/film.itunes
-:film.itunes rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_itunes
+:film_itunes rdf:type owl:DatatypeProperty ;
              rdfs:domain :Property ;
              rdfs:range xsd:string ;
-             rdfs:label "film.itunes" .
+             rdfs:label "film_itunes" .
 
 
-###  https://w3id.org/ce/film.metacritic
-:film.metacritic rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_metacritic
+:film_metacritic rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Property ;
                  rdfs:range xsd:string ;
-                 rdfs:label "film.metacritic" .
+                 rdfs:label "film_metacritic" .
 
 
-###  https://w3id.org/ce/film.mojo_id
-:film.mojo_id rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_mojo_id
+:film_mojo_id rdf:type owl:DatatypeProperty ;
               rdfs:domain :Property ;
               rdfs:range xsd:string ;
-              rdfs:label "film.mojo_id" .
+              rdfs:label "film_mojo_id" .
 
 
-###  https://w3id.org/ce/film.release-date-uk
-:film.release-date-uk rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_release_date_uk
+:film_release_date_uk rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Property ;
                       rdfs:range xsd:string ;
-                      rdfs:label "film.release-date-uk" .
+                      rdfs:label "film_release_date_uk" .
 
 
-###  https://w3id.org/ce/film.rotten-tomatoes
-:film.rotten-tomatoes rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_rotten_tomatoes
+:film_rotten_tomatoes rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Property ;
                       rdfs:range xsd:string ;
-                      rdfs:label "film.rotten-tomatoes" .
+                      rdfs:label "film_rotten_tomatoes" .
 
 
-###  https://w3id.org/ce/film.rotten-tomatoes_id
-:film.rotten-tomatoes_id rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_rotten_tomatoes_id
+:film_rotten_tomatoes_id rdf:type owl:DatatypeProperty ;
                          rdfs:domain :Property ;
                          rdfs:range xsd:string ;
-                         rdfs:label "film.rotten-tomatoes_id" .
+                         rdfs:label "film_rotten_tomatoes_id" .
 
 
-###  https://w3id.org/ce/film.running-time
-:film.running-time rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_running_time
+:film_running_time rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Property ;
                    rdfs:range xsd:string ;
-                   rdfs:label "film.running-time" .
+                   rdfs:label "film_running_time" .
 
 
-###  https://w3id.org/ce/film.subtitle
-:film.subtitle rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Property ;
-               rdfs:range xsd:boolean ;
-               rdfs:label "film.subtitle" .
+###  https://w3id.org/ce/film_subtitle
+:film_subtitle rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/ce/film.wikipedia
-:film.wikipedia rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_wikipedia
+:film_wikipedia rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Property ;
                 rdfs:range xsd:string ;
-                rdfs:label "film.wikipedia" .
+                rdfs:label "film_wikipedia" .
 
 
-###  https://w3id.org/ce/film.wikipedia_image
-:film.wikipedia_image rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_wikipedia_image
+:film_wikipedia_image rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Property ;
                       rdfs:range xsd:string ;
-                      rdfs:label "film.wikipedia_image" .
+                      rdfs:label "film_wikipedia_image" .
 
 
-###  https://w3id.org/ce/film.wikipedia_image_caption
-:film.wikipedia_image_caption rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_wikipedia_image_caption
+:film_wikipedia_image_caption rdf:type owl:DatatypeProperty ;
                               rdfs:domain :Property ;
                               rdfs:range xsd:string ;
-                              rdfs:label "film.wikipedia_image_caption" .
+                              rdfs:label "film_wikipedia_image_caption" .
 
 
-###  https://w3id.org/ce/film.year
-:film.year rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/film_year
+:film_year rdf:type owl:DatatypeProperty ;
            rdfs:domain :Property ;
            rdfs:range xsd:string ;
-           rdfs:label "film.year" .
+           rdfs:label "film_year" .
+
+
+###  https://w3id.org/ce/free_wifi
+:free_wifi rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/guide_dogs
+:guide_dogs rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/hearing_loop
+:hearing_loop rdf:type owl:DatatypeProperty .
 
 
 ###  https://w3id.org/ce/height
@@ -550,11 +682,33 @@
         rdfs:label "height" .
 
 
+###  https://w3id.org/ce/hitlisted
+:hitlisted rdf:type owl:DatatypeProperty .
+
+
 ###  https://w3id.org/ce/id
 :id rdf:type owl:DatatypeProperty ;
     rdfs:domain :Event ;
     rdfs:range xsd:int ;
     rdfs:label "id" .
+
+
+###  https://w3id.org/ce/imageid
+:imageid rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Property ;
+         rdfs:range xsd:string ;
+         rdfs:label "imageid" .
+
+
+###  https://w3id.org/ce/imax
+:imax rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/importance
+:importance rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Property ;
+            rdfs:range xsd:string ;
+            rdfs:label "importance" .
 
 
 ###  https://w3id.org/ce/info
@@ -564,18 +718,18 @@
       rdfs:label "info" .
 
 
+###  https://w3id.org/ce/language
+:language rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Property ;
+          rdfs:range xsd:string ;
+          rdfs:label "language" .
+
+
 ###  https://w3id.org/ce/latitude
 :latitude rdf:type owl:DatatypeProperty ;
           rdfs:domain :Loc ;
           rdfs:range xsd:string ;
           rdfs:label "latitude" .
-
-
-###  https://w3id.org/ce/list.hitlisted
-:list.hitlisted rdf:type owl:DatatypeProperty ;
-                rdfs:domain :List ;
-                rdfs:range xsd:boolean ;
-                rdfs:label "list.hitlistted" .
 
 
 ###  https://w3id.org/ce/list_id
@@ -606,6 +760,13 @@
            rdfs:label "min_price" .
 
 
+###  https://w3id.org/ce/minimum_age
+:minimum_age rdf:type owl:DatatypeProperty ;
+             rdfs:domain :PropertyEvent ;
+             rdfs:range xsd:string ;
+             rdfs:label "minimum_age" .
+
+
 ###  https://w3id.org/ce/modified_ts
 :modified_ts rdf:type owl:DatatypeProperty ;
              rdfs:domain :Event ,
@@ -629,18 +790,23 @@
               rdfs:label "organisation" .
 
 
-###  https://w3id.org/ce/performace.cancelled
-:performace.cancelled rdf:type owl:DatatypeProperty ;
-                      rdfs:domain :PerformanceProperty ;
-                      rdfs:range xsd:boolean ;
-                      rdfs:label "performance.cancelled" .
+###  https://w3id.org/ce/over_18s
+:over_18s rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/ce/performace.sold-out
-:performace.sold-out rdf:type owl:DatatypeProperty ;
-                     rdfs:domain :PerformanceProperty ;
-                     rdfs:range xsd:boolean ;
-                     rdfs:label "performance.cancelled" .
+###  https://w3id.org/ce/pa_rating
+:pa_rating rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Property ;
+           rdfs:range xsd:string ;
+           rdfs:label "pa_rating" .
+
+
+###  https://w3id.org/ce/parent_and_baby
+:parent_and_baby rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/parking
+:parking rdf:type owl:DatatypeProperty .
 
 
 ###  https://w3id.org/ce/performance_space
@@ -650,88 +816,18 @@
                    rdfs:label "performance_space" .
 
 
-###  https://w3id.org/ce/place.capacity.max
-:place.capacity.max rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/ce/place_capacity._max
+:place_capacity._max rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Property ;
+                     rdfs:range xsd:string ;
+                     rdfs:label "place_capacity._max" .
+
+
+###  https://w3id.org/ce/place_capacity_max
+:place_capacity_max rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Property ;
                     rdfs:range xsd:string ;
-                    rdfs:label "place.capacity.max" .
-
-
-###  https://w3id.org/ce/place.child-friendly
-:place.child-friendly rdf:type owl:DatatypeProperty ;
-                      rdfs:domain :Property ;
-                      rdfs:range xsd:boolean ;
-                      rdfs:label "place.child-friendly" .
-
-
-###  https://w3id.org/ce/place.child-restrictions
-:place.child-restrictions rdf:type owl:DatatypeProperty ;
-                          rdfs:domain :Property ;
-                          rdfs:range xsd:boolean ;
-                          rdfs:label "place.child-restrictions " .
-
-
-###  https://w3id.org/ce/place.facilities.dogs-allowed
-:place.facilities.dogs-allowed rdf:type owl:DatatypeProperty ;
-                               rdfs:domain :Property ;
-                               rdfs:range xsd:boolean ;
-                               rdfs:label "place.facilities.dogs-allowed" .
-
-
-###  https://w3id.org/ce/place.facilities.free-wifi
-:place.facilities.free-wifi rdf:type owl:DatatypeProperty ;
-                            rdfs:domain :Property ;
-                            rdfs:range xsd:boolean ;
-                            rdfs:label "place.facilities.free-wifi" .
-
-
-###  https://w3id.org/ce/place.facilities.guide-dogs
-:place.facilities.guide-dogs rdf:type owl:DatatypeProperty ;
-                             rdfs:domain :Property ;
-                             rdfs:range xsd:boolean ;
-                             rdfs:label "place.facilities.guide-dogs" .
-
-
-###  https://w3id.org/ce/place.facilities.hearing-loop
-:place.facilities.hearing-loop rdf:type owl:DatatypeProperty ;
-                               rdfs:domain :Property ;
-                               rdfs:range xsd:boolean ;
-                               rdfs:label "place.facilities.hearing-loop" .
-
-
-###  https://w3id.org/ce/place.facilities.parking
-:place.facilities.parking rdf:type owl:DatatypeProperty ;
-                          rdfs:domain :Property ;
-                          rdfs:range xsd:boolean ;
-                          rdfs:label "place.facilities.parking" .
-
-
-###  https://w3id.org/ce/place.facilities.toilets
-:place.facilities.toilets rdf:type owl:DatatypeProperty ;
-                          rdfs:domain :Property ;
-                          rdfs:range xsd:boolean ;
-                          rdfs:label "place.facilities.toilets" .
-
-
-###  https://w3id.org/ce/place.facilities.toilets.baby-changing
-:place.facilities.toilets.baby-changing rdf:type owl:DatatypeProperty ;
-                                        rdfs:domain :Property ;
-                                        rdfs:range xsd:boolean ;
-                                        rdfs:label "place.facilities.toilets.baby-changing" .
-
-
-###  https://w3id.org/ce/place.facilities.toilets_disabled
-:place.facilities.toilets_disabled rdf:type owl:DatatypeProperty ;
-                                   rdfs:domain :Property ;
-                                   rdfs:range xsd:boolean ;
-                                   rdfs:label "place.facilities.toilets_disabled" .
-
-
-###  https://w3id.org/ce/place.facilities.wheelchair-access
-:place.facilities.wheelchair-access rdf:type owl:DatatypeProperty ;
-                                    rdfs:domain :Property ;
-                                    rdfs:range xsd:boolean ;
-                                    rdfs:label "place.facilities.wheelchair-access" .
+                    rdfs:label "place_capacity_max" .
 
 
 ###  https://w3id.org/ce/place_id
@@ -748,6 +844,10 @@
              rdfs:label "postal_code" .
 
 
+###  https://w3id.org/ce/premium_screening
+:premium_screening rdf:type owl:DatatypeProperty .
+
+
 ###  https://w3id.org/ce/ranking_in_level
 :ranking_in_level rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Event ;
@@ -760,6 +860,21 @@
                rdfs:domain :Event ;
                rdfs:range xsd:int ;
                rdfs:label "ranking_level" .
+
+
+###  https://w3id.org/ce/senior
+:senior rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/session
+:session rdf:type owl:DatatypeProperty ;
+         rdfs:domain :PropertyEvent ;
+         rdfs:range xsd:string ;
+         rdfs:label "session" .
+
+
+###  https://w3id.org/ce/sold_out
+:sold_out rdf:type owl:DatatypeProperty .
 
 
 ###  https://w3id.org/ce/sort_name
@@ -785,6 +900,17 @@
         rdfs:label "status" .
 
 
+###  https://w3id.org/ce/subtitled
+:subtitled rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/support
+:support rdf:type owl:DatatypeProperty ;
+         rdfs:domain :PropertyEvent ;
+         rdfs:range xsd:string ;
+         rdfs:label "support" .
+
+
 ###  https://w3id.org/ce/tags
 :tags rdf:type owl:DatatypeProperty ;
       rdfs:domain :Tag ;
@@ -804,6 +930,14 @@
        rdfs:domain :Link ;
        rdfs:range xsd:string ;
        rdfs:label "title" .
+
+
+###  https://w3id.org/ce/toilets
+:toilets rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/toilets_disabled
+:toilets_disabled rdf:type owl:DatatypeProperty .
 
 
 ###  https://w3id.org/ce/town
@@ -845,6 +979,28 @@
          rdfs:label "website" .
 
 
+###  https://w3id.org/ce/website_comments_enabled
+:website_comments_enabled rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/ce/website_comments_end_date
+:website_comments_end_date rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :Property ;
+                           rdfs:range xsd:string ;
+                           rdfs:label "website_comments_end_date" .
+
+
+###  https://w3id.org/ce/website_company
+:website_company rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Property ;
+                 rdfs:range xsd:string ;
+                 rdfs:label "website_company" .
+
+
+###  https://w3id.org/ce/wheelchair_access
+:wheelchair_access rdf:type owl:DatatypeProperty .
+
+
 ###  https://w3id.org/ce/width
 :width rdf:type owl:DatatypeProperty ;
        rdfs:domain :Image ;
@@ -859,86 +1015,17 @@
         rdfs:label "writer" .
 
 
-###  https://w3id.org/ce/affiliate:getmein
-:affiliate:getmein rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Property ;
-                   rdfs:range xsd:string ;
-                   rdfs:label "affiliate:getmein" .
-
-
-###  https://w3id.org/ce/affiliate:seatwave
-:affiliate:seatwave rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :Property ;
-                    rdfs:range xsd:string ;
-                    rdfs:label "affiliate:seatwave" .
-
-
-###  https://w3id.org/ce/awards:fringe-sustainable-practice:2015
-<https://w3id.org/ce/awards:fringe-sustainable-practice:2015> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:domain :Property ;
-                                                              rdfs:range xsd:boolean ;
-                                                              rdfs:label "awards:fringe-sustainable-practice:2015" .
-
-
-###  https://w3id.org/ce/awards:fringe-sustainable-practice:2017
-<https://w3id.org/ce/awards:fringe-sustainable-practice:2017> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:domain :Property ;
-                                                              rdfs:range xsd:boolean ;
-                                                              rdfs:label "awards:fringe-sustainable-practice:2017" .
-
-
-###  https://w3id.org/ce/list:importance
-:list:importance rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Property ;
-                 rdfs:range xsd:string ;
-                 rdfs:label "list:importance" .
-
-
-###  https://w3id.org/ce/list:feed:imageid
-<https://w3id.org/ce/list:feed:imageid> rdf:type owl:DatatypeProperty ;
-                                        rdfs:domain :Property ;
-                                        rdfs:range xsd:string ;
-                                        rdfs:label "list:feed:imageid" .
-
-
-###  https://w3id.org/ce/list:website:comments-enabled
-<https://w3id.org/ce/list:website:comments-enabled> rdf:type owl:DatatypeProperty ;
-                                                    rdfs:domain :Property ;
-                                                    rdfs:range xsd:boolean ;
-                                                    rdfs:label "list:website:comments-enabled" .
-
-
-###  https://w3id.org/ce/list:website:comments-end-date
-<https://w3id.org/ce/list:website:comments-end-date> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:domain :Property ;
-                                                     rdfs:range xsd:string ;
-                                                     rdfs:label "list:website:comments-end-date" .
-
-
-###  https://w3id.org/ce/list:website:company
-<https://w3id.org/ce/list:website:company> rdf:type owl:DatatypeProperty ;
-                                           rdfs:domain :Property ;
-                                           rdfs:range xsd:string ;
-                                           rdfs:label "list:website:company" .
-
-
-###  https://w3id.org/ce/pa:rating
-:pa:rating rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Property ;
-           rdfs:range xsd:string ;
-           rdfs:label "pa:rating" .
-
-
-###  https://w3id.org/ce/place:capacity:max
-<https://w3id.org/ce/place:capacity:max> rdf:type owl:DatatypeProperty ;
-                                         rdfs:domain :Property ;
-                                         rdfs:range xsd:string ;
-                                         rdfs:label "list:place:capacity:max" .
+###  https://w3id.org/ce/3d
+<https://w3id.org/ce/3d> rdf:type owl:DatatypeProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
+
+###  http://www.w3.org/2001/XMLSchema#bool
+xsd:bool rdf:type owl:Class .
+
 
 ###  https://w3id.org/ce/Description
 :Description rdf:type owl:Class ;
@@ -963,11 +1050,6 @@
 ###  https://w3id.org/ce/Link
 :Link rdf:type owl:Class ;
       rdfs:label "Link" .
-
-
-###  https://w3id.org/ce/List
-:List rdf:type owl:Class ;
-      rdfs:label "List" .
 
 
 ###  https://w3id.org/ce/Loc
@@ -1023,6 +1105,100 @@
 ###  https://w3id.org/ce/Ticket
 :Ticket rdf:type owl:Class ;
         rdfs:label "Ticket" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:autism_friendly rdfs:label "autism_friendly" .
+
+
+:awards_fringe_sustainable_practice2015 rdfs:label "awards_fringe_sustainable_practice2015" .
+
+
+:awards_fringe_sustainable_practice2017 rdfs:label "awards_fringe_sustainable_practice2017" .
+
+
+:baby_changing rdfs:label "baby_changing" .
+
+
+:booking_essential rdfs:label "booking_essential" .
+
+
+:bsl_interpreted rdfs:label "bsl_interpreted" .
+
+
+:cancelled rdfs:label "cancelled" .
+
+
+:captioned rdfs:label "captioned" .
+
+
+:child_friendly rdfs:label "child_friendly" .
+
+
+:child_restrictions rdfs:label "child_restrictions " .
+
+
+:dogs_allowed rdfs:label "dogs_allowed" .
+
+
+:dropin_event rdfs:label "dropin_event" .
+
+
+:film_subtitle rdfs:label "film_subtitle" .
+
+
+:free_wifi rdfs:label "free_wifi" .
+
+
+:guide_dogs rdfs:label "guide_dogs" .
+
+
+:hearing_loop rdfs:label "hearing_loop" .
+
+
+:hitlisted rdfs:label "hitlisted" .
+
+
+:imax rdfs:label "imax" .
+
+
+:over_18s rdfs:label "over_18s" .
+
+
+:parent_and_baby rdfs:label "parent_and_baby" .
+
+
+:parking rdfs:label "parking" .
+
+
+:premium_screening rdfs:label "premium_screening" .
+
+
+:senior rdfs:label "senior" .
+
+
+:sold_out rdfs:label "sold_out" .
+
+
+:subtitled rdfs:label "subtitled" .
+
+
+:toilets rdfs:label "toilets" .
+
+
+:toilets_disabled rdfs:label "toilets_disabled" .
+
+
+:website_comments_enabled rdfs:label "website_comments_enabled" .
+
+
+:wheelchair_access rdfs:label "wheelchair_access" .
+
+
+<https://w3id.org/ce/3d> rdfs:label "3d" .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
