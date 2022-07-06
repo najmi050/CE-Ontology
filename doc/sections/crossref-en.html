@@ -368,7 +368,7 @@ This section provides details for each class and property defined by CE-Ontology
             <sup class="type-dp" title="data property">dp</sup>, <a href="#toilets" title="https://w3id.org/ce/toilets">toilets</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#toilets_disabled" title="https://w3id.org/ce/toilets_disabled">toilets_disabled</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#website_comments_enabled" title="https://w3id.org/ce/website_comments_enabled">website_comments_enabled</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#website_comments_end_date" title="https://w3id.org/ce/website_comments_end_date">website_comments_end_date</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#website_comments_end_date" title="https://w3id.org/ce/website_comments_end_date">website_comments_end_date</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#website_company" title="https://w3id.org/ce/website_company">website_company</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#wheelchair_access" title="https://w3id.org/ce/wheelchair_access">wheelchair_access</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#writer" title="https://w3id.org/ce/writer">writer</a>
@@ -538,11 +538,6 @@ This section provides details for each class and property defined by CE-Ontology
       </li>
       <li>
          <a href="#hasTicket" title="https://w3id.org/ce/hasTicket">has ticket</a>
-      </li>
-      <li>
-         <a href="#website_comments_enabled" title="https://w3id.org/ce/website_comments_enabled">
-            <span>website_comments_enabled</span>
-         </a>
       </li>
    </ul>
    <div class="entity" id="hasDescription">
@@ -923,32 +918,6 @@ This section provides details for each class and property defined by CE-Ontology
          </dl>
       </div>
    </div>
-   <div class="entity" id="website_comments_enabled">
-      <h3>website_comments_enabled<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/ce/website_comments_enabled</p>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Property" title="https://w3id.org/ce/Property">Property</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#bool"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#bool">bool</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is also defined as</dt>
-            <dd>data property</dd>
-         </dl>
-      </div>
-   </div>
 </div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
@@ -1265,6 +1234,9 @@ This section provides details for each class and property defined by CE-Ontology
       </li>
       <li>
          <a href="#website" title="https://w3id.org/ce/website">website</a>
+      </li>
+      <li>
+         <a href="#website_comments_enabled" title="https://w3id.org/ce/website_comments_enabled">website_comments_enabled</a>
       </li>
       <li>
          <a href="#website_comments_end_date" title="https://w3id.org/ce/website_comments_end_date">website_comments_end_date</a>
@@ -3706,6 +3678,29 @@ This section provides details for each class and property defined by CE-Ontology
                <a href="http://www.w3.org/2001/XMLSchema#string"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="website_comments_enabled">
+      <h3>website_comments_enabled<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/ce/website_comments_enabled</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Property" title="https://w3id.org/ce/Property">Property</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
             </dd>
          </dl>
       </div>

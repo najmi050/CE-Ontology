@@ -238,16 +238,6 @@
     
 
 
-    <!-- https://w3id.org/ce/website_comments_enabled -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/website_comments_enabled">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#bool"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1405,7 +1395,11 @@
     <!-- https://w3id.org/ce/website_comments_enabled -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/website_comments_enabled"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ce/website_comments_enabled">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>website_comments_enabled</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1484,13 +1478,6 @@
      -->
 
 
-    
-
-
-    <!-- http://www.w3.org/2001/XMLSchema#bool -->
-
-
-    <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#bool"/>
     
 
 
@@ -1635,21 +1622,6 @@
     <owl:Class rdf:about="https://w3id.org/ce/Ticket">
         <rdfs:label>Ticket</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <rdf:Description rdf:about="https://w3id.org/ce/website_comments_enabled">
-        <rdfs:label>website_comments_enabled</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
