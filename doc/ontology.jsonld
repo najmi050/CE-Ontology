@@ -933,7 +933,11 @@
   "@id" : "https://w3id.org/ce/hasProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Event"
+  }, {
     "@id" : "https://w3id.org/ce/Performance"
+  }, {
+    "@id" : "https://w3id.org/ce/Place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has property"

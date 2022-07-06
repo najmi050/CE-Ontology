@@ -332,7 +332,9 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
         <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Place"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Property"/>
         <rdfs:label>has property</rdfs:label>

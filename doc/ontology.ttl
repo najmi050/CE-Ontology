@@ -201,7 +201,9 @@
 
 ###  https://w3id.org/ce/hasProperty
 :hasProperty rdf:type owl:ObjectProperty ;
-             rdfs:domain :Performance ;
+             rdfs:domain :Event ,
+                         :Performance ,
+                         :Place ;
              rdfs:range :PerformanceProperty ,
                         :Property ;
              rdfs:label "has property" .
