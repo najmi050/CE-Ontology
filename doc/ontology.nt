@@ -30,82 +30,6 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/ce/autism_friendly
-<https://w3id.org/ce/autism_friendly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-<http://www.w3.org/2001/XMLSchema#bool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# https://w3id.org/ce/awards_fringe_sustainable_practice2015
-<https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/awards_fringe_sustainable_practice2017
-<https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/baby_changing
-<https://w3id.org/ce/baby_changing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/baby_changing> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/baby_changing> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/booking_essential
-<https://w3id.org/ce/booking_essential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/booking_essential> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/booking_essential> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/bsl_interpreted
-<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/cancelled
-<https://w3id.org/ce/cancelled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/cancelled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
-<https://w3id.org/ce/cancelled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/captioned
-<https://w3id.org/ce/captioned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/child_friendly
-<https://w3id.org/ce/child_friendly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/child_friendly> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/child_friendly> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/child_restrictions
-<https://w3id.org/ce/child_restrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/child_restrictions> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/child_restrictions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/dogs_allowed
-<https://w3id.org/ce/dogs_allowed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/dogs_allowed> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/dogs_allowed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/dropin_event
-<https://w3id.org/ce/dropin_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/dropin_event> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/dropin_event> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/film_subtitle
-<https://w3id.org/ce/film_subtitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/film_subtitle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/film_subtitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/free_wifi
-<https://w3id.org/ce/free_wifi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/free_wifi> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/free_wifi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/guide_dogs
-<https://w3id.org/ce/guide_dogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/guide_dogs> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/guide_dogs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
 # https://w3id.org/ce/hasDescription
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
@@ -208,80 +132,11 @@
 <https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Ticket> .
 <https://w3id.org/ce/hasTicket> <http://www.w3.org/2000/01/rdf-schema#label> "has ticket" .
 # 
-# https://w3id.org/ce/hearing_loop
-<https://w3id.org/ce/hearing_loop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/hearing_loop> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/hearing_loop> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/hitlisted
-<https://w3id.org/ce/hitlisted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/hitlisted> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
-<https://w3id.org/ce/hitlisted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/imax
-<https://w3id.org/ce/imax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/over_18s
-<https://w3id.org/ce/over_18s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/parent_and_baby
-<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/parking
-<https://w3id.org/ce/parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/parking> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/parking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/premium_screening
-<https://w3id.org/ce/premium_screening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/senior
-<https://w3id.org/ce/senior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/sold_out
-<https://w3id.org/ce/sold_out> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/sold_out> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
-<https://w3id.org/ce/sold_out> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/subtitled
-<https://w3id.org/ce/subtitled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/toilets
-<https://w3id.org/ce/toilets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/toilets> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/toilets> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/toilets_disabled
-<https://w3id.org/ce/toilets_disabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/toilets_disabled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/toilets_disabled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
 # https://w3id.org/ce/website_comments_enabled
 <https://w3id.org/ce/website_comments_enabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/website_comments_enabled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
 <https://w3id.org/ce/website_comments_enabled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/wheelchair_access
-<https://w3id.org/ce/wheelchair_access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/wheelchair_access> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
-<https://w3id.org/ce/wheelchair_access> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
-# 
-# https://w3id.org/ce/3d
-<https://w3id.org/ce/3d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#bool> .
+<http://www.w3.org/2001/XMLSchema#bool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # 
 # 
@@ -336,18 +191,33 @@
 # 
 # https://w3id.org/ce/autism_friendly
 <https://w3id.org/ce/autism_friendly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#label> "autism_friendly" .
 # 
 # https://w3id.org/ce/awards_fringe_sustainable_practice2015
 <https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/2000/01/rdf-schema#label> "awards_fringe_sustainable_practice2015" .
 # 
 # https://w3id.org/ce/awards_fringe_sustainable_practice2017
 <https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/2000/01/rdf-schema#label> "awards_fringe_sustainable_practice2017" .
 # 
 # https://w3id.org/ce/baby_changing
 <https://w3id.org/ce/baby_changing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/baby_changing> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/baby_changing> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/baby_changing> <http://www.w3.org/2000/01/rdf-schema#label> "baby_changing" .
 # 
 # https://w3id.org/ce/booking_essential
 <https://w3id.org/ce/booking_essential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/booking_essential> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/booking_essential> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/booking_essential> <http://www.w3.org/2000/01/rdf-schema#label> "booking_essential" .
 # 
 # https://w3id.org/ce/box_office
 <https://w3id.org/ce/box_office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -357,12 +227,21 @@
 # 
 # https://w3id.org/ce/bsl_interpreted
 <https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#label> "bsl_interpreted" .
 # 
 # https://w3id.org/ce/cancelled
 <https://w3id.org/ce/cancelled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/cancelled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
+<https://w3id.org/ce/cancelled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/cancelled> <http://www.w3.org/2000/01/rdf-schema#label> "cancelled" .
 # 
 # https://w3id.org/ce/captioned
 <https://w3id.org/ce/captioned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#label> "captioned" .
 # 
 # https://w3id.org/ce/cast
 <https://w3id.org/ce/cast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -378,9 +257,15 @@
 # 
 # https://w3id.org/ce/child_friendly
 <https://w3id.org/ce/child_friendly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/child_friendly> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/child_friendly> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/child_friendly> <http://www.w3.org/2000/01/rdf-schema#label> "child_friendly" .
 # 
 # https://w3id.org/ce/child_restrictions
 <https://w3id.org/ce/child_restrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/child_restrictions> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/child_restrictions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/child_restrictions> <http://www.w3.org/2000/01/rdf-schema#label> "child_restrictions " .
 # 
 # https://w3id.org/ce/country_code
 <https://w3id.org/ce/country_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -421,9 +306,15 @@
 # 
 # https://w3id.org/ce/dogs_allowed
 <https://w3id.org/ce/dogs_allowed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/dogs_allowed> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/dogs_allowed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/dogs_allowed> <http://www.w3.org/2000/01/rdf-schema#label> "dogs_allowed" .
 # 
 # https://w3id.org/ce/dropin_event
 <https://w3id.org/ce/dropin_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/dropin_event> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/dropin_event> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/dropin_event> <http://www.w3.org/2000/01/rdf-schema#label> "dropin_event" .
 # 
 # https://w3id.org/ce/duration
 <https://w3id.org/ce/duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -547,6 +438,9 @@
 # 
 # https://w3id.org/ce/film_subtitle
 <https://w3id.org/ce/film_subtitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/film_subtitle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/film_subtitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/film_subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "film_subtitle" .
 # 
 # https://w3id.org/ce/film_wikipedia
 <https://w3id.org/ce/film_wikipedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -574,12 +468,21 @@
 # 
 # https://w3id.org/ce/free_wifi
 <https://w3id.org/ce/free_wifi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/free_wifi> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/free_wifi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/free_wifi> <http://www.w3.org/2000/01/rdf-schema#label> "free_wifi" .
 # 
 # https://w3id.org/ce/guide_dogs
 <https://w3id.org/ce/guide_dogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/guide_dogs> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/guide_dogs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/guide_dogs> <http://www.w3.org/2000/01/rdf-schema#label> "guide_dogs" .
 # 
 # https://w3id.org/ce/hearing_loop
 <https://w3id.org/ce/hearing_loop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/hearing_loop> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/hearing_loop> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/hearing_loop> <http://www.w3.org/2000/01/rdf-schema#label> "hearing_loop" .
 # 
 # https://w3id.org/ce/height
 <https://w3id.org/ce/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -589,6 +492,9 @@
 # 
 # https://w3id.org/ce/hitlisted
 <https://w3id.org/ce/hitlisted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/hitlisted> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
+<https://w3id.org/ce/hitlisted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/hitlisted> <http://www.w3.org/2000/01/rdf-schema#label> "hitlisted" .
 # 
 # https://w3id.org/ce/id
 <https://w3id.org/ce/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -604,6 +510,9 @@
 # 
 # https://w3id.org/ce/imax
 <https://w3id.org/ce/imax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#label> "imax" .
 # 
 # https://w3id.org/ce/importance
 <https://w3id.org/ce/importance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -681,6 +590,9 @@
 # 
 # https://w3id.org/ce/over_18s
 <https://w3id.org/ce/over_18s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#label> "over_18s" .
 # 
 # https://w3id.org/ce/pa_rating
 <https://w3id.org/ce/pa_rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -690,9 +602,15 @@
 # 
 # https://w3id.org/ce/parent_and_baby
 <https://w3id.org/ce/parent_and_baby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#label> "parent_and_baby" .
 # 
 # https://w3id.org/ce/parking
 <https://w3id.org/ce/parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/parking> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/parking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/parking> <http://www.w3.org/2000/01/rdf-schema#label> "parking" .
 # 
 # https://w3id.org/ce/performance_space
 <https://w3id.org/ce/performance_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -726,6 +644,9 @@
 # 
 # https://w3id.org/ce/premium_screening
 <https://w3id.org/ce/premium_screening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#label> "premium_screening" .
 # 
 # https://w3id.org/ce/ranking_in_level
 <https://w3id.org/ce/ranking_in_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -741,6 +662,9 @@
 # 
 # https://w3id.org/ce/senior
 <https://w3id.org/ce/senior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#label> "senior" .
 # 
 # https://w3id.org/ce/session
 <https://w3id.org/ce/session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -750,6 +674,9 @@
 # 
 # https://w3id.org/ce/sold_out
 <https://w3id.org/ce/sold_out> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/sold_out> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
+<https://w3id.org/ce/sold_out> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/sold_out> <http://www.w3.org/2000/01/rdf-schema#label> "sold_out" .
 # 
 # https://w3id.org/ce/sort_name
 <https://w3id.org/ce/sort_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -773,6 +700,9 @@
 # 
 # https://w3id.org/ce/subtitled
 <https://w3id.org/ce/subtitled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#label> "subtitled" .
 # 
 # https://w3id.org/ce/support
 <https://w3id.org/ce/support> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -800,9 +730,15 @@
 # 
 # https://w3id.org/ce/toilets
 <https://w3id.org/ce/toilets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/toilets> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/toilets> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/toilets> <http://www.w3.org/2000/01/rdf-schema#label> "toilets" .
 # 
 # https://w3id.org/ce/toilets_disabled
 <https://w3id.org/ce/toilets_disabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/toilets_disabled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/toilets_disabled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/toilets_disabled> <http://www.w3.org/2000/01/rdf-schema#label> "toilets_disabled" .
 # 
 # https://w3id.org/ce/town
 <https://w3id.org/ce/town> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -855,6 +791,9 @@
 # 
 # https://w3id.org/ce/wheelchair_access
 <https://w3id.org/ce/wheelchair_access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/wheelchair_access> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Property> .
+<https://w3id.org/ce/wheelchair_access> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/wheelchair_access> <http://www.w3.org/2000/01/rdf-schema#label> "wheelchair_access" .
 # 
 # https://w3id.org/ce/width
 <https://w3id.org/ce/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -870,6 +809,9 @@
 # 
 # https://w3id.org/ce/3d
 <https://w3id.org/ce/3d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#label> "3d" .
 # 
 # 
 # 
@@ -955,64 +897,6 @@
 # #################################################################
 # 
 # 
-<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#label> "autism_friendly" .
-# 
-<https://w3id.org/ce/awards_fringe_sustainable_practice2015> <http://www.w3.org/2000/01/rdf-schema#label> "awards_fringe_sustainable_practice2015" .
-# 
-<https://w3id.org/ce/awards_fringe_sustainable_practice2017> <http://www.w3.org/2000/01/rdf-schema#label> "awards_fringe_sustainable_practice2017" .
-# 
-<https://w3id.org/ce/baby_changing> <http://www.w3.org/2000/01/rdf-schema#label> "baby_changing" .
-# 
-<https://w3id.org/ce/booking_essential> <http://www.w3.org/2000/01/rdf-schema#label> "booking_essential" .
-# 
-<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#label> "bsl_interpreted" .
-# 
-<https://w3id.org/ce/cancelled> <http://www.w3.org/2000/01/rdf-schema#label> "cancelled" .
-# 
-<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#label> "captioned" .
-# 
-<https://w3id.org/ce/child_friendly> <http://www.w3.org/2000/01/rdf-schema#label> "child_friendly" .
-# 
-<https://w3id.org/ce/child_restrictions> <http://www.w3.org/2000/01/rdf-schema#label> "child_restrictions " .
-# 
-<https://w3id.org/ce/dogs_allowed> <http://www.w3.org/2000/01/rdf-schema#label> "dogs_allowed" .
-# 
-<https://w3id.org/ce/dropin_event> <http://www.w3.org/2000/01/rdf-schema#label> "dropin_event" .
-# 
-<https://w3id.org/ce/film_subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "film_subtitle" .
-# 
-<https://w3id.org/ce/free_wifi> <http://www.w3.org/2000/01/rdf-schema#label> "free_wifi" .
-# 
-<https://w3id.org/ce/guide_dogs> <http://www.w3.org/2000/01/rdf-schema#label> "guide_dogs" .
-# 
-<https://w3id.org/ce/hearing_loop> <http://www.w3.org/2000/01/rdf-schema#label> "hearing_loop" .
-# 
-<https://w3id.org/ce/hitlisted> <http://www.w3.org/2000/01/rdf-schema#label> "hitlisted" .
-# 
-<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#label> "imax" .
-# 
-<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#label> "over_18s" .
-# 
-<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#label> "parent_and_baby" .
-# 
-<https://w3id.org/ce/parking> <http://www.w3.org/2000/01/rdf-schema#label> "parking" .
-# 
-<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#label> "premium_screening" .
-# 
-<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#label> "senior" .
-# 
-<https://w3id.org/ce/sold_out> <http://www.w3.org/2000/01/rdf-schema#label> "sold_out" .
-# 
-<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#label> "subtitled" .
-# 
-<https://w3id.org/ce/toilets> <http://www.w3.org/2000/01/rdf-schema#label> "toilets" .
-# 
-<https://w3id.org/ce/toilets_disabled> <http://www.w3.org/2000/01/rdf-schema#label> "toilets_disabled" .
-# 
 <https://w3id.org/ce/website_comments_enabled> <http://www.w3.org/2000/01/rdf-schema#label> "website_comments_enabled" .
-# 
-<https://w3id.org/ce/wheelchair_access> <http://www.w3.org/2000/01/rdf-schema#label> "wheelchair_access" .
-# 
-<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#label> "3d" .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
