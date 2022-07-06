@@ -919,6 +919,8 @@
   "@id" : "https://w3id.org/ce/hasPlace",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ce/Event"
+  }, {
     "@id" : "https://w3id.org/ce/Schedule"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {

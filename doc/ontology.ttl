@@ -193,7 +193,8 @@
 
 ###  https://w3id.org/ce/hasPlace
 :hasPlace rdf:type owl:ObjectProperty ;
-          rdfs:domain :Schedule ;
+          rdfs:domain :Event ,
+                      :Schedule ;
           rdfs:range :Place ;
           rdfs:label "has place" .
 

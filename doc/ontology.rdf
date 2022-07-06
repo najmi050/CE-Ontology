@@ -320,6 +320,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPlace">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
         <rdfs:domain rdf:resource="https://w3id.org/ce/Schedule"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Place"/>
         <rdfs:label>has place</rdfs:label>
