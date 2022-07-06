@@ -1,6 +1,7 @@
- @prefix ce: <https://w3id.org/ce/> .
+@prefix ce: <https://w3id.org/ce/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 ce: a owl:Ontology ;
@@ -53,10 +54,7 @@ rdfs:domain ce:Event,
          rdfs:range ce:Link ;
     rdfs:label "has link" .
 
-ce:hasList a owl:ObjectProperty ;
-    rdfs:domain ce:PerformanceProperty;
-    rdfs:label "has list" ;
-    rdfs:range ce:List .
+
 
 ce:hasLocation a owl:ObjectProperty ;
     rdfs:label "has location" ;
@@ -113,8 +111,6 @@ ce:hasTicket a owl:ObjectProperty ;
 ce:Event a owl:Class ;
     rdfs:label "Event" .
 
-ce:List a owl:Class ;
-    rdfs:label "List" .
 
 ce:Loc a owl:Class ;
     rdfs:label "Loc" .
@@ -148,4 +144,681 @@ ce:Performance a owl:Class ;
 
 ce:Schedule a owl:Class ;
     rdfs:label "Schedule" .
+
+################ Event data ##############
+
+ce:event_id a owl:DatatypeProperty ;
+rdfs:label "event_id" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:int .
+
+ce:id a owl:DatatypeProperty ;
+rdfs:label "id" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:int .
+
+ce:created_ts a owl:DatatypeProperty ;
+rdfs:label "created_ts" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:dateTime .
+
+ce:modified_ts a owl:DatatypeProperty ;
+rdfs:label "modified_ts" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:dateTime .
+
+ce:name a owl:DatatypeProperty ;
+rdfs:label "name" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:string .
+
+ce:website a owl:DatatypeProperty ;
+rdfs:label "website" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:string .
+
+ce:category a owl:DatatypeProperty ;
+rdfs:label "category" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:string .
+
+ce:ranking_in_level a owl:DatatypeProperty ;
+rdfs:label "ranking_in_level" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:int .
+
+ce:ranking_level a owl:DatatypeProperty ;
+rdfs:label "ranking_level" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:int .
+
+ce:sort_name a owl:DatatypeProperty ;
+rdfs:label "sort_name" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:string .
+
+ce:status a owl:DatatypeProperty ;
+rdfs:label "status" ;
+rdfs:domain ce:Event ;
+rdfs:range xsd:string .
+
+################# Link data #################
+
+ce:url a owl:DatatypeProperty ;
+rdfs:label "url" ;
+rdfs:domain ce:Link ;
+rdfs:range xsd:string .
+
+ce:title a owl:DatatypeProperty ;
+rdfs:label "title" ;
+rdfs:domain ce:Link ;
+rdfs:range xsd:string .
+
+ce:type a owl:DatatypeProperty ;
+rdfs:label "type" ;
+rdfs:domain ce:Link ;
+rdfs:range xsd:string .
+
+################ Property data #####################
+ce:director a owl:DatatypeProperty ;
+rdfs:label "director" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:writer a owl:DatatypeProperty ;
+rdfs:label "writer" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:author a owl:DatatypeProperty ;
+rdfs:label "author" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:cast a owl:DatatypeProperty ;
+rdfs:label "cast" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:actor a owl:DatatypeProperty ;
+rdfs:label "actor" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:actor_sample a owl:DatatypeProperty ;
+rdfs:label "actor_sample" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_imdb a owl:DatatypeProperty ;
+rdfs:label "film_imdb" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_imdb_id a owl:DatatypeProperty ;
+rdfs:label "film_imdb_id" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_year a owl:DatatypeProperty ;
+rdfs:label "film_year" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:film_certificate a owl:DatatypeProperty ;
+rdfs:label "film_certificate" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_running_time a owl:DatatypeProperty ;
+rdfs:label "film_running_time" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_certificate_bbfc a owl:DatatypeProperty ;
+rdfs:label "film_certificate_bbfc" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_release_date_uk a owl:DatatypeProperty ;
+rdfs:label "film_release_date_uk" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_country_of_origin  a owl:DatatypeProperty ;
+rdfs:label "film_country_of_origin" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_subtitle a owl:DatatypeProperty ;
+rdfs:label "film_subtitle" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+
+ce:film_wikipedia a owl:DatatypeProperty ;
+rdfs:label "film_wikipedia" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_wikipedia_image a owl:DatatypeProperty ;
+rdfs:label "film_wikipedia_image" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_wikipedia_image_caption a owl:DatatypeProperty ;
+rdfs:label "film_wikipedia_image_caption" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_amg_id a owl:DatatypeProperty ;
+rdfs:label "film_amg_id" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_colour a owl:DatatypeProperty ;
+rdfs:label "film_colour" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:film_itunes a owl:DatatypeProperty ;
+rdfs:label "film_itunes" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_metacritic a owl:DatatypeProperty ;
+rdfs:label "film_metacritic" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_mojo_id a owl:DatatypeProperty ;
+rdfs:label "film_mojo_id" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:film_rotten_tomatoes a owl:DatatypeProperty ;
+rdfs:label "film_rotten_tomatoes" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:film_rotten_tomatoes_id a owl:DatatypeProperty ;
+rdfs:label "film_rotten_tomatoes_id";
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:affiliate_getmein a owl:DatatypeProperty ;
+rdfs:label "affiliate_getmein" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:affiliate_seatwave a owl:DatatypeProperty ;
+rdfs:label "affiliate_seatwave" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+
+ce:awards_fringe_sustainable_practice2015  a owl:DatatypeProperty ;
+rdfs:label "awards_fringe_sustainable_practice2015";
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+
+ce:awards_fringe_sustainable_practice2017 a owl:DatatypeProperty ;
+rdfs:label "awards_fringe_sustainable_practice2017" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:booking_essential a owl:DatatypeProperty ;
+rdfs:label "booking_essential" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:dropin_event a owl:DatatypeProperty ;
+rdfs:label "dropin_event" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:demographic a owl:DatatypeProperty ;
+rdfs:label "demographic" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+
+ce:language  a owl:DatatypeProperty ;
+rdfs:label "language";
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+
+ce:expected_visit_duration a owl:DatatypeProperty ;
+rdfs:label "expected_visit_duration" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:imageid a owl:DatatypeProperty ;
+rdfs:label "imageid" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:importance a owl:DatatypeProperty ;
+rdfs:label "importance" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:website_comments_enabled a owl:DatatypeProperty ;
+rdfs:label "website_comments_enabled" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:website_comments_end_date a owl:DatatypeProperty ;
+rdfs:label "website_comments_end_date" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:website_company a owl:DatatypeProperty ;
+rdfs:label "website_company" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:organisation a owl:DatatypeProperty ;
+rdfs:label "organisation" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:pa_rating a owl:DatatypeProperty ;
+rdfs:label "pa_rating" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:place_capacity_max a owl:DatatypeProperty ;
+rdfs:label "place_capacity_max" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:child_restrictions a owl:DatatypeProperty ;
+rdfs:label "child_restrictions " ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:toilets a owl:DatatypeProperty ;
+rdfs:label "toilets" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+
+ce:free_wifi a owl:DatatypeProperty ;
+rdfs:label "free_wifi" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:dogs_allowed a owl:DatatypeProperty ;
+rdfs:label "dogs_allowed" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:parking a owl:DatatypeProperty ;
+rdfs:label "parking" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+
+ce:toilets_disabled a owl:DatatypeProperty ;
+rdfs:label "toilets_disabled" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:wheelchair_access a owl:DatatypeProperty ;
+rdfs:label "wheelchair_access" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:place_capacity._max  a owl:DatatypeProperty ;
+rdfs:label "place_capacity._max" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:string .
+
+ce:guide_dogs a owl:DatatypeProperty ;
+rdfs:label "guide_dogs" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:hearing_loop a owl:DatatypeProperty ;
+rdfs:label "hearing_loop" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:child_friendly a owl:DatatypeProperty ;
+rdfs:label "child_friendly" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+ce:baby_changing a owl:DatatypeProperty ;
+rdfs:label "baby_changing" ;
+rdfs:domain ce:Property ;
+rdfs:range xsd:bool .
+
+################ Place data #########
+
+ce:place_id a owl:DatatypeProperty ;
+rdfs:label "place_id" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:int .
+
+ce:list_id a owl:DatatypeProperty ;
+rdfs:label "list_id" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:int .
+
+ce:created_ts a owl:DatatypeProperty ;
+rdfs:label "created_ts" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:dateTime .
+
+ce:name a owl:DatatypeProperty ;
+rdfs:label "name" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:modified_ts a owl:DatatypeProperty ;
+rdfs:label "modified_ts" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:dateTime .
+
+
+
+ce:sort_name a owl:DatatypeProperty ;
+rdfs:label "sort_name" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:address a owl:DatatypeProperty ;
+rdfs:label "address" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:town a owl:DatatypeProperty ;
+rdfs:label "town" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:postal_code a owl:DatatypeProperty ;
+rdfs:label "postal_code" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:country_code a owl:DatatypeProperty ;
+rdfs:label "country_code" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:website a owl:DatatypeProperty ;
+rdfs:label "website" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:email a owl:DatatypeProperty ;
+rdfs:label "email" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+ce:status a owl:DatatypeProperty ;
+rdfs:label "status" ;
+rdfs:domain ce:Place ;
+rdfs:range xsd:string .
+
+################# Phone Data#################################
+
+ce:info a owl:DatatypeProperty ;
+rdfs:label "info" ;
+rdfs:domain ce:PhoneNumber ;
+rdfs:range xsd:string .
+
+ce:box_office a owl:DatatypeProperty ;
+rdfs:label "box_office" ;
+rdfs:domain ce:PhoneNumber ;
+rdfs:range xsd:string .
+
+
+####################### Tag Data###############################
+
+ce:tags a owl:DatatypeProperty ;
+rdfs:label "tags" ;
+rdfs:domain ce:Tag ;
+rdfs:range xsd:string .
+
+################### Performance data ########################
+
+ce:ts a owl:DatatypeProperty ;
+rdfs:label "ts" ;
+rdfs:domain ce:Performance ;
+rdfs:range xsd:string .
+
+ce:duration a owl:DatatypeProperty ;
+rdfs:label "duration" ;
+rdfs:domain ce:Performance ;
+rdfs:range xsd:string .
+
+ce:time_unkown a owl:DatatypeProperty ;
+rdfs:label "time_unknown" ;
+rdfs:domain ce:Performance ;
+rdfs:range xsd:string .
+
+############## Ticket data ##############
+
+ce:type a owl:DatatypeProperty ;
+rdfs:label "type" ;
+rdfs:domain ce:Ticket ;
+rdfs:range xsd:string .
+
+ce:currency a owl:DatatypeProperty ;
+rdfs:label "currency" ;
+rdfs:domain ce:Ticket ;
+rdfs:range xsd:string .
+
+ce:min_price a owl:DatatypeProperty ;
+rdfs:label "min_price" ;
+rdfs:domain ce:Ticket ;
+rdfs:range xsd:int .
+
+ce:max_price a owl:DatatypeProperty ;
+rdfs:label "max_price" ;
+rdfs:domain ce:Ticket ;
+rdfs:range xsd:int .
+
+
+############ Perfomance Property data ########
+
+ce:cancelled a owl:DatatypeProperty ;
+rdfs:label "cancelled" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:bool .
+
+ce:sold_out a owl:DatatypeProperty ;
+rdfs:label "sold_out" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:bool .
+
+
+ce:hitlisted a owl:DatatypeProperty ;
+rdfs:label "hitlisted" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:bool .
+
+############## Schedule data ###########################
+ce:start_ts a owl:DatatypeProperty ;
+rdfs:label "start_ts" ;
+rdfs:domain ce:Schedule ;
+rdfs:range xsd:dateTime .
+
+ce:end_ts a owl:DatatypeProperty ;
+rdfs:label "end_ts" ;
+rdfs:domain ce:Schedule ;
+rdfs:range xsd:dateTime .
+
+
+ce:performance_space a owl:DatatypeProperty ;
+rdfs:label "performance_space" ;
+rdfs:domain ce:Schedule ;
+rdfs:range xsd:string .
+
+################# Property Event data ##############
+
+ce:minimum_age a owl:DatatypeProperty ;
+rdfs:label "minimum_age" ;
+rdfs:domain ce:PropertyEvent ;
+rdfs:range xsd:string .
+
+ce:session a owl:DatatypeProperty ;
+rdfs:label "session" ;
+rdfs:domain ce:PropertyEvent ;
+rdfs:range xsd:string .
+
+ce:support a owl:DatatypeProperty ;
+rdfs:label "support" ;
+rdfs:domain ce:PropertyEvent ;
+rdfs:range xsd:string .
+
+ce:festival a owl:DatatypeProperty ;
+rdfs:label "festival" ;
+rdfs:domain ce:PropertyEvent ;
+rdfs:range xsd:string .
+
+#################### Film data ##############################
+ce:3d a owl:DatatypeProperty ;
+rdfs:label "3d" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+ce:autism_friendly a owl:DatatypeProperty ;
+rdfs:label "autism_friendly" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+
+ce:imax a owl:DatatypeProperty ;
+rdfs:label "imax" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+ce:over_18s a owl:DatatypeProperty ;
+rdfs:label "over_18s" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+ce:parent_and_baby a owl:DatatypeProperty ;
+rdfs:label "parent_and_baby" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+
+ce:premium_screening a owl:DatatypeProperty ;
+rdfs:label "premium_screening" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+ce:senior a owl:DatatypeProperty ;
+rdfs:label "senior" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+ce:subtitled a owl:DatatypeProperty ;
+rdfs:label "subtitled" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+############## Theatre data ###############
+
+ce:bsl_interpreted a owl:DatatypeProperty ;
+rdfs:label "bsl_interpreted" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+ce:captioned a owl:DatatypeProperty ;
+rdfs:label "captioned" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:bool .
+
+############### Description Data ##########
+
+ce:type a owl:DatatypeProperty ;
+rdfs:label "type" ;
+rdfs:domain ce:Description ;
+rdfs:range xsd:string .
+
+ce:description a owl:DatatypeProperty ;
+rdfs:label "description" ;
+rdfs:domain ce:Film ;
+rdfs:range xsd:string .
+
+
+
+
+################ Image Data #################################
+
+ce:url a owl:DatatypeProperty ;
+rdfs:label "url" ;
+rdfs:domain ce:Image ;
+rdfs:range xsd:string .
+
+ce:width a owl:DatatypeProperty ;
+rdfs:label "width" ;
+rdfs:domain ce:Image ;
+rdfs:range xsd:int .
+
+ce:height a owl:DatatypeProperty ;
+rdfs:label "height" ;
+rdfs:domain ce:Image ;
+rdfs:range xsd:int .
+
+ce:alt_text a owl:DatatypeProperty ;
+rdfs:label "alt_text" ;
+rdfs:domain ce:Image ;
+rdfs:range xsd:string .
+
+################ Locations data ####################
+
+ce:latitude a owl:DatatypeProperty ;
+rdfs:label "latitude" ;
+rdfs:domain ce:Loc ;
+rdfs:range xsd:string .
+
+ce:longitude a owl:DatatypeProperty ;
+rdfs:label "longitude" ;
+rdfs:domain ce:Loc ;
+rdfs:range xsd:string .
+
+
+
+
+
+
+
+
+
+
+
+
 
