@@ -38,7 +38,7 @@
     "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "7",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
     "id" : "8",
@@ -71,7 +71,7 @@
     "id" : "38",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "35",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "40",
@@ -110,7 +110,7 @@
     "id" : "65",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "23",
+    "id" : "24",
     "type" : "owl:Class"
   }, {
     "id" : "10",
@@ -128,10 +128,10 @@
     "id" : "19",
     "type" : "owl:Class"
   }, {
-    "id" : "148",
+    "id" : "147",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
     "id" : "157",
@@ -221,7 +221,7 @@
     "id" : "198",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "130",
+    "id" : "128",
     "type" : "owl:Class"
   }, {
     "id" : "98",
@@ -233,13 +233,13 @@
     "id" : "57",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "132",
+    "id" : "134",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "124",
+    "id" : "126",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "6",
+    "id" : "7",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "208",
@@ -260,7 +260,7 @@
     "id" : "223",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "35",
+    "id" : "37",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "85",
@@ -320,7 +320,7 @@
     "id" : "154",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "24",
+    "id" : "25",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "67",
@@ -365,7 +365,7 @@
     "id" : "230",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "134",
+    "id" : "132",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "179",
@@ -392,7 +392,7 @@
     "id" : "218",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "128",
+    "id" : "130",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "44",
@@ -416,7 +416,7 @@
     "id" : "55",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "202",
+    "id" : "203",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "233",
@@ -428,7 +428,7 @@
     "id" : "156",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "126",
+    "id" : "124",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "210",
@@ -474,7 +474,7 @@
       "IRI-based" : "Tag",
       "undefined" : "Tag"
     },
-    "id" : "7"
+    "id" : "4"
   }, {
     "instances" : 0,
     "union" : [ "9", "10" ],
@@ -526,13 +526,13 @@
     "id" : "33"
   }, {
     "instances" : 0,
-    "union" : [ "5", "39" ],
+    "union" : [ "6", "39" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "38"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "37",
+    "id" : "35",
     "label" : {
       "IRI-based" : "string"
     }
@@ -628,7 +628,7 @@
       "IRI-based" : "Loc",
       "undefined" : "Loc"
     },
-    "id" : "23"
+    "id" : "24"
   }, {
     "iri" : "https://w3id.org/ce/Link",
     "baseIri" : "https://w3id.org/ce",
@@ -674,7 +674,7 @@
       "IRI-based" : "PhoneNumber",
       "undefined" : "Phone Number"
     },
-    "id" : "148"
+    "id" : "147"
   }, {
     "iri" : "https://w3id.org/ce/Property",
     "baseIri" : "https://w3id.org/ce",
@@ -683,7 +683,7 @@
       "IRI-based" : "Property",
       "undefined" : "Property"
     },
-    "id" : "5"
+    "id" : "6"
   }, {
     "instances" : 0,
     "union" : [ "19", "79", "10" ],
@@ -893,7 +893,7 @@
       "IRI-based" : "Theatre",
       "undefined" : "Theatre"
     },
-    "id" : "130"
+    "id" : "128"
   }, {
     "iri" : "https://w3id.org/ce/Category",
     "baseIri" : "https://w3id.org/ce",
@@ -920,21 +920,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "132",
+    "id" : "134",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "124",
+    "id" : "126",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "6",
+    "id" : "7",
     "label" : {
       "IRI-based" : "string"
     }
@@ -983,7 +983,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "35",
+    "id" : "37",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1127,7 +1127,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "24",
+    "id" : "25",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1236,7 +1236,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "134",
+    "id" : "132",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1299,7 +1299,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "128",
+    "id" : "130",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1355,7 +1355,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "202",
+    "id" : "203",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1383,7 +1383,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "126",
+    "id" : "124",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -1461,17 +1461,17 @@
     }
   } ],
   "property" : [ {
-    "id" : "4",
+    "id" : "5",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "13",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "22",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "25",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "26",
     "type" : "owl:datatypeProperty"
@@ -1609,10 +1609,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "127",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "129",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "131",
     "type" : "owl:datatypeProperty"
@@ -1638,7 +1638,7 @@
     "id" : "146",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "147",
+    "id" : "148",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "149",
@@ -1705,10 +1705,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "201",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "203",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "204",
     "type" : "owl:datatypeProperty"
@@ -1842,14 +1842,14 @@
   "propertyAttribute" : [ {
     "iri" : "https://w3id.org/ce/film_mojo_id",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "6",
+    "range" : "7",
     "label" : {
       "IRI-based" : "film_mojo_id",
       "undefined" : "film_mojo_id"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
-    "id" : "4"
+    "id" : "5"
   }, {
     "iri" : "https://w3id.org/ce/parent_and_baby",
     "baseIri" : "https://w3id.org/ce",
@@ -1862,17 +1862,6 @@
     "attributes" : [ "datatype" ],
     "id" : "13"
   }, {
-    "iri" : "https://w3id.org/ce/longitude",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "24",
-    "label" : {
-      "IRI-based" : "longitude",
-      "undefined" : "longitude"
-    },
-    "domain" : "23",
-    "attributes" : [ "datatype" ],
-    "id" : "22"
-  }, {
     "iri" : "https://w3id.org/ce/hasTicket",
     "baseIri" : "https://w3id.org/ce",
     "range" : "19",
@@ -1882,7 +1871,18 @@
     },
     "domain" : "1",
     "attributes" : [ "object" ],
-    "id" : "25"
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/ce/longitude",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "longitude",
+      "undefined" : "longitude"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "23"
   }, {
     "iri" : "https://w3id.org/ce/language",
     "baseIri" : "https://w3id.org/ce",
@@ -1891,7 +1891,7 @@
       "IRI-based" : "language",
       "undefined" : "language"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "26"
   }, {
@@ -1928,25 +1928,25 @@
     "attributes" : [ "object" ],
     "id" : "32"
   }, {
-    "iri" : "https://w3id.org/ce/film_certificate_bbfc",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "35",
-    "label" : {
-      "IRI-based" : "film_certificate_bbfc",
-      "undefined" : "film_certificate_bbfc"
-    },
-    "domain" : "5",
-    "attributes" : [ "datatype" ],
-    "id" : "34"
-  }, {
     "iri" : "https://w3id.org/ce/url",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "37",
+    "range" : "35",
     "label" : {
       "IRI-based" : "url",
       "undefined" : "url"
     },
     "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://w3id.org/ce/film_certificate_bbfc",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "film_certificate_bbfc",
+      "undefined" : "film_certificate_bbfc"
+    },
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "36"
   }, {
@@ -1957,7 +1957,7 @@
       "IRI-based" : "author",
       "undefined" : "author"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "43"
   }, {
@@ -2001,7 +2001,7 @@
       "IRI-based" : "film_rotten_tomatoes_id",
       "undefined" : "film_rotten_tomatoes_id"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "56"
   }, {
@@ -2034,7 +2034,7 @@
       "IRI-based" : "importance",
       "undefined" : "importance"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "66"
   }, {
@@ -2056,7 +2056,7 @@
       "IRI-based" : "dropin_event",
       "undefined" : "dropin_event"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "70"
   }, {
@@ -2133,7 +2133,7 @@
       "IRI-based" : "film_certificate",
       "undefined" : "film_certificate"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "84"
   }, {
@@ -2144,7 +2144,7 @@
       "IRI-based" : "film_release_date_uk",
       "undefined" : "film_release_date_uk"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "86"
   }, {
@@ -2155,13 +2155,13 @@
       "IRI-based" : "film_itunes",
       "undefined" : "film_itunes"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "88"
   }, {
     "iri" : "https://w3id.org/ce/hasLocation",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "23",
+    "range" : "24",
     "label" : {
       "IRI-based" : "hasLocation",
       "undefined" : "has location"
@@ -2188,7 +2188,7 @@
       "IRI-based" : "place_capacity._max",
       "undefined" : "place_capacity._max"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "93"
   }, {
@@ -2219,7 +2219,7 @@
     "range" : "98",
     "label" : {
       "IRI-based" : "hasCategory",
-      "undefined" : "has ticket"
+      "undefined" : "has Category"
     },
     "domain" : "2",
     "attributes" : [ "object" ],
@@ -2243,7 +2243,7 @@
       "IRI-based" : "actor_sample",
       "undefined" : "actor_sample"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "100"
   }, {
@@ -2265,7 +2265,7 @@
       "IRI-based" : "film_rotten_tomatoes",
       "undefined" : "film_rotten_tomatoes"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "104"
   }, {
@@ -2276,7 +2276,7 @@
       "IRI-based" : "director",
       "undefined" : "director"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "106"
   }, {
@@ -2287,7 +2287,7 @@
       "IRI-based" : "affiliate_getmein",
       "undefined" : "affiliate_getmein"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "108"
   }, {
@@ -2298,7 +2298,7 @@
       "IRI-based" : "parking",
       "undefined" : "parking"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "110"
   }, {
@@ -2309,7 +2309,7 @@
       "IRI-based" : "demographic",
       "undefined" : "demographic"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "112"
   }, {
@@ -2331,7 +2331,7 @@
       "IRI-based" : "awards_fringe_sustainable_practice2017",
       "undefined" : "awards_fringe_sustainable_practice2017"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "116"
   }, {
@@ -2342,7 +2342,7 @@
       "IRI-based" : "awards_fringe_sustainable_practice2015",
       "undefined" : "awards_fringe_sustainable_practice2015"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "118"
   }, {
@@ -2357,69 +2357,69 @@
     "attributes" : [ "datatype" ],
     "id" : "120"
   }, {
-    "iri" : "https://w3id.org/ce/film_subtitle",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "124",
-    "label" : {
-      "IRI-based" : "film_subtitle",
-      "undefined" : "film_subtitle"
-    },
-    "domain" : "5",
-    "attributes" : [ "datatype" ],
-    "id" : "123"
-  }, {
     "iri" : "https://w3id.org/ce/premium_screening",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "126",
+    "range" : "124",
     "label" : {
       "IRI-based" : "premium_screening",
       "undefined" : "premium_screening"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "125"
+    "id" : "123"
   }, {
-    "iri" : "https://w3id.org/ce/alt_text",
+    "iri" : "https://w3id.org/ce/film_subtitle",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "128",
+    "range" : "126",
     "label" : {
-      "IRI-based" : "alt_text",
-      "undefined" : "alt_text"
+      "IRI-based" : "film_subtitle",
+      "undefined" : "film_subtitle"
     },
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
-    "id" : "127"
+    "id" : "125"
   }, {
     "iri" : "https://w3id.org/ce/hasTheatre",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "130",
+    "range" : "128",
     "label" : {
       "IRI-based" : "hasTheatre",
       "undefined" : "has theatre"
     },
     "domain" : "92",
     "attributes" : [ "object" ],
-    "id" : "129"
+    "id" : "127"
   }, {
-    "iri" : "https://w3id.org/ce/film_wikipedia",
+    "iri" : "https://w3id.org/ce/alt_text",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "132",
+    "range" : "130",
     "label" : {
-      "IRI-based" : "film_wikipedia",
-      "undefined" : "film_wikipedia"
+      "IRI-based" : "alt_text",
+      "undefined" : "alt_text"
     },
-    "domain" : "5",
+    "domain" : "9",
     "attributes" : [ "datatype" ],
-    "id" : "131"
+    "id" : "129"
   }, {
     "iri" : "https://w3id.org/ce/tags",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "134",
+    "range" : "132",
     "label" : {
       "IRI-based" : "tags",
       "undefined" : "tags"
     },
-    "domain" : "7",
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://w3id.org/ce/film_wikipedia",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "film_wikipedia",
+      "undefined" : "film_wikipedia"
+    },
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "133"
   }, {
@@ -2441,7 +2441,7 @@
       "IRI-based" : "film_colour",
       "undefined" : "film_colour"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "136"
   }, {
@@ -2452,7 +2452,7 @@
       "IRI-based" : "latitude",
       "undefined" : "latitude"
     },
-    "domain" : "23",
+    "domain" : "24",
     "attributes" : [ "datatype" ],
     "id" : "138"
   }, {
@@ -2485,7 +2485,7 @@
       "IRI-based" : "website_company",
       "undefined" : "website_company"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "146"
   }, {
@@ -2498,7 +2498,7 @@
     },
     "domain" : "9",
     "attributes" : [ "datatype" ],
-    "id" : "147"
+    "id" : "148"
   }, {
     "iri" : "https://w3id.org/ce/imax",
     "baseIri" : "https://w3id.org/ce",
@@ -2518,7 +2518,7 @@
       "IRI-based" : "booking_essential",
       "undefined" : "booking_essential"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "151"
   }, {
@@ -2551,7 +2551,7 @@
       "IRI-based" : "expected_visit_duration",
       "undefined" : "expected_visit_duration"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "159"
   }, {
@@ -2584,7 +2584,7 @@
       "IRI-based" : "info",
       "undefined" : "info"
     },
-    "domain" : "148",
+    "domain" : "147",
     "attributes" : [ "datatype" ],
     "id" : "164"
   }, {
@@ -2595,7 +2595,7 @@
       "IRI-based" : "organisation",
       "undefined" : "organisation"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "166"
   }, {
@@ -2606,13 +2606,13 @@
       "IRI-based" : "actor",
       "undefined" : "actor"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "169"
   }, {
     "iri" : "https://w3id.org/ce/hasPhoneNumber",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "148",
+    "range" : "147",
     "label" : {
       "IRI-based" : "hasPhoneNumber",
       "undefined" : "has phone number"
@@ -2650,7 +2650,7 @@
       "IRI-based" : "toilets",
       "undefined" : "toilets"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "178"
   }, {
@@ -2705,7 +2705,7 @@
       "IRI-based" : "guide_dogs",
       "undefined" : "guide_dogs"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "195"
   }, {
@@ -2716,7 +2716,7 @@
       "IRI-based" : "baby_changing",
       "undefined" : "baby_changing"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "199"
   }, {
@@ -2731,17 +2731,6 @@
     "attributes" : [ "datatype" ],
     "id" : "200"
   }, {
-    "iri" : "https://w3id.org/ce/session",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "202",
-    "label" : {
-      "IRI-based" : "session",
-      "undefined" : "session"
-    },
-    "domain" : "92",
-    "attributes" : [ "datatype" ],
-    "id" : "201"
-  }, {
     "iri" : "https://w3id.org/ce/hasLink",
     "baseIri" : "https://w3id.org/ce",
     "range" : "10",
@@ -2751,7 +2740,18 @@
     },
     "domain" : "17",
     "attributes" : [ "object" ],
-    "id" : "203"
+    "id" : "201"
+  }, {
+    "iri" : "https://w3id.org/ce/session",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "session",
+      "undefined" : "session"
+    },
+    "domain" : "92",
+    "attributes" : [ "datatype" ],
+    "id" : "202"
   }, {
     "iri" : "https://w3id.org/ce/film_country_of_origin",
     "baseIri" : "https://w3id.org/ce",
@@ -2760,7 +2760,7 @@
       "IRI-based" : "film_country_of_origin",
       "undefined" : "film_country_of_origin"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "204"
   }, {
@@ -2793,7 +2793,7 @@
       "IRI-based" : "child_friendly",
       "undefined" : "child_friendly"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "212"
   }, {
@@ -2804,7 +2804,7 @@
       "IRI-based" : "hearing_loop",
       "undefined" : "hearing_loop"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "213"
   }, {
@@ -2826,7 +2826,7 @@
       "IRI-based" : "affiliate_seatwave",
       "undefined" : "affiliate_seatwave"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "217"
   }, {
@@ -2837,7 +2837,7 @@
       "IRI-based" : "film_wikipedia_image_caption",
       "undefined" : "film_wikipedia_image_caption"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "219"
   }, {
@@ -2848,7 +2848,7 @@
       "IRI-based" : "child_restrictions",
       "undefined" : "child_restrictions "
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "220"
   }, {
@@ -2859,7 +2859,7 @@
       "IRI-based" : "place_capacity_max",
       "undefined" : "place_capacity_max"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "221"
   }, {
@@ -2870,7 +2870,7 @@
       "IRI-based" : "website_comments_end_date",
       "undefined" : "website_comments_end_date"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "224"
   }, {
@@ -2881,7 +2881,7 @@
       "IRI-based" : "website_comments_enabled",
       "undefined" : "website_comments_enabled"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "228"
   }, {
@@ -2914,7 +2914,7 @@
       "IRI-based" : "film_running_time",
       "undefined" : "film_running_time"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "234"
   }, {
@@ -2929,17 +2929,6 @@
     "attributes" : [ "datatype" ],
     "id" : "235"
   }, {
-    "iri" : "https://w3id.org/ce/writer",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "48",
-    "label" : {
-      "IRI-based" : "writer",
-      "undefined" : "writer"
-    },
-    "domain" : "5",
-    "attributes" : [ "datatype" ],
-    "id" : "236"
-  }, {
     "iri" : "https://w3id.org/ce/wheelchair_access",
     "baseIri" : "https://w3id.org/ce",
     "range" : "46",
@@ -2947,9 +2936,9 @@
       "IRI-based" : "wheelchair_access",
       "undefined" : "wheelchair_access"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
-    "id" : "237"
+    "id" : "236"
   }, {
     "iri" : "https://w3id.org/ce/dogs_allowed",
     "baseIri" : "https://w3id.org/ce",
@@ -2958,7 +2947,18 @@
       "IRI-based" : "dogs_allowed",
       "undefined" : "dogs_allowed"
     },
-    "domain" : "5",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "237"
+  }, {
+    "iri" : "https://w3id.org/ce/writer",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "writer",
+      "undefined" : "writer"
+    },
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "238"
   }, {
@@ -2980,7 +2980,7 @@
       "IRI-based" : "pa_rating",
       "undefined" : "pa_rating"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "241"
   }, {
@@ -2991,7 +2991,7 @@
       "IRI-based" : "cast",
       "undefined" : "cast"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "242"
   }, {
@@ -3013,7 +3013,7 @@
       "IRI-based" : "toilets_disabled",
       "undefined" : "toilets_disabled"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "244"
   }, {
@@ -3035,7 +3035,7 @@
       "IRI-based" : "free_wifi",
       "undefined" : "free_wifi"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "246"
   }, {
@@ -3046,7 +3046,7 @@
       "IRI-based" : "film_amg_id",
       "undefined" : "film_amg_id"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "248"
   }, {
@@ -3057,7 +3057,7 @@
       "IRI-based" : "film_year",
       "undefined" : "film_year"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "249"
   }, {
@@ -3068,7 +3068,7 @@
       "IRI-based" : "film_imdb_id",
       "undefined" : "film_imdb_id"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "251"
   }, {
@@ -3090,7 +3090,7 @@
       "IRI-based" : "film_wikipedia_image",
       "undefined" : "film_wikipedia_image"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "254"
   }, {
@@ -3112,7 +3112,7 @@
       "IRI-based" : "film_imdb",
       "undefined" : "film_imdb"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "256"
   }, {
@@ -3123,7 +3123,7 @@
       "IRI-based" : "box_office",
       "undefined" : "box_office"
     },
-    "domain" : "148",
+    "domain" : "147",
     "attributes" : [ "datatype" ],
     "id" : "257"
   }, {
@@ -3134,7 +3134,7 @@
       "IRI-based" : "imageid",
       "undefined" : "imageid"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "258"
   }, {
@@ -3156,7 +3156,7 @@
       "IRI-based" : "film_metacritic",
       "undefined" : "film_metacritic"
     },
-    "domain" : "5",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "260"
   }, {
@@ -3173,7 +3173,7 @@
   }, {
     "iri" : "https://w3id.org/ce/hasTag",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "7",
+    "range" : "4",
     "label" : {
       "IRI-based" : "hasTag",
       "undefined" : "has tag"

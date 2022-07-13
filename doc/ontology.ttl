@@ -36,7 +36,7 @@
 :hasCategory rdf:type owl:ObjectProperty ;
              rdfs:domain :Event ;
              rdfs:range :Category ;
-             rdfs:label "has ticket" .
+             rdfs:label "has Category" .
 
 
 ###  https://w3id.org/ce/hasDescription

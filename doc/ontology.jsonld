@@ -805,7 +805,7 @@
     "@id" : "https://w3id.org/ce/Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has ticket"
+    "@value" : "has Category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/ce/Category"

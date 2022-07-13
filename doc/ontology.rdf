@@ -67,7 +67,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasCategory">
         <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Category"/>
-        <rdfs:label>has ticket</rdfs:label>
+        <rdfs:label>has Category</rdfs:label>
     </owl:ObjectProperty>
     
 
