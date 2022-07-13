@@ -32,6 +32,13 @@
 #    Object Properties
 #################################################################
 
+###  https://w3id.org/ce/hasCategory
+:hasCategory rdf:type owl:ObjectProperty ;
+             rdfs:domain :Event ;
+             rdfs:range :Category ;
+             rdfs:label "has ticket" .
+
+
 ###  https://w3id.org/ce/hasDescription
 :hasDescription rdf:type owl:ObjectProperty ;
                 rdfs:domain :Event ,
@@ -274,7 +281,7 @@
 
 ###  https://w3id.org/ce/category
 :category rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Event ;
+          rdfs:domain :Category ;
           rdfs:range xsd:string ;
           rdfs:label "category" .
 
@@ -935,6 +942,11 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  https://w3id.org/ce/Category
+:Category rdf:type owl:Class ;
+          rdfs:label "Category" .
+
 
 ###  https://w3id.org/ce/Description
 :Description rdf:type owl:Class ;

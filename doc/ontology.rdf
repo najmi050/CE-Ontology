@@ -61,6 +61,17 @@
     
 
 
+    <!-- https://w3id.org/ce/hasCategory -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasCategory">
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
+        <rdfs:range rdf:resource="https://w3id.org/ce/Category"/>
+        <rdfs:label>has ticket</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/ce/hasDescription -->
 
 
@@ -441,7 +452,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/category">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Category"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>category</rdfs:label>
     </owl:DatatypeProperty>
@@ -1478,6 +1489,15 @@
      -->
 
 
+    
+
+
+    <!-- https://w3id.org/ce/Category -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ce/Category">
+        <rdfs:label>Category</rdfs:label>
+    </owl:Class>
     
 
 

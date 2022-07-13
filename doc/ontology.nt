@@ -30,6 +30,12 @@
 # #################################################################
 # 
 # 
+# https://w3id.org/ce/hasCategory
+<https://w3id.org/ce/hasCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ce/hasCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasCategory> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Category> .
+<https://w3id.org/ce/hasCategory> <http://www.w3.org/2000/01/rdf-schema#label> "has ticket" .
+# 
 # https://w3id.org/ce/hasDescription
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
@@ -245,7 +251,7 @@
 # 
 # https://w3id.org/ce/category
 <https://w3id.org/ce/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/category> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/category> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Category> .
 <https://w3id.org/ce/category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/ce/category> <http://www.w3.org/2000/01/rdf-schema#label> "category" .
 # 
@@ -818,6 +824,10 @@
 # #
 # #################################################################
 # 
+# 
+# https://w3id.org/ce/Category
+<https://w3id.org/ce/Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ce/Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category" .
 # 
 # https://w3id.org/ce/Description
 <https://w3id.org/ce/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
