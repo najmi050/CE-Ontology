@@ -230,13 +230,13 @@
     "id" : "206",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "57",
+    "id" : "59",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "134",
+    "id" : "132",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "126",
+    "id" : "124",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "7",
@@ -248,10 +248,10 @@
     "id" : "105",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "87",
+    "id" : "89",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "89",
+    "id" : "87",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "211",
@@ -296,7 +296,7 @@
     "id" : "227",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "59",
+    "id" : "57",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "231",
@@ -365,7 +365,7 @@
     "id" : "230",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "132",
+    "id" : "134",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "179",
@@ -428,7 +428,7 @@
     "id" : "156",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "124",
+    "id" : "126",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "210",
@@ -913,21 +913,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "57",
+    "id" : "59",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "134",
+    "id" : "132",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "126",
+    "id" : "124",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -955,14 +955,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "87",
+    "id" : "89",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "89",
+    "id" : "87",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1069,7 +1069,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "59",
+    "id" : "57",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -1236,7 +1236,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "132",
+    "id" : "134",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1383,7 +1383,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "124",
+    "id" : "126",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -1994,25 +1994,25 @@
     "attributes" : [ "datatype" ],
     "id" : "54"
   }, {
-    "iri" : "https://w3id.org/ce/film_rotten_tomatoes_id",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "57",
-    "label" : {
-      "IRI-based" : "film_rotten_tomatoes_id",
-      "undefined" : "film_rotten_tomatoes_id"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "56"
-  }, {
     "iri" : "https://w3id.org/ce/over_18s",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "59",
+    "range" : "57",
     "label" : {
       "IRI-based" : "over_18s",
       "undefined" : "over_18s"
     },
     "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://w3id.org/ce/film_rotten_tomatoes_id",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "film_rotten_tomatoes_id",
+      "undefined" : "film_rotten_tomatoes_id"
+    },
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "58"
   }, {
@@ -2137,23 +2137,23 @@
     "attributes" : [ "datatype" ],
     "id" : "84"
   }, {
-    "iri" : "https://w3id.org/ce/film_release_date_uk",
+    "iri" : "https://w3id.org/ce/film_itunes",
     "baseIri" : "https://w3id.org/ce",
     "range" : "87",
     "label" : {
-      "IRI-based" : "film_release_date_uk",
-      "undefined" : "film_release_date_uk"
+      "IRI-based" : "film_itunes",
+      "undefined" : "film_itunes"
     },
     "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "86"
   }, {
-    "iri" : "https://w3id.org/ce/film_itunes",
+    "iri" : "https://w3id.org/ce/film_release_date_uk",
     "baseIri" : "https://w3id.org/ce",
     "range" : "89",
     "label" : {
-      "IRI-based" : "film_itunes",
-      "undefined" : "film_itunes"
+      "IRI-based" : "film_release_date_uk",
+      "undefined" : "film_release_date_uk"
     },
     "domain" : "6",
     "attributes" : [ "datatype" ],
@@ -2219,7 +2219,7 @@
     "range" : "98",
     "label" : {
       "IRI-based" : "hasCategory",
-      "undefined" : "has Category"
+      "undefined" : "has category"
     },
     "domain" : "2",
     "attributes" : [ "object" ],
@@ -2357,25 +2357,25 @@
     "attributes" : [ "datatype" ],
     "id" : "120"
   }, {
-    "iri" : "https://w3id.org/ce/premium_screening",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "124",
-    "label" : {
-      "IRI-based" : "premium_screening",
-      "undefined" : "premium_screening"
-    },
-    "domain" : "14",
-    "attributes" : [ "datatype" ],
-    "id" : "123"
-  }, {
     "iri" : "https://w3id.org/ce/film_subtitle",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "126",
+    "range" : "124",
     "label" : {
       "IRI-based" : "film_subtitle",
       "undefined" : "film_subtitle"
     },
     "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://w3id.org/ce/premium_screening",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "premium_screening",
+      "undefined" : "premium_screening"
+    },
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "125"
   }, {
@@ -2401,25 +2401,25 @@
     "attributes" : [ "datatype" ],
     "id" : "129"
   }, {
-    "iri" : "https://w3id.org/ce/tags",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "132",
-    "label" : {
-      "IRI-based" : "tags",
-      "undefined" : "tags"
-    },
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
-    "id" : "131"
-  }, {
     "iri" : "https://w3id.org/ce/film_wikipedia",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "134",
+    "range" : "132",
     "label" : {
       "IRI-based" : "film_wikipedia",
       "undefined" : "film_wikipedia"
     },
     "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://w3id.org/ce/tags",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "tags",
+      "undefined" : "tags"
+    },
+    "domain" : "4",
     "attributes" : [ "datatype" ],
     "id" : "133"
   }, {
@@ -2929,17 +2929,6 @@
     "attributes" : [ "datatype" ],
     "id" : "235"
   }, {
-    "iri" : "https://w3id.org/ce/wheelchair_access",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "46",
-    "label" : {
-      "IRI-based" : "wheelchair_access",
-      "undefined" : "wheelchair_access"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "236"
-  }, {
     "iri" : "https://w3id.org/ce/dogs_allowed",
     "baseIri" : "https://w3id.org/ce",
     "range" : "174",
@@ -2949,7 +2938,7 @@
     },
     "domain" : "6",
     "attributes" : [ "datatype" ],
-    "id" : "237"
+    "id" : "236"
   }, {
     "iri" : "https://w3id.org/ce/writer",
     "baseIri" : "https://w3id.org/ce",
@@ -2957,6 +2946,17 @@
     "label" : {
       "IRI-based" : "writer",
       "undefined" : "writer"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "237"
+  }, {
+    "iri" : "https://w3id.org/ce/wheelchair_access",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "wheelchair_access",
+      "undefined" : "wheelchair_access"
     },
     "domain" : "6",
     "attributes" : [ "datatype" ],
@@ -3127,17 +3127,6 @@
     "attributes" : [ "datatype" ],
     "id" : "257"
   }, {
-    "iri" : "https://w3id.org/ce/imageid",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "250",
-    "label" : {
-      "IRI-based" : "imageid",
-      "undefined" : "imageid"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "258"
-  }, {
     "iri" : "https://w3id.org/ce/minimum_age",
     "baseIri" : "https://w3id.org/ce",
     "range" : "240",
@@ -3146,6 +3135,17 @@
       "undefined" : "minimum_age"
     },
     "domain" : "92",
+    "attributes" : [ "datatype" ],
+    "id" : "258"
+  }, {
+    "iri" : "https://w3id.org/ce/imageid",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "250",
+    "label" : {
+      "IRI-based" : "imageid",
+      "undefined" : "imageid"
+    },
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "259"
   }, {

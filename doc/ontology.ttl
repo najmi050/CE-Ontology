@@ -36,7 +36,7 @@
 :hasCategory rdf:type owl:ObjectProperty ;
              rdfs:domain :Event ;
              rdfs:range :Category ;
-             rdfs:label "has Category" .
+             rdfs:label "has category" .
 
 
 ###  https://w3id.org/ce/hasDescription
