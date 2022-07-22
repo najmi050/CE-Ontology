@@ -22,6 +22,9 @@ ce:Image a owl:Class ;
 ce:Link a owl:Class ;
     rdfs:label "Link" .
 
+ce:Category a owl:Class ;
+    rdfs:label "Category" .
+
 ce:hasDescription a owl:ObjectProperty ;
 rdfs:domain ce:Event, 
                             ce:Ticket,
@@ -108,6 +111,11 @@ ce:hasTicket a owl:ObjectProperty ;
     rdfs:domain ce:Performance ;
     rdfs:range ce:Ticket .
 
+ce:hasCategory a owl:ObjectProperty ;
+    rdfs:label "has category" ;
+    rdfs:domain ce:Event;
+    rdfs:range ce:Category .
+
 ce:Event a owl:Class ;
     rdfs:label "Event" .
 
@@ -179,7 +187,7 @@ rdfs:range xsd:string .
 
 ce:category a owl:DatatypeProperty ;
 rdfs:label "category" ;
-rdfs:domain ce:Event ;
+rdfs:domain ce:Category ;
 rdfs:range xsd:string .
 
 ce:ranking_in_level a owl:DatatypeProperty ;
