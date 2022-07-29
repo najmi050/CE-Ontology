@@ -51,13 +51,6 @@
 <https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PropertyEvent> .
 <https://w3id.org/ce/hasEvent> <http://www.w3.org/2000/01/rdf-schema#label> "has event" .
 # 
-# https://w3id.org/ce/hasFilm
-<https://w3id.org/ce/hasFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
-<https://w3id.org/ce/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PropertyEvent> .
-<https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#label> "has film" .
-# 
 # https://w3id.org/ce/hasImage
 <https://w3id.org/ce/hasImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasImage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
@@ -824,8 +817,6 @@
 # https://w3id.org/ce/Event
 <https://w3id.org/ce/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/ce/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
-# 
-# https://w3id.org/ce/Film
 # 
 # https://w3id.org/ce/Image
 <https://w3id.org/ce/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

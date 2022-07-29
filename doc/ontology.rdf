@@ -97,17 +97,6 @@
     
 
 
-    <!-- https://w3id.org/ce/hasFilm -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasFilm">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
-        <rdfs:range rdf:resource="https://w3id.org/ce/PropertyEvent"/>
-        <rdfs:label>has film</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/ce/hasImage -->
 
 
@@ -1493,13 +1482,6 @@
     <owl:Class rdf:about="https://w3id.org/ce/Event">
         <rdfs:label>Event</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- https://w3id.org/ce/Film -->
-
-
-    <owl:Class rdf:about="https://w3id.org/ce/Film"/>
     
 
 

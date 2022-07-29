@@ -56,13 +56,6 @@
           rdfs:label "has event" .
 
 
-###  https://w3id.org/ce/hasFilm
-:hasFilm rdf:type owl:ObjectProperty ;
-         rdfs:domain :Film ;
-         rdfs:range :PropertyEvent ;
-         rdfs:label "has film" .
-
-
 ###  https://w3id.org/ce/hasImage
 :hasImage rdf:type owl:ObjectProperty ;
           rdfs:domain :Place ;
@@ -941,10 +934,6 @@
 ###  https://w3id.org/ce/Event
 :Event rdf:type owl:Class ;
        rdfs:label "Event" .
-
-
-###  https://w3id.org/ce/Film
-:Film rdf:type owl:Class .
 
 
 ###  https://w3id.org/ce/Image
