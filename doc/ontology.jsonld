@@ -26,7 +26,7 @@
   "@id" : "https://w3id.org/ce/3d",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "3d"
@@ -54,10 +54,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/ce/Film",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Film"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "https://w3id.org/ce/Image",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -123,12 +120,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Tag"
-  } ]
-}, {
-  "@id" : "https://w3id.org/ce/Theatre",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Theatre"
   } ]
 }, {
   "@id" : "https://w3id.org/ce/Ticket",
@@ -224,7 +215,7 @@
   "@id" : "https://w3id.org/ce/autism_friendly",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "autism_friendly"
@@ -296,7 +287,7 @@
   "@id" : "https://w3id.org/ce/bsl_interpreted",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "bsl_interpreted"
@@ -320,7 +311,7 @@
   "@id" : "https://w3id.org/ce/captioned",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "captioned"
@@ -430,7 +421,7 @@
   "@id" : "https://w3id.org/ce/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "description"
@@ -816,6 +807,8 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/ce/Event"
   }, {
+    "@id" : "https://w3id.org/ce/Performance"
+  }, {
     "@id" : "https://w3id.org/ce/Place"
   }, {
     "@id" : "https://w3id.org/ce/Ticket"
@@ -903,18 +896,6 @@
     "@id" : "https://w3id.org/ce/Performance"
   } ]
 }, {
-  "@id" : "https://w3id.org/ce/hasPerformanceDescription",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Performance"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has performance description"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/ce/Description"
-  } ]
-}, {
   "@id" : "https://w3id.org/ce/hasPhoneNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -979,28 +960,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/ce/Event"
-  }, {
-    "@id" : "https://w3id.org/ce/Place"
-  }, {
-    "@id" : "https://w3id.org/ce/Schedule"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has tag"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/ce/Tag"
-  } ]
-}, {
-  "@id" : "https://w3id.org/ce/hasTheatre",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/PropertyEvent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has theatre"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/ce/Theatre"
   } ]
 }, {
   "@id" : "https://w3id.org/ce/hasTicket",
@@ -1078,7 +1043,7 @@
   "@id" : "https://w3id.org/ce/imax",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "imax"
@@ -1238,7 +1203,7 @@
   "@id" : "https://w3id.org/ce/over_18s",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "over_18s"
@@ -1262,7 +1227,7 @@
   "@id" : "https://w3id.org/ce/parent_and_baby",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "parent_and_baby"
@@ -1346,7 +1311,7 @@
   "@id" : "https://w3id.org/ce/premium_screening",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "premium_screening"
@@ -1382,7 +1347,7 @@
   "@id" : "https://w3id.org/ce/senior",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "senior"
@@ -1458,7 +1423,7 @@
   "@id" : "https://w3id.org/ce/subtitled",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ce/Film"
+    "@id" : "https://w3id.org/ce/PerformanceProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "subtitled"

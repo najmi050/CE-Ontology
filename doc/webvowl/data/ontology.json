@@ -38,7 +38,7 @@
     "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
     "id" : "8",
@@ -62,16 +62,16 @@
     "id" : "20",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "38",
+    "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "36",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "40",
@@ -119,28 +119,25 @@
     "id" : "79",
     "type" : "owl:Class"
   }, {
-    "id" : "144",
-    "type" : "owl:Class"
-  }, {
-    "id" : "145",
+    "id" : "142",
     "type" : "owl:Class"
   }, {
     "id" : "19",
     "type" : "owl:Class"
   }, {
-    "id" : "147",
+    "id" : "145",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "157",
+    "id" : "154",
     "type" : "owl:Class"
   }, {
     "id" : "121",
     "type" : "owl:Class"
   }, {
-    "id" : "158",
+    "id" : "155",
     "type" : "owl:Class"
   }, {
     "id" : "75",
@@ -152,34 +149,40 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "168",
+    "id" : "165",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "171",
+    "id" : "168",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "107",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "173",
+    "id" : "170",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "71",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "174",
+    "id" : "171",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "50",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "175",
+    "id" : "172",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "113",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "143",
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "182",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "184",
@@ -188,7 +191,13 @@
     "id" : "185",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "186",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "188",
@@ -197,112 +206,97 @@
     "id" : "189",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "149",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "190",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "29",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "192",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "193",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "152",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "194",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "197",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "198",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "128",
-    "type" : "owl:Class"
   }, {
     "id" : "98",
     "type" : "owl:Class"
   }, {
-    "id" : "206",
+    "id" : "202",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "59",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "132",
+    "id" : "130",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "124",
+    "id" : "126",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "7",
+    "id" : "6",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "208",
+    "id" : "204",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "105",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "89",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "87",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "211",
+    "id" : "89",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "223",
+    "id" : "207",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "37",
+    "id" : "219",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "85",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "205",
+    "id" : "201",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "137",
+    "id" : "135",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "92",
     "type" : "owl:Class"
   }, {
-    "id" : "160",
+    "id" : "157",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "225",
+    "id" : "221",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "226",
+    "id" : "222",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "115",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "167",
+    "id" : "164",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "181",
+    "id" : "178",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "227",
+    "id" : "223",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "57",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "231",
+    "id" : "227",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "240",
+    "id" : "236",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "9",
@@ -311,13 +305,13 @@
     "id" : "69",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "31",
+    "id" : "32",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "139",
+    "id" : "137",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "154",
+    "id" : "151",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "25",
@@ -326,16 +320,16 @@
     "id" : "67",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "150",
+    "id" : "147",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "27",
+    "id" : "28",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "165",
+    "id" : "162",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "39",
+    "id" : "14",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -347,28 +341,28 @@
     "id" : "53",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "250",
+    "id" : "246",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "196",
+    "id" : "192",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "247",
+    "id" : "243",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "103",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "214",
+    "id" : "210",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "230",
+    "id" : "226",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "134",
+    "id" : "132",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "179",
+    "id" : "176",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "77",
@@ -377,22 +371,22 @@
     "id" : "122",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "183",
+    "id" : "180",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "216",
+    "id" : "212",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "253",
+    "id" : "249",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "109",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "218",
+    "id" : "214",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "130",
+    "id" : "128",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "44",
@@ -407,7 +401,7 @@
     "id" : "117",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "170",
+    "id" : "167",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "101",
@@ -416,37 +410,37 @@
     "id" : "55",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "203",
+    "id" : "198",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "233",
+    "id" : "229",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "62",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "156",
+    "id" : "153",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "126",
+    "id" : "124",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "210",
+    "id" : "206",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "263",
+    "id" : "259",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "141",
+    "id" : "139",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "162",
+    "id" : "159",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "222",
+    "id" : "218",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "111",
@@ -464,7 +458,7 @@
   "classAttribute" : [ {
     "instances" : 0,
     "union" : [ "1", "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "0"
   }, {
     "iri" : "https://w3id.org/ce/Tag",
@@ -474,65 +468,64 @@
       "IRI-based" : "Tag",
       "undefined" : "Tag"
     },
-    "id" : "4"
+    "id" : "7"
   }, {
     "instances" : 0,
     "union" : [ "9", "10" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "8"
   }, {
     "instances" : 0,
     "union" : [ "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "11"
   }, {
     "instances" : 0,
     "union" : [ "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "12"
   }, {
     "instances" : 0,
     "union" : [ "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "16"
   }, {
     "instances" : 0,
     "union" : [ "1", "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "17"
   }, {
     "instances" : 0,
-    "union" : [ "19", "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
+    "union" : [ "19", "1", "2", "3" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "18"
   }, {
     "instances" : 0,
     "union" : [ "21", "2" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "20"
   }, {
     "iri" : "https://w3id.org/ce/Film",
     "baseIri" : "https://w3id.org/ce",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Film",
-      "undefined" : "Film"
+      "IRI-based" : "Film"
     },
-    "id" : "14"
+    "id" : "22"
   }, {
     "instances" : 0,
     "union" : [ "21", "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "33"
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "34"
   }, {
     "instances" : 0,
-    "union" : [ "6", "39" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "38"
+    "union" : [ "5", "14" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "39"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "35",
+    "id" : "36",
     "label" : {
       "IRI-based" : "string"
     }
@@ -649,14 +642,9 @@
     "id" : "79"
   }, {
     "instances" : 0,
-    "union" : [ "21", "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "144"
-  }, {
-    "instances" : 0,
     "union" : [ "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "145"
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "142"
   }, {
     "iri" : "https://w3id.org/ce/Ticket",
     "baseIri" : "https://w3id.org/ce",
@@ -674,7 +662,7 @@
       "IRI-based" : "PhoneNumber",
       "undefined" : "Phone Number"
     },
-    "id" : "147"
+    "id" : "145"
   }, {
     "iri" : "https://w3id.org/ce/Property",
     "baseIri" : "https://w3id.org/ce",
@@ -683,22 +671,22 @@
       "IRI-based" : "Property",
       "undefined" : "Property"
     },
-    "id" : "6"
+    "id" : "5"
   }, {
     "instances" : 0,
     "union" : [ "19", "79", "10" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "157"
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "154"
   }, {
     "instances" : 0,
     "union" : [ "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "121"
   }, {
     "instances" : 0,
     "union" : [ "2", "3" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "158"
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "155"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -727,14 +715,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "168",
+    "id" : "165",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "171",
+    "id" : "168",
     "label" : {
       "IRI-based" : "string"
     }
@@ -748,7 +736,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "173",
+    "id" : "170",
     "label" : {
       "IRI-based" : "string"
     }
@@ -762,7 +750,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "174",
+    "id" : "171",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -776,7 +764,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "175",
+    "id" : "172",
     "label" : {
       "IRI-based" : "string"
     }
@@ -790,7 +778,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "143",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "182",
     "label" : {
       "IRI-based" : "string"
     }
@@ -802,16 +804,30 @@
       "IRI-based" : "boolean"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "185",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "186",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "187",
+    "id" : "30",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -823,9 +839,16 @@
       "IRI-based" : "boolean"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "189",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "149",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -837,32 +860,11 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "29",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "192",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "193",
     "label" : {
       "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "152",
-    "label" : {
-      "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -871,29 +873,6 @@
     "label" : {
       "IRI-based" : "string"
     }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "197",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "198",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "https://w3id.org/ce/Theatre",
-    "baseIri" : "https://w3id.org/ce",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Theatre",
-      "undefined" : "Theatre"
-    },
-    "id" : "128"
   }, {
     "iri" : "https://w3id.org/ce/Category",
     "baseIri" : "https://w3id.org/ce",
@@ -906,7 +885,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "206",
+    "id" : "202",
     "label" : {
       "IRI-based" : "string"
     }
@@ -920,28 +899,28 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "132",
+    "id" : "130",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "124",
+    "id" : "126",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "7",
+    "id" : "6",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "208",
+    "id" : "204",
     "label" : {
       "IRI-based" : "string"
     }
@@ -955,13 +934,6 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "89",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "87",
     "label" : {
       "IRI-based" : "string"
@@ -969,21 +941,28 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "211",
+    "id" : "89",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "223",
+    "id" : "207",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "37",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
     "label" : {
       "IRI-based" : "string"
     }
@@ -997,14 +976,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "205",
+    "id" : "201",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "137",
+    "id" : "135",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1020,21 +999,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "160",
+    "id" : "157",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "225",
+    "id" : "221",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "226",
+    "id" : "222",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1048,21 +1027,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "167",
+    "id" : "164",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "181",
+    "id" : "178",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "227",
+    "id" : "223",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1076,14 +1055,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "231",
+    "id" : "227",
     "label" : {
       "IRI-based" : "dateTime"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "240",
+    "id" : "236",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1106,21 +1085,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "31",
+    "id" : "32",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "139",
+    "id" : "137",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "154",
+    "id" : "151",
     "label" : {
       "IRI-based" : "int"
     }
@@ -1141,21 +1120,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "150",
+    "id" : "147",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "27",
+    "id" : "28",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "165",
+    "id" : "162",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1167,7 +1146,7 @@
       "IRI-based" : "PerformanceProperty",
       "undefined" : "Performance Property"
     },
-    "id" : "39"
+    "id" : "14"
   }, {
     "iri" : "https://w3id.org/ce/Performance",
     "baseIri" : "https://w3id.org/ce",
@@ -1194,21 +1173,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "250",
+    "id" : "246",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "196",
+    "id" : "192",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "247",
+    "id" : "243",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -1222,28 +1201,28 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "214",
+    "id" : "210",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "230",
+    "id" : "226",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "134",
+    "id" : "132",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "179",
+    "id" : "176",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -1264,21 +1243,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "183",
+    "id" : "180",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "216",
+    "id" : "212",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "253",
+    "id" : "249",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1292,14 +1271,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "218",
+    "id" : "214",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "130",
+    "id" : "128",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1334,7 +1313,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "170",
+    "id" : "167",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1355,14 +1334,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "203",
+    "id" : "198",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "233",
+    "id" : "229",
     "label" : {
       "IRI-based" : "dateTime"
     }
@@ -1376,42 +1355,42 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "156",
+    "id" : "153",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "126",
+    "id" : "124",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "210",
+    "id" : "206",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "263",
+    "id" : "259",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "141",
+    "id" : "139",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "162",
+    "id" : "159",
     "label" : {
       "IRI-based" : "int"
     }
@@ -1427,7 +1406,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "222",
+    "id" : "218",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1461,34 +1440,34 @@
     }
   } ],
   "property" : [ {
-    "id" : "5",
+    "id" : "4",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "13",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "22",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "23",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "26",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "28",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "30",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "32",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "34",
+    "id" : "27",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "36",
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "43",
@@ -1609,7 +1588,7 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "127",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "129",
     "type" : "owl:datatypeProperty"
@@ -1618,10 +1597,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "133",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "135",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "136",
     "type" : "owl:datatypeProperty"
@@ -1632,7 +1611,10 @@
     "id" : "140",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "142",
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "146",
@@ -1641,19 +1623,19 @@
     "id" : "148",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "149",
+    "id" : "150",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "151",
+    "id" : "152",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "153",
+    "id" : "156",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "155",
+    "id" : "158",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "159",
+    "id" : "160",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "161",
@@ -1662,64 +1644,61 @@
     "id" : "163",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "164",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "166",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "172",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "176",
-    "type" : "owl:objectProperty"
+    "id" : "175",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "177",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "178",
+    "id" : "179",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "180",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "182",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "186",
+    "id" : "183",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "191",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "195",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "199",
+    "id" : "196",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "200",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "201",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "202",
+    "id" : "203",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "204",
+    "id" : "205",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "207",
+    "id" : "208",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "209",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "212",
+    "id" : "211",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "213",
@@ -1728,37 +1707,40 @@
     "id" : "215",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "217",
+    "id" : "216",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "219",
+    "id" : "217",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "220",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "221",
+    "id" : "224",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "224",
+    "id" : "225",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "228",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "229",
+    "id" : "230",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "231",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "232",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "233",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "234",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "235",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "236",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "237",
@@ -1770,13 +1752,13 @@
     "id" : "239",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "240",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "241",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "242",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "243",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "244",
@@ -1785,19 +1767,22 @@
     "id" : "245",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "246",
+    "id" : "247",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "248",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "249",
+    "id" : "250",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "251",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "253",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "254",
@@ -1813,10 +1798,7 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "258",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "259",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "260",
     "type" : "owl:datatypeProperty"
@@ -1825,31 +1807,22 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "262",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "264",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "265",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "266",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "267",
+    "id" : "263",
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
     "iri" : "https://w3id.org/ce/film_mojo_id",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "7",
+    "range" : "6",
     "label" : {
       "IRI-based" : "film_mojo_id",
       "undefined" : "film_mojo_id"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "5"
+    "id" : "4"
   }, {
     "iri" : "https://w3id.org/ce/parent_and_baby",
     "baseIri" : "https://w3id.org/ce",
@@ -1862,17 +1835,6 @@
     "attributes" : [ "datatype" ],
     "id" : "13"
   }, {
-    "iri" : "https://w3id.org/ce/hasTicket",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "19",
-    "label" : {
-      "IRI-based" : "hasTicket",
-      "undefined" : "has ticket"
-    },
-    "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "22"
-  }, {
     "iri" : "https://w3id.org/ce/longitude",
     "baseIri" : "https://w3id.org/ce",
     "range" : "25",
@@ -1884,38 +1846,49 @@
     "attributes" : [ "datatype" ],
     "id" : "23"
   }, {
+    "iri" : "https://w3id.org/ce/hasTicket",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasTicket",
+      "undefined" : "has ticket"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
     "iri" : "https://w3id.org/ce/language",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "27",
+    "range" : "28",
     "label" : {
       "IRI-based" : "language",
       "undefined" : "language"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "26"
+    "id" : "27"
   }, {
     "iri" : "https://w3id.org/ce/captioned",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "29",
+    "range" : "30",
     "label" : {
       "IRI-based" : "captioned",
       "undefined" : "captioned"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "28"
+    "id" : "29"
   }, {
     "iri" : "https://w3id.org/ce/list_id",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "31",
+    "range" : "32",
     "label" : {
       "IRI-based" : "list_id",
       "undefined" : "list_id"
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "30"
+    "id" : "31"
   }, {
     "iri" : "https://w3id.org/ce/hasPerformance",
     "baseIri" : "https://w3id.org/ce",
@@ -1926,29 +1899,29 @@
     },
     "domain" : "21",
     "attributes" : [ "object" ],
-    "id" : "32"
+    "id" : "33"
   }, {
     "iri" : "https://w3id.org/ce/url",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "35",
+    "range" : "36",
     "label" : {
       "IRI-based" : "url",
       "undefined" : "url"
     },
     "domain" : "8",
     "attributes" : [ "datatype" ],
-    "id" : "34"
+    "id" : "35"
   }, {
     "iri" : "https://w3id.org/ce/film_certificate_bbfc",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "37",
+    "range" : "38",
     "label" : {
       "IRI-based" : "film_certificate_bbfc",
       "undefined" : "film_certificate_bbfc"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "36"
+    "id" : "37"
   }, {
     "iri" : "https://w3id.org/ce/author",
     "baseIri" : "https://w3id.org/ce",
@@ -1957,7 +1930,7 @@
       "IRI-based" : "author",
       "undefined" : "author"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "43"
   }, {
@@ -1979,7 +1952,7 @@
       "IRI-based" : "hitlisted",
       "undefined" : "hitlisted"
     },
-    "domain" : "39",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "52"
   }, {
@@ -1990,7 +1963,7 @@
       "IRI-based" : "sold_out",
       "undefined" : "sold_out"
     },
-    "domain" : "39",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "54"
   }, {
@@ -2012,7 +1985,7 @@
       "IRI-based" : "film_rotten_tomatoes_id",
       "undefined" : "film_rotten_tomatoes_id"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "58"
   }, {
@@ -2034,7 +2007,7 @@
       "IRI-based" : "importance",
       "undefined" : "importance"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "66"
   }, {
@@ -2056,7 +2029,7 @@
       "IRI-based" : "dropin_event",
       "undefined" : "dropin_event"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "70"
   }, {
@@ -2133,29 +2106,29 @@
       "IRI-based" : "film_certificate",
       "undefined" : "film_certificate"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "84"
   }, {
-    "iri" : "https://w3id.org/ce/film_itunes",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "87",
-    "label" : {
-      "IRI-based" : "film_itunes",
-      "undefined" : "film_itunes"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "86"
-  }, {
     "iri" : "https://w3id.org/ce/film_release_date_uk",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "89",
+    "range" : "87",
     "label" : {
       "IRI-based" : "film_release_date_uk",
       "undefined" : "film_release_date_uk"
     },
-    "domain" : "6",
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://w3id.org/ce/film_itunes",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "film_itunes",
+      "undefined" : "film_itunes"
+    },
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "88"
   }, {
@@ -2177,7 +2150,7 @@
       "IRI-based" : "hasEvent",
       "undefined" : "has event"
     },
-    "domain" : "39",
+    "domain" : "14",
     "attributes" : [ "object" ],
     "id" : "91"
   }, {
@@ -2188,20 +2161,9 @@
       "IRI-based" : "place_capacity._max",
       "undefined" : "place_capacity._max"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "93"
-  }, {
-    "iri" : "https://w3id.org/ce/hasImage",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "9",
-    "label" : {
-      "IRI-based" : "hasImage",
-      "undefined" : "has image"
-    },
-    "domain" : "3",
-    "attributes" : [ "object" ],
-    "id" : "95"
   }, {
     "iri" : "https://w3id.org/ce/hasSchedule",
     "baseIri" : "https://w3id.org/ce",
@@ -2211,6 +2173,17 @@
       "undefined" : "has schedule"
     },
     "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://w3id.org/ce/hasImage",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasImage",
+      "undefined" : "has image"
+    },
+    "domain" : "3",
     "attributes" : [ "object" ],
     "id" : "96"
   }, {
@@ -2243,7 +2216,7 @@
       "IRI-based" : "actor_sample",
       "undefined" : "actor_sample"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "100"
   }, {
@@ -2265,7 +2238,7 @@
       "IRI-based" : "film_rotten_tomatoes",
       "undefined" : "film_rotten_tomatoes"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "104"
   }, {
@@ -2276,7 +2249,7 @@
       "IRI-based" : "director",
       "undefined" : "director"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "106"
   }, {
@@ -2287,7 +2260,7 @@
       "IRI-based" : "affiliate_getmein",
       "undefined" : "affiliate_getmein"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "108"
   }, {
@@ -2298,7 +2271,7 @@
       "IRI-based" : "parking",
       "undefined" : "parking"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "110"
   }, {
@@ -2309,7 +2282,7 @@
       "IRI-based" : "demographic",
       "undefined" : "demographic"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "112"
   }, {
@@ -2331,7 +2304,7 @@
       "IRI-based" : "awards_fringe_sustainable_practice2017",
       "undefined" : "awards_fringe_sustainable_practice2017"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "116"
   }, {
@@ -2342,7 +2315,7 @@
       "IRI-based" : "awards_fringe_sustainable_practice2015",
       "undefined" : "awards_fringe_sustainable_practice2015"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
     "id" : "118"
   }, {
@@ -2357,71 +2330,60 @@
     "attributes" : [ "datatype" ],
     "id" : "120"
   }, {
-    "iri" : "https://w3id.org/ce/film_subtitle",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "124",
-    "label" : {
-      "IRI-based" : "film_subtitle",
-      "undefined" : "film_subtitle"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "123"
-  }, {
     "iri" : "https://w3id.org/ce/premium_screening",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "126",
+    "range" : "124",
     "label" : {
       "IRI-based" : "premium_screening",
       "undefined" : "premium_screening"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "125"
+    "id" : "123"
   }, {
-    "iri" : "https://w3id.org/ce/hasTheatre",
+    "iri" : "https://w3id.org/ce/film_subtitle",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "128",
+    "range" : "126",
     "label" : {
-      "IRI-based" : "hasTheatre",
-      "undefined" : "has theatre"
+      "IRI-based" : "film_subtitle",
+      "undefined" : "film_subtitle"
     },
-    "domain" : "92",
-    "attributes" : [ "object" ],
-    "id" : "127"
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "125"
   }, {
     "iri" : "https://w3id.org/ce/alt_text",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "130",
+    "range" : "128",
     "label" : {
       "IRI-based" : "alt_text",
       "undefined" : "alt_text"
     },
     "domain" : "9",
     "attributes" : [ "datatype" ],
-    "id" : "129"
+    "id" : "127"
   }, {
     "iri" : "https://w3id.org/ce/film_wikipedia",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "132",
+    "range" : "130",
     "label" : {
       "IRI-based" : "film_wikipedia",
       "undefined" : "film_wikipedia"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "131"
+    "id" : "129"
   }, {
     "iri" : "https://w3id.org/ce/tags",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "134",
+    "range" : "132",
     "label" : {
       "IRI-based" : "tags",
       "undefined" : "tags"
     },
-    "domain" : "4",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
-    "id" : "133"
+    "id" : "131"
   }, {
     "iri" : "https://w3id.org/ce/hasFilm",
     "baseIri" : "https://w3id.org/ce",
@@ -2430,53 +2392,53 @@
       "IRI-based" : "hasFilm",
       "undefined" : "has film"
     },
-    "domain" : "14",
+    "domain" : "22",
     "attributes" : [ "object" ],
-    "id" : "135"
+    "id" : "133"
   }, {
     "iri" : "https://w3id.org/ce/film_colour",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "137",
+    "range" : "135",
     "label" : {
       "IRI-based" : "film_colour",
       "undefined" : "film_colour"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "136"
+    "id" : "134"
   }, {
     "iri" : "https://w3id.org/ce/latitude",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "139",
+    "range" : "137",
     "label" : {
       "IRI-based" : "latitude",
       "undefined" : "latitude"
     },
     "domain" : "24",
     "attributes" : [ "datatype" ],
-    "id" : "138"
+    "id" : "136"
   }, {
     "iri" : "https://w3id.org/ce/postal_code",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "141",
+    "range" : "139",
     "label" : {
       "IRI-based" : "postal_code",
       "undefined" : "postal_code"
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "140"
+    "id" : "138"
   }, {
     "iri" : "https://w3id.org/ce/currency",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "143",
+    "range" : "141",
     "label" : {
       "IRI-based" : "currency",
       "undefined" : "currency"
     },
     "domain" : "19",
     "attributes" : [ "datatype" ],
-    "id" : "142"
+    "id" : "140"
   }, {
     "iri" : "https://w3id.org/ce/website_company",
     "baseIri" : "https://w3id.org/ce",
@@ -2485,9 +2447,9 @@
       "IRI-based" : "website_company",
       "undefined" : "website_company"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "146"
+    "id" : "143"
   }, {
     "iri" : "https://w3id.org/ce/width",
     "baseIri" : "https://w3id.org/ce",
@@ -2498,73 +2460,73 @@
     },
     "domain" : "9",
     "attributes" : [ "datatype" ],
-    "id" : "148"
+    "id" : "144"
   }, {
     "iri" : "https://w3id.org/ce/imax",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "150",
+    "range" : "147",
     "label" : {
       "IRI-based" : "imax",
       "undefined" : "imax"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "149"
+    "id" : "146"
   }, {
     "iri" : "https://w3id.org/ce/booking_essential",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "152",
+    "range" : "149",
     "label" : {
       "IRI-based" : "booking_essential",
       "undefined" : "booking_essential"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "151"
+    "id" : "148"
   }, {
     "iri" : "https://w3id.org/ce/max_price",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "154",
+    "range" : "151",
     "label" : {
       "IRI-based" : "max_price",
       "undefined" : "max_price"
     },
     "domain" : "19",
     "attributes" : [ "datatype" ],
-    "id" : "153"
+    "id" : "150"
   }, {
     "iri" : "https://w3id.org/ce/ranking_in_level",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "156",
+    "range" : "153",
     "label" : {
       "IRI-based" : "ranking_in_level",
       "undefined" : "ranking_in_level"
     },
     "domain" : "2",
     "attributes" : [ "datatype" ],
-    "id" : "155"
+    "id" : "152"
   }, {
     "iri" : "https://w3id.org/ce/expected_visit_duration",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "160",
+    "range" : "157",
     "label" : {
       "IRI-based" : "expected_visit_duration",
       "undefined" : "expected_visit_duration"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "159"
+    "id" : "156"
   }, {
     "iri" : "https://w3id.org/ce/place_id",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "162",
+    "range" : "159",
     "label" : {
       "IRI-based" : "place_id",
       "undefined" : "place_id"
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "161"
+    "id" : "158"
   }, {
     "iri" : "https://w3id.org/ce/ts",
     "baseIri" : "https://w3id.org/ce",
@@ -2575,62 +2537,62 @@
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "163"
+    "id" : "160"
   }, {
     "iri" : "https://w3id.org/ce/info",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "165",
+    "range" : "162",
     "label" : {
       "IRI-based" : "info",
       "undefined" : "info"
     },
-    "domain" : "147",
+    "domain" : "145",
     "attributes" : [ "datatype" ],
-    "id" : "164"
+    "id" : "161"
   }, {
     "iri" : "https://w3id.org/ce/organisation",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "167",
+    "range" : "164",
     "label" : {
       "IRI-based" : "organisation",
       "undefined" : "organisation"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "166"
+    "id" : "163"
   }, {
     "iri" : "https://w3id.org/ce/actor",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "170",
+    "range" : "167",
     "label" : {
       "IRI-based" : "actor",
       "undefined" : "actor"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "169"
+    "id" : "166"
   }, {
     "iri" : "https://w3id.org/ce/hasPhoneNumber",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "147",
+    "range" : "145",
     "label" : {
       "IRI-based" : "hasPhoneNumber",
       "undefined" : "has phone number"
     },
-    "domain" : "33",
+    "domain" : "34",
     "attributes" : [ "object" ],
-    "id" : "172"
+    "id" : "169"
   }, {
     "iri" : "https://w3id.org/ce/hasProperty",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "38",
+    "range" : "39",
     "label" : {
       "IRI-based" : "hasProperty",
       "undefined" : "has property"
     },
     "domain" : "0",
     "attributes" : [ "object" ],
-    "id" : "176"
+    "id" : "173"
   }, {
     "iri" : "https://w3id.org/ce/town",
     "baseIri" : "https://w3id.org/ce",
@@ -2641,95 +2603,95 @@
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "177"
+    "id" : "174"
   }, {
     "iri" : "https://w3id.org/ce/toilets",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "179",
+    "range" : "176",
     "label" : {
       "IRI-based" : "toilets",
       "undefined" : "toilets"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "178"
+    "id" : "175"
   }, {
     "iri" : "https://w3id.org/ce/name",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "181",
+    "range" : "178",
     "label" : {
       "IRI-based" : "name",
       "undefined" : "name"
     },
     "domain" : "12",
     "attributes" : [ "datatype" ],
-    "id" : "180"
+    "id" : "177"
   }, {
     "iri" : "https://w3id.org/ce/support",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "183",
+    "range" : "180",
     "label" : {
       "IRI-based" : "support",
       "undefined" : "support"
     },
     "domain" : "92",
     "attributes" : [ "datatype" ],
-    "id" : "182"
+    "id" : "179"
   }, {
     "iri" : "https://w3id.org/ce/duration",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "171",
+    "range" : "168",
     "label" : {
       "IRI-based" : "duration",
       "undefined" : "duration"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "186"
-  }, {
-    "iri" : "https://w3id.org/ce/hasPerformanceDescription",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "79",
-    "label" : {
-      "IRI-based" : "hasPerformanceDescription",
-      "undefined" : "has performance description"
-    },
-    "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "191"
+    "id" : "183"
   }, {
     "iri" : "https://w3id.org/ce/guide_dogs",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "196",
+    "range" : "192",
     "label" : {
       "IRI-based" : "guide_dogs",
       "undefined" : "guide_dogs"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "195"
+    "id" : "191"
   }, {
     "iri" : "https://w3id.org/ce/baby_changing",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "192",
+    "range" : "188",
     "label" : {
       "IRI-based" : "baby_changing",
       "undefined" : "baby_changing"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "199"
+    "id" : "195"
   }, {
     "iri" : "https://w3id.org/ce/country_code",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "175",
+    "range" : "172",
     "label" : {
       "IRI-based" : "country_code",
       "undefined" : "country_code"
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "200"
+    "id" : "196"
+  }, {
+    "iri" : "https://w3id.org/ce/session",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "session",
+      "undefined" : "session"
+    },
+    "domain" : "92",
+    "attributes" : [ "datatype" ],
+    "id" : "197"
   }, {
     "iri" : "https://w3id.org/ce/hasLink",
     "baseIri" : "https://w3id.org/ce",
@@ -2740,128 +2702,117 @@
     },
     "domain" : "17",
     "attributes" : [ "object" ],
-    "id" : "201"
-  }, {
-    "iri" : "https://w3id.org/ce/session",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "203",
-    "label" : {
-      "IRI-based" : "session",
-      "undefined" : "session"
-    },
-    "domain" : "92",
-    "attributes" : [ "datatype" ],
-    "id" : "202"
+    "id" : "199"
   }, {
     "iri" : "https://w3id.org/ce/film_country_of_origin",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "205",
+    "range" : "201",
     "label" : {
       "IRI-based" : "film_country_of_origin",
       "undefined" : "film_country_of_origin"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "204"
+    "id" : "200"
   }, {
     "iri" : "https://w3id.org/ce/description",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "173",
+    "range" : "170",
     "label" : {
       "IRI-based" : "description",
       "undefined" : "description"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "207"
+    "id" : "203"
   }, {
     "iri" : "https://w3id.org/ce/senior",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "210",
+    "range" : "206",
     "label" : {
       "IRI-based" : "senior",
       "undefined" : "senior"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "209"
+    "id" : "205"
   }, {
     "iri" : "https://w3id.org/ce/child_friendly",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "184",
+    "range" : "181",
     "label" : {
       "IRI-based" : "child_friendly",
       "undefined" : "child_friendly"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "212"
+    "id" : "208"
   }, {
     "iri" : "https://w3id.org/ce/hearing_loop",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "214",
+    "range" : "210",
     "label" : {
       "IRI-based" : "hearing_loop",
       "undefined" : "hearing_loop"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "213"
+    "id" : "209"
   }, {
     "iri" : "https://w3id.org/ce/subtitled",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "216",
+    "range" : "212",
     "label" : {
       "IRI-based" : "subtitled",
       "undefined" : "subtitled"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "215"
+    "id" : "211"
   }, {
     "iri" : "https://w3id.org/ce/affiliate_seatwave",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "218",
+    "range" : "214",
     "label" : {
       "IRI-based" : "affiliate_seatwave",
       "undefined" : "affiliate_seatwave"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "217"
+    "id" : "213"
   }, {
     "iri" : "https://w3id.org/ce/film_wikipedia_image_caption",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "198",
+    "range" : "194",
     "label" : {
       "IRI-based" : "film_wikipedia_image_caption",
       "undefined" : "film_wikipedia_image_caption"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "219"
+    "id" : "215"
   }, {
     "iri" : "https://w3id.org/ce/child_restrictions",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "187",
+    "range" : "184",
     "label" : {
       "IRI-based" : "child_restrictions",
       "undefined" : "child_restrictions "
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "220"
+    "id" : "216"
   }, {
     "iri" : "https://w3id.org/ce/place_capacity_max",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "222",
+    "range" : "218",
     "label" : {
       "IRI-based" : "place_capacity_max",
       "undefined" : "place_capacity_max"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "221"
+    "id" : "217"
   }, {
     "iri" : "https://w3id.org/ce/website_comments_end_date",
     "baseIri" : "https://w3id.org/ce",
@@ -2870,9 +2821,9 @@
       "IRI-based" : "website_comments_end_date",
       "undefined" : "website_comments_end_date"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "224"
+    "id" : "220"
   }, {
     "iri" : "https://w3id.org/ce/website_comments_enabled",
     "baseIri" : "https://w3id.org/ce",
@@ -2881,75 +2832,53 @@
       "IRI-based" : "website_comments_enabled",
       "undefined" : "website_comments_enabled"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "228"
+    "id" : "224"
   }, {
     "iri" : "https://w3id.org/ce/time_unkown",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "230",
+    "range" : "226",
     "label" : {
       "IRI-based" : "time_unkown",
       "undefined" : "time_unknown"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "229"
+    "id" : "225"
   }, {
     "iri" : "https://w3id.org/ce/start_ts",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "233",
+    "range" : "229",
     "label" : {
       "IRI-based" : "start_ts",
       "undefined" : "start_ts"
     },
     "domain" : "21",
     "attributes" : [ "datatype" ],
-    "id" : "232"
+    "id" : "228"
   }, {
     "iri" : "https://w3id.org/ce/film_running_time",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "206",
+    "range" : "202",
     "label" : {
       "IRI-based" : "film_running_time",
       "undefined" : "film_running_time"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "234"
+    "id" : "230"
   }, {
     "iri" : "https://w3id.org/ce/category",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "185",
+    "range" : "182",
     "label" : {
       "IRI-based" : "category",
       "undefined" : "category"
     },
     "domain" : "98",
     "attributes" : [ "datatype" ],
-    "id" : "235"
-  }, {
-    "iri" : "https://w3id.org/ce/dogs_allowed",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "174",
-    "label" : {
-      "IRI-based" : "dogs_allowed",
-      "undefined" : "dogs_allowed"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "236"
-  }, {
-    "iri" : "https://w3id.org/ce/writer",
-    "baseIri" : "https://w3id.org/ce",
-    "range" : "48",
-    "label" : {
-      "IRI-based" : "writer",
-      "undefined" : "writer"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "237"
+    "id" : "231"
   }, {
     "iri" : "https://w3id.org/ce/wheelchair_access",
     "baseIri" : "https://w3id.org/ce",
@@ -2958,42 +2887,64 @@
       "IRI-based" : "wheelchair_access",
       "undefined" : "wheelchair_access"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "238"
+    "id" : "232"
+  }, {
+    "iri" : "https://w3id.org/ce/dogs_allowed",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "171",
+    "label" : {
+      "IRI-based" : "dogs_allowed",
+      "undefined" : "dogs_allowed"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "233"
+  }, {
+    "iri" : "https://w3id.org/ce/writer",
+    "baseIri" : "https://w3id.org/ce",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "writer",
+      "undefined" : "writer"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "234"
   }, {
     "iri" : "https://w3id.org/ce/cancelled",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "188",
+    "range" : "185",
     "label" : {
       "IRI-based" : "cancelled",
       "undefined" : "cancelled"
     },
-    "domain" : "39",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "239"
+    "id" : "235"
   }, {
     "iri" : "https://w3id.org/ce/pa_rating",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "227",
+    "range" : "223",
     "label" : {
       "IRI-based" : "pa_rating",
       "undefined" : "pa_rating"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "241"
+    "id" : "237"
   }, {
     "iri" : "https://w3id.org/ce/cast",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "190",
+    "range" : "187",
     "label" : {
       "IRI-based" : "cast",
       "undefined" : "cast"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "242"
+    "id" : "238"
   }, {
     "iri" : "https://w3id.org/ce/type",
     "baseIri" : "https://w3id.org/ce",
@@ -3002,9 +2953,9 @@
       "IRI-based" : "type",
       "undefined" : "type"
     },
-    "domain" : "157",
+    "domain" : "154",
     "attributes" : [ "datatype" ],
-    "id" : "243"
+    "id" : "239"
   }, {
     "iri" : "https://w3id.org/ce/toilets_disabled",
     "baseIri" : "https://w3id.org/ce",
@@ -3013,196 +2964,196 @@
       "IRI-based" : "toilets_disabled",
       "undefined" : "toilets_disabled"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "244"
+    "id" : "240"
   }, {
     "iri" : "https://w3id.org/ce/email",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "168",
+    "range" : "165",
     "label" : {
       "IRI-based" : "email",
       "undefined" : "email"
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "245"
+    "id" : "241"
   }, {
     "iri" : "https://w3id.org/ce/free_wifi",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "247",
+    "range" : "243",
     "label" : {
       "IRI-based" : "free_wifi",
       "undefined" : "free_wifi"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "246"
+    "id" : "242"
   }, {
     "iri" : "https://w3id.org/ce/film_amg_id",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "226",
+    "range" : "222",
     "label" : {
       "IRI-based" : "film_amg_id",
       "undefined" : "film_amg_id"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "248"
+    "id" : "244"
   }, {
     "iri" : "https://w3id.org/ce/film_year",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "197",
+    "range" : "193",
     "label" : {
       "IRI-based" : "film_year",
       "undefined" : "film_year"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "249"
+    "id" : "245"
   }, {
     "iri" : "https://w3id.org/ce/film_imdb_id",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "211",
+    "range" : "207",
     "label" : {
       "IRI-based" : "film_imdb_id",
       "undefined" : "film_imdb_id"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "251"
+    "id" : "247"
   }, {
     "iri" : "https://w3id.org/ce/modified_ts",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "231",
+    "range" : "227",
     "label" : {
       "IRI-based" : "modified_ts",
       "undefined" : "modified_ts"
     },
-    "domain" : "158",
+    "domain" : "155",
     "attributes" : [ "datatype" ],
-    "id" : "252"
+    "id" : "248"
   }, {
     "iri" : "https://w3id.org/ce/film_wikipedia_image",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "194",
+    "range" : "190",
     "label" : {
       "IRI-based" : "film_wikipedia_image",
       "undefined" : "film_wikipedia_image"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "254"
+    "id" : "250"
   }, {
     "iri" : "https://w3id.org/ce/event_id",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "225",
+    "range" : "221",
     "label" : {
       "IRI-based" : "event_id",
       "undefined" : "event_id"
     },
     "domain" : "2",
     "attributes" : [ "datatype" ],
-    "id" : "255"
+    "id" : "251"
   }, {
     "iri" : "https://w3id.org/ce/film_imdb",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "223",
+    "range" : "219",
     "label" : {
       "IRI-based" : "film_imdb",
       "undefined" : "film_imdb"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "256"
+    "id" : "252"
   }, {
     "iri" : "https://w3id.org/ce/box_office",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "193",
+    "range" : "189",
     "label" : {
       "IRI-based" : "box_office",
       "undefined" : "box_office"
     },
-    "domain" : "147",
+    "domain" : "145",
     "attributes" : [ "datatype" ],
-    "id" : "257"
+    "id" : "253"
   }, {
     "iri" : "https://w3id.org/ce/minimum_age",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "240",
+    "range" : "236",
     "label" : {
       "IRI-based" : "minimum_age",
       "undefined" : "minimum_age"
     },
     "domain" : "92",
     "attributes" : [ "datatype" ],
-    "id" : "258"
+    "id" : "254"
   }, {
     "iri" : "https://w3id.org/ce/imageid",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "250",
+    "range" : "246",
     "label" : {
       "IRI-based" : "imageid",
       "undefined" : "imageid"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "259"
+    "id" : "255"
   }, {
     "iri" : "https://w3id.org/ce/film_metacritic",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "208",
+    "range" : "204",
     "label" : {
       "IRI-based" : "film_metacritic",
       "undefined" : "film_metacritic"
     },
-    "domain" : "6",
+    "domain" : "5",
     "attributes" : [ "datatype" ],
-    "id" : "260"
+    "id" : "256"
   }, {
     "iri" : "https://w3id.org/ce/address",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "253",
+    "range" : "249",
     "label" : {
       "IRI-based" : "address",
       "undefined" : "address"
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "261"
+    "id" : "257"
   }, {
     "iri" : "https://w3id.org/ce/hasTag",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "4",
+    "range" : "7",
     "label" : {
       "IRI-based" : "hasTag",
       "undefined" : "has tag"
     },
-    "domain" : "144",
+    "domain" : "2",
     "attributes" : [ "object" ],
-    "id" : "262"
+    "id" : "258"
   }, {
     "iri" : "https://w3id.org/ce/ranking_level",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "263",
+    "range" : "259",
     "label" : {
       "IRI-based" : "ranking_level",
       "undefined" : "ranking_level"
     },
     "domain" : "2",
     "attributes" : [ "datatype" ],
-    "id" : "264"
+    "id" : "260"
   }, {
     "iri" : "https://w3id.org/ce/bsl_interpreted",
     "baseIri" : "https://w3id.org/ce",
-    "range" : "189",
+    "range" : "186",
     "label" : {
       "IRI-based" : "bsl_interpreted",
       "undefined" : "bsl_interpreted"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "265"
+    "id" : "261"
   }, {
     "iri" : "https://w3id.org/ce/website",
     "baseIri" : "https://w3id.org/ce",
@@ -3211,9 +3162,9 @@
       "IRI-based" : "website",
       "undefined" : "website"
     },
-    "domain" : "145",
+    "domain" : "142",
     "attributes" : [ "datatype" ],
-    "id" : "266"
+    "id" : "262"
   }, {
     "iri" : "https://w3id.org/ce/3d",
     "baseIri" : "https://w3id.org/ce",
@@ -3224,6 +3175,6 @@
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "267"
+    "id" : "263"
   } ]
 }

@@ -77,6 +77,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasDescription">
         <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
         <rdfs:domain rdf:resource="https://w3id.org/ce/Place"/>
         <rdfs:domain rdf:resource="https://w3id.org/ce/Ticket"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Description"/>
@@ -153,17 +154,6 @@
     
 
 
-    <!-- https://w3id.org/ce/hasPerformanceDescription -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasPerformanceDescription">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Performance"/>
-        <rdfs:range rdf:resource="https://w3id.org/ce/Description"/>
-        <rdfs:label>has performance description</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/ce/hasPhoneNumber -->
 
 
@@ -219,21 +209,8 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasTag">
         <rdfs:domain rdf:resource="https://w3id.org/ce/Event"/>
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Place"/>
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Schedule"/>
         <rdfs:range rdf:resource="https://w3id.org/ce/Tag"/>
         <rdfs:label>has tag</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/ce/hasTheatre -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/ce/hasTheatre">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/PropertyEvent"/>
-        <rdfs:range rdf:resource="https://w3id.org/ce/Theatre"/>
-        <rdfs:label>has theatre</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -342,7 +319,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/autism_friendly">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>autism_friendly</rdfs:label>
     </owl:DatatypeProperty>
@@ -408,7 +385,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/bsl_interpreted">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>bsl_interpreted</rdfs:label>
     </owl:DatatypeProperty>
@@ -430,7 +407,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/captioned">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>captioned</rdfs:label>
     </owl:DatatypeProperty>
@@ -530,7 +507,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/description">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>description</rdfs:label>
     </owl:DatatypeProperty>
@@ -926,7 +903,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/imax">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>imax</rdfs:label>
     </owl:DatatypeProperty>
@@ -1071,7 +1048,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/over_18s">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>over_18s</rdfs:label>
     </owl:DatatypeProperty>
@@ -1093,7 +1070,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/parent_and_baby">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>parent_and_baby</rdfs:label>
     </owl:DatatypeProperty>
@@ -1170,7 +1147,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/premium_screening">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>premium_screening</rdfs:label>
     </owl:DatatypeProperty>
@@ -1203,7 +1180,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/senior">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>senior</rdfs:label>
     </owl:DatatypeProperty>
@@ -1271,7 +1248,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/subtitled">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>subtitled</rdfs:label>
     </owl:DatatypeProperty>
@@ -1473,7 +1450,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/ce/3d">
-        <rdfs:domain rdf:resource="https://w3id.org/ce/Film"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ce/PerformanceProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>3d</rdfs:label>
     </owl:DatatypeProperty>
@@ -1522,9 +1499,7 @@
     <!-- https://w3id.org/ce/Film -->
 
 
-    <owl:Class rdf:about="https://w3id.org/ce/Film">
-        <rdfs:label>Film</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/ce/Film"/>
     
 
 
@@ -1623,15 +1598,6 @@
 
     <owl:Class rdf:about="https://w3id.org/ce/Tag">
         <rdfs:label>Tag</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/ce/Theatre -->
-
-
-    <owl:Class rdf:about="https://w3id.org/ce/Theatre">
-        <rdfs:label>Theatre</rdfs:label>
     </owl:Class>
     
 

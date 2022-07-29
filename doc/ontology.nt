@@ -39,6 +39,7 @@
 # https://w3id.org/ce/hasDescription
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
+<https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Ticket> .
 <https://w3id.org/ce/hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Description> .
@@ -53,6 +54,7 @@
 # https://w3id.org/ce/hasFilm
 <https://w3id.org/ce/hasFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/PropertyEvent> .
 <https://w3id.org/ce/hasFilm> <http://www.w3.org/2000/01/rdf-schema#label> "has film" .
 # 
@@ -81,12 +83,6 @@
 <https://w3id.org/ce/hasPerformance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
 <https://w3id.org/ce/hasPerformance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Performance> .
 <https://w3id.org/ce/hasPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "has performance" .
-# 
-# https://w3id.org/ce/hasPerformanceDescription
-<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Performance> .
-<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Description> .
-<https://w3id.org/ce/hasPerformanceDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has performance description" .
 # 
 # https://w3id.org/ce/hasPhoneNumber
 <https://w3id.org/ce/hasPhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -121,16 +117,8 @@
 # https://w3id.org/ce/hasTag
 <https://w3id.org/ce/hasTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Event> .
-<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Place> .
-<https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Schedule> .
 <https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Tag> .
 <https://w3id.org/ce/hasTag> <http://www.w3.org/2000/01/rdf-schema#label> "has tag" .
-# 
-# https://w3id.org/ce/hasTheatre
-<https://w3id.org/ce/hasTheatre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/ce/hasTheatre> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PropertyEvent> .
-<https://w3id.org/ce/hasTheatre> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ce/Theatre> .
-<https://w3id.org/ce/hasTheatre> <http://www.w3.org/2000/01/rdf-schema#label> "has theatre" .
 # 
 # https://w3id.org/ce/hasTicket
 <https://w3id.org/ce/hasTicket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -191,7 +179,7 @@
 # 
 # https://w3id.org/ce/autism_friendly
 <https://w3id.org/ce/autism_friendly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/autism_friendly> <http://www.w3.org/2000/01/rdf-schema#label> "autism_friendly" .
 # 
@@ -227,7 +215,7 @@
 # 
 # https://w3id.org/ce/bsl_interpreted
 <https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/bsl_interpreted> <http://www.w3.org/2000/01/rdf-schema#label> "bsl_interpreted" .
 # 
@@ -239,7 +227,7 @@
 # 
 # https://w3id.org/ce/captioned
 <https://w3id.org/ce/captioned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/captioned> <http://www.w3.org/2000/01/rdf-schema#label> "captioned" .
 # 
@@ -294,7 +282,7 @@
 # 
 # https://w3id.org/ce/description
 <https://w3id.org/ce/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/ce/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
 # 
@@ -510,7 +498,7 @@
 # 
 # https://w3id.org/ce/imax
 <https://w3id.org/ce/imax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/imax> <http://www.w3.org/2000/01/rdf-schema#label> "imax" .
 # 
@@ -590,7 +578,7 @@
 # 
 # https://w3id.org/ce/over_18s
 <https://w3id.org/ce/over_18s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/over_18s> <http://www.w3.org/2000/01/rdf-schema#label> "over_18s" .
 # 
@@ -602,7 +590,7 @@
 # 
 # https://w3id.org/ce/parent_and_baby
 <https://w3id.org/ce/parent_and_baby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/parent_and_baby> <http://www.w3.org/2000/01/rdf-schema#label> "parent_and_baby" .
 # 
@@ -644,7 +632,7 @@
 # 
 # https://w3id.org/ce/premium_screening
 <https://w3id.org/ce/premium_screening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/premium_screening> <http://www.w3.org/2000/01/rdf-schema#label> "premium_screening" .
 # 
@@ -662,7 +650,7 @@
 # 
 # https://w3id.org/ce/senior
 <https://w3id.org/ce/senior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/senior> <http://www.w3.org/2000/01/rdf-schema#label> "senior" .
 # 
@@ -700,7 +688,7 @@
 # 
 # https://w3id.org/ce/subtitled
 <https://w3id.org/ce/subtitled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/subtitled> <http://www.w3.org/2000/01/rdf-schema#label> "subtitled" .
 # 
@@ -812,7 +800,7 @@
 # 
 # https://w3id.org/ce/3d
 <https://w3id.org/ce/3d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/Film> .
+<https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ce/PerformanceProperty> .
 <https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/ce/3d> <http://www.w3.org/2000/01/rdf-schema#label> "3d" .
 # 
@@ -838,8 +826,6 @@
 <https://w3id.org/ce/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
 # 
 # https://w3id.org/ce/Film
-<https://w3id.org/ce/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/ce/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Film" .
 # 
 # https://w3id.org/ce/Image
 <https://w3id.org/ce/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -884,10 +870,6 @@
 # https://w3id.org/ce/Tag
 <https://w3id.org/ce/Tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/ce/Tag> <http://www.w3.org/2000/01/rdf-schema#label> "Tag" .
-# 
-# https://w3id.org/ce/Theatre
-<https://w3id.org/ce/Theatre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/ce/Theatre> <http://www.w3.org/2000/01/rdf-schema#label> "Theatre" .
 # 
 # https://w3id.org/ce/Ticket
 <https://w3id.org/ce/Ticket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

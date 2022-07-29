@@ -42,6 +42,7 @@
 ###  https://w3id.org/ce/hasDescription
 :hasDescription rdf:type owl:ObjectProperty ;
                 rdfs:domain :Event ,
+                            :Performance ,
                             :Place ,
                             :Ticket ;
                 rdfs:range :Description ;
@@ -92,13 +93,6 @@
                 rdfs:label "has performance" .
 
 
-###  https://w3id.org/ce/hasPerformanceDescription
-:hasPerformanceDescription rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Performance ;
-                           rdfs:range :Description ;
-                           rdfs:label "has performance description" .
-
-
 ###  https://w3id.org/ce/hasPhoneNumber
 :hasPhoneNumber rdf:type owl:ObjectProperty ;
                 rdfs:domain :Event ,
@@ -135,18 +129,9 @@
 
 ###  https://w3id.org/ce/hasTag
 :hasTag rdf:type owl:ObjectProperty ;
-        rdfs:domain :Event ,
-                    :Place ,
-                    :Schedule ;
+        rdfs:domain :Event ;
         rdfs:range :Tag ;
         rdfs:label "has tag" .
-
-
-###  https://w3id.org/ce/hasTheatre
-:hasTheatre rdf:type owl:ObjectProperty ;
-            rdfs:domain :PropertyEvent ;
-            rdfs:range :Theatre ;
-            rdfs:label "has theatre" .
 
 
 ###  https://w3id.org/ce/hasTicket
@@ -211,7 +196,7 @@
 
 ###  https://w3id.org/ce/autism_friendly
 :autism_friendly rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Film ;
+                 rdfs:domain :PerformanceProperty ;
                  rdfs:range xsd:boolean ;
                  rdfs:label "autism_friendly" .
 
@@ -253,7 +238,7 @@
 
 ###  https://w3id.org/ce/bsl_interpreted
 :bsl_interpreted rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Film ;
+                 rdfs:domain :PerformanceProperty ;
                  rdfs:range xsd:boolean ;
                  rdfs:label "bsl_interpreted" .
 
@@ -267,7 +252,7 @@
 
 ###  https://w3id.org/ce/captioned
 :captioned rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Film ;
+           rdfs:domain :PerformanceProperty ;
            rdfs:range xsd:boolean ;
            rdfs:label "captioned" .
 
@@ -331,7 +316,7 @@
 
 ###  https://w3id.org/ce/description
 :description rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Film ;
+             rdfs:domain :PerformanceProperty ;
              rdfs:range xsd:string ;
              rdfs:label "description" .
 
@@ -583,7 +568,7 @@
 
 ###  https://w3id.org/ce/imax
 :imax rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Film ;
+      rdfs:domain :PerformanceProperty ;
       rdfs:range xsd:boolean ;
       rdfs:label "imax" .
 
@@ -676,7 +661,7 @@
 
 ###  https://w3id.org/ce/over_18s
 :over_18s rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Film ;
+          rdfs:domain :PerformanceProperty ;
           rdfs:range xsd:boolean ;
           rdfs:label "over_18s" .
 
@@ -690,7 +675,7 @@
 
 ###  https://w3id.org/ce/parent_and_baby
 :parent_and_baby rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Film ;
+                 rdfs:domain :PerformanceProperty ;
                  rdfs:range xsd:boolean ;
                  rdfs:label "parent_and_baby" .
 
@@ -739,7 +724,7 @@
 
 ###  https://w3id.org/ce/premium_screening
 :premium_screening rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Film ;
+                   rdfs:domain :PerformanceProperty ;
                    rdfs:range xsd:boolean ;
                    rdfs:label "premium_screening" .
 
@@ -760,7 +745,7 @@
 
 ###  https://w3id.org/ce/senior
 :senior rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Film ;
+        rdfs:domain :PerformanceProperty ;
         rdfs:range xsd:boolean ;
         rdfs:label "senior" .
 
@@ -804,7 +789,7 @@
 
 ###  https://w3id.org/ce/subtitled
 :subtitled rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Film ;
+           rdfs:domain :PerformanceProperty ;
            rdfs:range xsd:boolean ;
            rdfs:label "subtitled" .
 
@@ -934,7 +919,7 @@
 
 ###  https://w3id.org/ce/3d
 <https://w3id.org/ce/3d> rdf:type owl:DatatypeProperty ;
-                         rdfs:domain :Film ;
+                         rdfs:domain :PerformanceProperty ;
                          rdfs:range xsd:boolean ;
                          rdfs:label "3d" .
 
@@ -959,8 +944,7 @@
 
 
 ###  https://w3id.org/ce/Film
-:Film rdf:type owl:Class ;
-      rdfs:label "Film" .
+:Film rdf:type owl:Class .
 
 
 ###  https://w3id.org/ce/Image
@@ -1016,11 +1000,6 @@
 ###  https://w3id.org/ce/Tag
 :Tag rdf:type owl:Class ;
      rdfs:label "Tag" .
-
-
-###  https://w3id.org/ce/Theatre
-:Theatre rdf:type owl:Class ;
-         rdfs:label "Theatre" .
 
 
 ###  https://w3id.org/ce/Ticket
