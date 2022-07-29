@@ -13,8 +13,7 @@ ce: a owl:Ontology ;
 ce:Description a owl:Class ;
     rdfs:label "Description" .
 
-ce:Film a owl:Class ;
-    rdfs:label "Film" .
+
 
 ce:Image a owl:Class ;
     rdfs:label "Image" .
@@ -28,7 +27,7 @@ ce:Category a owl:Class ;
 ce:hasDescription a owl:ObjectProperty ;
 rdfs:domain ce:Event, 
                             ce:Ticket,
-                            ce:Place ;          
+                            ce:Place ,ce:Performance;          
                 rdfs:range ce:Description;
     rdfs:label "has description" .
 
@@ -37,11 +36,7 @@ ce:hasEvent a owl:ObjectProperty ;
           rdfs:range ce:PropertyEvent ;
           rdfs:label "has event" .
 
-ce:hasFilm a owl:ObjectProperty ;
-    rdfs:range ce:PropertyEvent;
-         rdfs:domain ce:Film;
 
-         rdfs:label "has film" .
 
 ce:hasImage a owl:ObjectProperty ;
 rdfs:domain ce:Place ;
@@ -69,10 +64,7 @@ ce:hasPerformance a owl:ObjectProperty ;
     rdfs:domain ce:Schedule ;
     rdfs:range ce:Performance .
 
-ce:hasPerformanceDescription a owl:ObjectProperty ;
-    rdfs:label "has performance description" ;
-    rdfs:range ce:Description ;
-    rdfs:domain ce:Performance .
+
 
 ce:hasPhoneNumber a owl:ObjectProperty ;
     rdfs:label "has phone number" ;
@@ -97,14 +89,11 @@ ce:hasSchedule a owl:ObjectProperty ;
 
 ce:hasTag a owl:ObjectProperty ;
     rdfs:label "has tag" ;
-    rdfs:domain ce:Event,
-                    ce:Place, ce:Schedule ;
+    rdfs:domain ce:Event;
     rdfs:range ce:Tag .
 
-ce:hasTheatre a owl:ObjectProperty ;
-    rdfs:label "has theatre" ;
-    rdfs:domain ce:PropertyEvent ;
-    rdfs:range ce:Theatre .
+
+
 
 ce:hasTicket a owl:ObjectProperty ;
     rdfs:label "has ticket" ;
@@ -135,8 +124,7 @@ ce:Property a owl:Class ;
 ce:Tag a owl:Class ;
     rdfs:label "Tag" .
 
-ce:Theatre a owl:Class ;
-    rdfs:label "Theatre" .
+
 
 ce:Ticket a owl:Class ;
     rdfs:label "Ticket" .
@@ -673,8 +661,62 @@ rdfs:range xsd:boolean .
 ce:hitlisted a owl:DatatypeProperty ;
 rdfs:label "hitlisted" ;
 rdfs:domain ce:PerformanceProperty ;
+
 rdfs:range xsd:boolean .
 
+ce:3d a owl:DatatypeProperty ;
+rdfs:label "3d" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+ce:autism_friendly a owl:DatatypeProperty ;
+rdfs:label "autism_friendly" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+
+ce:imax a owl:DatatypeProperty ;
+rdfs:label "imax" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+ce:over_18s a owl:DatatypeProperty ;
+rdfs:label "over_18s" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+ce:parent_and_baby a owl:DatatypeProperty ;
+rdfs:label "parent_and_baby" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+
+ce:premium_screening a owl:DatatypeProperty ;
+rdfs:label "premium_screening" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+ce:senior a owl:DatatypeProperty ;
+rdfs:label "senior" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+ce:subtitled a owl:DatatypeProperty ;
+rdfs:label "subtitled" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+
+
+ce:bsl_interpreted a owl:DatatypeProperty ;
+rdfs:label "bsl_interpreted" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
+
+ce:captioned a owl:DatatypeProperty ;
+rdfs:label "captioned" ;
+rdfs:domain ce:PerformanceProperty ;
+rdfs:range xsd:boolean .
 ############## Schedule data ###########################
 ce:start_ts a owl:DatatypeProperty ;
 rdfs:label "start_ts" ;
@@ -714,60 +756,9 @@ rdfs:label "festival" ;
 rdfs:domain ce:PropertyEvent ;
 rdfs:range xsd:string .
 
-#################### Film data ##############################
-ce:3d a owl:DatatypeProperty ;
-rdfs:label "3d" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
-
-ce:autism_friendly a owl:DatatypeProperty ;
-rdfs:label "autism_friendly" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
 
 
-ce:imax a owl:DatatypeProperty ;
-rdfs:label "imax" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
 
-ce:over_18s a owl:DatatypeProperty ;
-rdfs:label "over_18s" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
-
-ce:parent_and_baby a owl:DatatypeProperty ;
-rdfs:label "parent_and_baby" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
-
-
-ce:premium_screening a owl:DatatypeProperty ;
-rdfs:label "premium_screening" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
-
-ce:senior a owl:DatatypeProperty ;
-rdfs:label "senior" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
-
-ce:subtitled a owl:DatatypeProperty ;
-rdfs:label "subtitled" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
-
-############## Theatre data ###############
-
-ce:bsl_interpreted a owl:DatatypeProperty ;
-rdfs:label "bsl_interpreted" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
-
-ce:captioned a owl:DatatypeProperty ;
-rdfs:label "captioned" ;
-rdfs:domain ce:Film ;
-rdfs:range xsd:boolean .
 
 ############### Description Data ##########
 
@@ -778,7 +769,7 @@ rdfs:range xsd:string .
 
 ce:description a owl:DatatypeProperty ;
 rdfs:label "description" ;
-rdfs:domain ce:Film ;
+rdfs:domain ce:PerformanceProperty ;
 rdfs:range xsd:string .
 
 
