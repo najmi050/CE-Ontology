@@ -1,3 +1,3 @@
-#CE-Ontology
+# CE-Ontology
 
 Our contributions to the project include, an Ontology, CE-Ontology, that informs of the data’s different entities and the relationships they have with each other. The Ontology also helps in establishing node relationships of the Knowledge Graph, and after its development it helps to recall or inform the researchers of all the relationships between the nodes to develop queries for the CE-Knowledge Graph. The Ontology creation was done in several phases. Firstly, we studied the dataset in detail and learned all the entities, their attributes or properties and the relationships they had with each other. Then, we made a conceptualization UML diagram using the relationships we had learned. Afterwards, we used the UML diagram to convert it into an OWL ontology. Finally, we deployed our ontology on a webpage.
